@@ -10,15 +10,65 @@ return [
     |
     */
 
-    // Navigation
+        // Navigation
     'home' => 'Laman Utama',
     'about' => 'Tentang Kami',
+    'profile' => 'Profil',
     'services' => 'Perkhidmatan',
     'pages' => 'Halaman',
     'shop' => 'Kedai',
     'news' => 'Berita',
     'contact' => 'Hubungi Kami',
     'discover_more' => 'Ketahui Lebih Lanjut',
+    
+    // Menu Items
+    'menu_our_project' => 'Projek Kami',
+    'menu_project_page' => 'Halaman Projek',
+    'menu_project_carousel' => 'Karusel Projek',
+    'menu_project_details' => 'Butiran Projek',
+    'menu_our_team' => 'Pasukan Kami',
+    'menu_team_carousel' => 'Karusel Pasukan',
+    'menu_team_details' => 'Butiran Pasukan',
+    'menu_testimonial' => 'Testimoni',
+    'menu_testimonial_carousel' => 'Karusel Testimoni',
+    'menu_pricing_page' => 'Halaman Harga',
+    'menu_pricing_carousel' => 'Karusel Harga',
+    'menu_gallery' => 'Galeri',
+    'menu_gallery_masonry' => 'Galeri Masonry',
+    'menu_gallery_filter' => 'Galeri Filter',
+    'menu_gallery_grid' => 'Galeri Grid',
+    'menu_gallery_carousel' => 'Karusel Galeri',
+    'menu_faq' => 'Soalan Lazim',
+    'menu_login' => 'Log Masuk',
+    'menu_error_404' => 'Ralat 404',
+    
+    // Services Menu
+    'menu_services_one' => 'Perkhidmatan Satu',
+    'menu_services_one_carousel' => 'Karusel Perkhidmatan Satu',
+    'menu_services_two' => 'Perkhidmatan Dua',
+    'menu_services_two_carousel' => 'Karusel Perkhidmatan Dua',
+    'menu_business_growth' => 'Pertumbuhan Perniagaan',
+    'menu_business_solution' => 'Penyelesaian Perniagaan',
+    'menu_marketing_solution' => 'Penyelesaian Pemasaran',
+    'menu_technology_services' => 'Perkhidmatan Teknologi',
+    'menu_business_marketing' => 'Pemasaran Perniagaan',
+    'menu_business_support' => 'Sokongan Perniagaan',
+    
+    // Shop Menu
+    'menu_products' => 'Produk',
+    'menu_no_sidebar' => 'Tiada Bar Sisi',
+    'menu_left_sidebar' => 'Bar Sisi Kiri',
+    'menu_right_sidebar' => 'Bar Sisi Kanan',
+    'menu_products_carousel' => 'Karusel Produk',
+    'menu_product_details' => 'Butiran Produk',
+    'menu_cart' => 'Troli',
+    'menu_checkout' => 'Bayar',
+    
+    // News Menu
+    'menu_news_grid' => 'Grid Berita',
+    'menu_news_list' => 'Senarai Berita',
+    'menu_news_carousel' => 'Karusel Berita',
+    'menu_news_details' => 'Butiran Berita',
 
     // Hero Section
     'welcome_to_kreatif' => 'Selamat Datang ke Kreatif Digital Dinamik!',
@@ -161,5 +211,21 @@ return [
     'faq_a3' => 'Proses kami bermula dengan perancangan strategi (briefing), diikuti sesi penggambaran profesional, dan diakhiri dengan penyuntingan kualiti tinggi. Anda akan menerima produk media yang berkaliber studio, sedia untuk pemasaran.',
     'faq_q4' => 'Berapa lama masa yang diambil untuk melihat kesan dari strategi digital KDD?',
     'faq_a4' => 'Kesan awal boleh dilihat seawal 4-8 minggu, terutamanya dalam peningkatan engagement media sosial. Namun, impak penjenamaan dan jualan yang kukuh dibina melalui konsistensi dalam tempoh 6 bulan ke atas.',
+    
+    // Contact Page
+    'contact_page_title' => 'Hubungi Kami | Kreatif Digital Dinamik',
+    'contact_information' => 'Maklumat Hubungan',
+    'contact_description' => 'Hubungi kami hari ini untuk konsultasi. Kami sedia merangka strategi pengurusan jenama digital yang konsisten dan berpiawaian tinggi bagi menyokong visi korporat anda.',
+    'call_this_now' => 'Hubungi Sekarang',
+    'your_message' => 'Mesej Anda',
+    'your_location' => 'Lokasi Anda',
+    'follow_social' => 'Ikuti Media Sosial',
+    'contact_us_tagline' => 'Hubungi Kami',
+    'contact_us_title' => 'Jom Berunding Strategi Penjenamaan Korporat Anda Sekarang!',
+    'contact_form_description' => 'Kami sedia membantu anda merangka strategi pengurusan jenama digital yang komprehensif. Mulakan perkongsian strategi anda dengan kami hari ini.',
+    'your_name_placeholder' => 'Nama Anda',
+    'email_address_placeholder' => 'Alamat E-mel',
+    'message_placeholder' => 'Mesej',
+    'send_request' => 'Hantar Permintaan',
     
 ];

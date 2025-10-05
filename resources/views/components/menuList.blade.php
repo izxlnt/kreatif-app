@@ -226,119 +226,182 @@
         </ul>
     </li> --}}
 
-    <li class="{{ Request::is('/') ? 'current' : '' }}">
-        <a href="{{ url('home') }}">Home</a>
+    <li class="{{ Request::is('/') || Request::is('home') ? 'current' : '' }}">
+        <a href="{{ url('home') }}">{{ __('common.home') }}</a>
     </li>
-    <li class="{{ Request::is('about') ? 'current' : '' }}">
-        <a href="{{ url('about') }}">About</a>
-    </li>
+    {{-- <li class="{{ Request::is('about') ? 'current' : '' }}">
+        <a href="{{ url('about') }}">{{ __('common.about') }}</a>
+    </li> --}}
 
-    <li class="dropdown {{ Request::is('project*') || Request::is('team*') || Request::is('reviews*') || Request::is('packages*') || Request::is('gallery*') || Request::is('faq') || Request::is('login') || Request::is('404') ? 'current' : '' }}">
-        <a href="#">Pages</a>
+    {{-- <li class="dropdown {{ Request::is('project*') || Request::is('team*') || Request::is('reviews*') || Request::is('packages*') || Request::is('gallery*') || Request::is('faq') || Request::is('login') || Request::is('404') ? 'current' : '' }}">
+        <a href="#">{{ __('common.pages') }}</a>
         <ul>
             <li class="{{ Request::is('project') ? 'current' : '' }}">
-                <a href="{{ url('project') }}">Our Project</a>
+                <a href="{{ url('project') }}">{{ __('common.menu_our_project') }}</a>
                 <ul>
-                    <li class="{{ Request::is('project') ? 'current' : '' }}"><a href="{{ url('project') }}">Project Page</a></li>
-                    <li class="{{ Request::is('project-carousel') ? 'current' : '' }}"><a href="{{ url('project-carousel') }}">Project Carousel</a></li>
-                    <li class="{{ Request::is('project-details') ? 'current' : '' }}"><a href="{{ url('project-details') }}">Project Details</a></li>
+                    <li class="{{ Request::is('project') ? 'current' : '' }}"><a href="{{ url('project') }}">{{ __('common.menu_project_page') }}</a></li>
+                    <li class="{{ Request::is('project-carousel') ? 'current' : '' }}"><a href="{{ url('project-carousel') }}">{{ __('common.menu_project_carousel') }}</a></li>
+                    <li class="{{ Request::is('project-details') ? 'current' : '' }}"><a href="{{ url('project-details') }}">{{ __('common.menu_project_details') }}</a></li>
                 </ul>
             </li>
-            <li class="{{ Request::is('team') ? 'current' : '' }}"><a href="{{ url('team') }}">Our Team</a></li>
-            <li class="{{ Request::is('team-carousel') ? 'current' : '' }}"><a href="{{ url('team-carousel') }}">Team Carousel</a></li>
-            <li class="{{ Request::is('team-details') ? 'current' : '' }}"><a href="{{ url('team-details') }}">Team Details</a></li>
-            <li class="{{ Request::is('reviews') ? 'current' : '' }}"><a href="{{ url('reviews') }}">Testimonial</a></li>
-            <li class="{{ Request::is('reviews-carousel') ? 'current' : '' }}"><a href="{{ url('reviews-carousel') }}">Testimonial Carousel</a></li>
-            <li class="{{ Request::is('packages') ? 'current' : '' }}"><a href="{{ url('packages') }}">Pricing Page</a></li>
-            <li class="{{ Request::is('packages-carousel') ? 'current' : '' }}"><a href="{{ url('packages-carousel') }}">Pricing Carousel</a></li>
+            <li class="{{ Request::is('team') ? 'current' : '' }}"><a href="{{ url('team') }}">{{ __('common.menu_our_team') }}</a></li>
+            <li class="{{ Request::is('team-carousel') ? 'current' : '' }}"><a href="{{ url('team-carousel') }}">{{ __('common.menu_team_carousel') }}</a></li>
+            <li class="{{ Request::is('team-details') ? 'current' : '' }}"><a href="{{ url('team-details') }}">{{ __('common.menu_team_details') }}</a></li>
+            <li class="{{ Request::is('reviews') ? 'current' : '' }}"><a href="{{ url('reviews') }}">{{ __('common.menu_testimonial') }}</a></li>
+            <li class="{{ Request::is('reviews-carousel') ? 'current' : '' }}"><a href="{{ url('reviews-carousel') }}">{{ __('common.menu_testimonial_carousel') }}</a></li>
+            <li class="{{ Request::is('packages') ? 'current' : '' }}"><a href="{{ url('packages') }}">{{ __('common.menu_pricing_page') }}</a></li>
+            <li class="{{ Request::is('packages-carousel') ? 'current' : '' }}"><a href="{{ url('packages-carousel') }}">{{ __('common.menu_pricing_carousel') }}</a></li>
             <li class="{{ Request::is('gallery*') ? 'current' : '' }}">
-                <a href="{{ url('gallery') }}">Gallery</a>
+                <a href="{{ url('gallery') }}">{{ __('common.menu_gallery') }}</a>
                 <ul>
-                    <li class="{{ Request::is('gallery') ? 'current' : '' }}"><a href="{{ url('gallery') }}">Gallery Masonry</a></li>
-                    <li class="{{ Request::is('gallery-filter') ? 'current' : '' }}"><a href="{{ url('gallery-filter') }}">Gallery Filter</a></li>
-                    <li class="{{ Request::is('gallery-grid') ? 'current' : '' }}"><a href="{{ url('gallery-grid') }}">Gallery Grid</a></li>
-                    <li class="{{ Request::is('gallery-carousel') ? 'current' : '' }}"><a href="{{ url('gallery-carousel') }}">Gallery Carousel</a></li>
+                    <li class="{{ Request::is('gallery') ? 'current' : '' }}"><a href="{{ url('gallery') }}">{{ __('common.menu_gallery_masonry') }}</a></li>
+                    <li class="{{ Request::is('gallery-filter') ? 'current' : '' }}"><a href="{{ url('gallery-filter') }}">{{ __('common.menu_gallery_filter') }}</a></li>
+                    <li class="{{ Request::is('gallery-grid') ? 'current' : '' }}"><a href="{{ url('gallery-grid') }}">{{ __('common.menu_gallery_grid') }}</a></li>
+                    <li class="{{ Request::is('gallery-carousel') ? 'current' : '' }}"><a href="{{ url('gallery-carousel') }}">{{ __('common.menu_gallery_carousel') }}</a></li>
                 </ul>
             </li>
-            <li class="{{ Request::is('faq') ? 'current' : '' }}"><a href="{{ url('faq') }}">FAQs</a></li>
-            <li class="{{ Request::is('login') ? 'current' : '' }}"><a href="{{ url('/login') }}">Login</a></li>
-            <li class="{{ Request::is('404') ? 'current' : '' }}"><a href="{{ url('404') }}">404 Error</a></li>
+            <li class="{{ Request::is('faq') ? 'current' : '' }}"><a href="{{ url('faq') }}">{{ __('common.menu_faq') }}</a></li>
+            <li class="{{ Request::is('login') ? 'current' : '' }}"><a href="{{ url('/login') }}">{{ __('common.menu_login') }}</a></li>
+            <li class="{{ Request::is('404') ? 'current' : '' }}"><a href="{{ url('404') }}">{{ __('common.menu_error_404') }}</a></li>
+        </ul>
+    </li> --}}
+
+    <li
+        class="dropdown {{ Request::is('project*') || Request::is('team*') || Request::is('reviews*') || Request::is('packages*') || Request::is('gallery*') || Request::is('faq') || Request::is('login') || Request::is('404') ? 'current' : '' }}">
+        <a href="#">{{ __('common.profile') }}</a>
+        <ul>
+            <li class="{{ Request::is('about') ? 'current' : '' }}">
+                <a href="{{ url('about') }}">{{ __('common.about') }}</a>
+            </li>
+            {{-- <li class="{{ Request::is('project') ? 'current' : '' }}">
+                <a href="{{ url('project') }}">{{ __('common.menu_our_project') }}</a>
+                <ul>
+                    <li class="{{ Request::is('project') ? 'current' : '' }}"><a
+                            href="{{ url('project') }}">{{ __('common.menu_project_page') }}</a></li>
+                    <li class="{{ Request::is('project-carousel') ? 'current' : '' }}"><a
+                            href="{{ url('project-carousel') }}">{{ __('common.menu_project_carousel') }}</a></li>
+                    <li class="{{ Request::is('project-details') ? 'current' : '' }}"><a
+                            href="{{ url('project-details') }}">{{ __('common.menu_project_details') }}</a></li>
+                </ul>
+            </li> --}}
+            {{-- <li class="{{ Request::is('team') ? 'current' : '' }}"><a
+                    href="{{ url('team') }}">{{ __('common.menu_our_team') }}</a></li>
+            <li class="{{ Request::is('team-carousel') ? 'current' : '' }}"><a
+                    href="{{ url('team-carousel') }}">{{ __('common.menu_team_carousel') }}</a></li>
+            <li class="{{ Request::is('team-details') ? 'current' : '' }}"><a href="{{ url('team-details') }}">{{ __('common.menu_team_details') }}</a></li>
+            <li class="{{ Request::is('reviews') ? 'current' : '' }}"><a
+                    href="{{ url('reviews') }}">{{ __('common.menu_testimonial') }}</a></li>
+            <li class="{{ Request::is('reviews-carousel') ? 'current' : '' }}"><a
+                    href="{{ url('reviews-carousel') }}">{{ __('common.menu_testimonial_carousel') }}</a></li>
+            <li class="{{ Request::is('packages') ? 'current' : '' }}"><a
+                    href="{{ url('packages') }}">{{ __('common.menu_pricing_page') }}</a></li>
+            <li class="{{ Request::is('packages-carousel') ? 'current' : '' }}"><a
+                    href="{{ url('packages-carousel') }}">{{ __('common.menu_pricing_carousel') }}</a></li> --}}
+            <li class="{{ Request::is('gallery*') ? 'current' : '' }}">
+                <a href="{{ url('gallery') }}">{{ __('common.menu_gallery') }}</a>
+                <ul>
+                    <li class="{{ Request::is('gallery') ? 'current' : '' }}"><a
+                            href="{{ url('gallery') }}">{{ __('common.menu_gallery_masonry') }}</a></li>
+                    <li class="{{ Request::is('gallery-filter') ? 'current' : '' }}"><a
+                            href="{{ url('gallery-filter') }}">{{ __('common.menu_gallery_filter') }}</a></li>
+                    <li class="{{ Request::is('gallery-grid') ? 'current' : '' }}"><a
+                            href="{{ url('gallery-grid') }}">{{ __('common.menu_gallery_grid') }}</a></li>
+                    <li class="{{ Request::is('gallery-carousel') ? 'current' : '' }}"><a
+                            href="{{ url('gallery-carousel') }}">{{ __('common.menu_gallery_carousel') }}</a></li>
+                </ul>
+            </li>
+            {{-- <li class="{{ Request::is('faq') ? 'current' : '' }}"><a
+                    href="{{ url('faq') }}">{{ __('common.menu_faq') }}</a></li>
+            <li class="{{ Request::is('login') ? 'current' : '' }}"><a
+                    href="{{ url('/login') }}">{{ __('common.menu_login') }}</a></li>
+            <li class="{{ Request::is('404') ? 'current' : '' }}"><a
+                    href="{{ url('404') }}">{{ __('common.menu_error_404') }}</a></li> --}}
         </ul>
     </li>
 
     <li class="dropdown {{ Request::is('services*') ? 'current' : '' }}">
-        <a href="#">Services</a>
+        <a href="#">{{ __('common.services') }}</a>
         <ul>
-            <li class="{{ Request::is('services') ? 'current' : '' }}"><a href="{{ url('/services') }}">Services One</a></li>
-            <li class="{{ Request::is('services-carousel') ? 'current' : '' }}"><a href="{{ url('services-carousel') }}">Services One Carousel</a></li>
-            <li class="{{ Request::is('services-two') ? 'current' : '' }}"><a href="{{ url('services-two') }}">Services Two</a></li>
-            <li class="{{ Request::is('services-two-carousel') ? 'current' : '' }}"><a href="{{ url('services-two-carousel') }}">Services Two Carousel</a></li>
-            <li class="{{ Request::is('business-growth') ? 'current' : '' }}"><a href="{{ url('business-growth') }}">Business of Growth</a></li>
-            <li class="{{ Request::is('business-solution') ? 'current' : '' }}"><a href="{{ url('business-solution') }}">Solution to Business</a></li>
-            <li class="{{ Request::is('marketing-solution') ? 'current' : '' }}"><a href="{{ url('marketing-solution') }}">Markting of Solution</a></li>
-            <li class="{{ Request::is('technology-services') ? 'current' : '' }}"><a href="{{ url('technology-services') }}">Technology Services</a></li>
-            <li class="{{ Request::is('business-marketing') ? 'current' : '' }}"><a href="{{ url('business-marketing') }}">Marketing Business</a></li>
-            <li class="{{ Request::is('business-support') ? 'current' : '' }}"><a href="{{ url('business-support') }}">Support of Business</a></li>
+            {{-- <li class="{{ Request::is('services') ? 'current' : '' }}"><a
+                    href="{{ url('/services') }}">{{ __('common.menu_services_one') }}</a></li> --}}
+           <li class="{{ Request::is('services-carousel') ? 'current' : '' }}"><a
+                    href="{{ url('services-carousel') }}">{{ __('common.menu_services_one_carousel') }}</a></li> 
+           {{--  <li class="{{ Request::is('services-two') ? 'current' : '' }}"><a
+                    href="{{ url('services-two') }}">{{ __('common.menu_services_two') }}</a></li>
+            <li class="{{ Request::is('services-two-carousel') ? 'current' : '' }}"><a
+                    href="{{ url('services-two-carousel') }}">{{ __('common.menu_services_two_carousel') }}</a></li> --}}
+            <li class="{{ Request::is('business-growth') ? 'current' : '' }}"><a
+                    href="{{ url('business-growth') }}">{{ __('common.menu_business_growth') }}</a></li>
+            {{-- <li class="{{ Request::is('business-solution') ? 'current' : '' }}"><a
+                    href="{{ url('business-solution') }}">{{ __('common.menu_business_solution') }}</a></li>
+            <li class="{{ Request::is('marketing-solution') ? 'current' : '' }}"><a
+                    href="{{ url('marketing-solution') }}">{{ __('common.menu_marketing_solution') }}</a></li>
+            <li class="{{ Request::is('technology-services') ? 'current' : '' }}"><a
+                    href="{{ url('technology-services') }}">{{ __('common.menu_technology_services') }}</a></li>
+            <li class="{{ Request::is('business-marketing') ? 'current' : '' }}"><a
+                    href="{{ url('business-marketing') }}">{{ __('common.menu_business_marketing') }}</a></li>
+            <li class="{{ Request::is('business-support') ? 'current' : '' }}"><a
+                    href="{{ url('business-support') }}">{{ __('common.menu_business_support') }}</a></li> --}}
         </ul>
     </li>
 
-    <li class="dropdown {{ Request::is('shop*') || Request::is('products*') || Request::is('cart') || Request::is('checkout') ? 'current' : '' }}">
-        <a href="#">Shop</a>
+    {{-- <li class="dropdown {{ Request::is('shop*') || Request::is('products*') || Request::is('cart') || Request::is('checkout') ? 'current' : '' }}">
+        <a href="#">{{ __('common.shop') }}</a>
         <ul class="sub-menu">
             <li class="dropdown {{ Request::is('products*') ? 'current' : '' }}">
-                <a href="#">Products</a>
+                <a href="#">{{ __('common.menu_products') }}</a>
                 <ul class="sub-menu">
-                    <li class="{{ Request::is('products') ? 'current' : '' }}"><a href="{{ url('products') }}">No Sidebar</a></li>
-                    <li class="{{ Request::is('products-left') ? 'current' : '' }}"><a href="{{ url('products-left') }}">Left Sidebar</a></li>
-                    <li class="{{ Request::is('products-right') ? 'current' : '' }}"><a href="{{ url('products-right') }}">Right Sidebar</a></li>
+                    <li class="{{ Request::is('products') ? 'current' : '' }}"><a href="{{ url('products') }}">{{ __('common.menu_no_sidebar') }}</a></li>
+                    <li class="{{ Request::is('products-left') ? 'current' : '' }}"><a href="{{ url('products-left') }}">{{ __('common.menu_left_sidebar') }}</a></li>
+                    <li class="{{ Request::is('products-right') ? 'current' : '' }}"><a href="{{ url('products-right') }}">{{ __('common.menu_right_sidebar') }}</a></li>
                 </ul>
             </li>
-            <li class="{{ Request::is('products-carousel') ? 'current' : '' }}"><a href="{{ url('products-carousel') }}">Products Carousel</a></li>
-            <li class="{{ Request::is('product-details') ? 'current' : '' }}"><a href="{{ url('product-details') }}">Product Details</a></li>
-            <li class="{{ Request::is('cart') ? 'current' : '' }}"><a href="{{ url('cart') }}">Cart</a></li>
-            <li class="{{ Request::is('checkout') ? 'current' : '' }}"><a href="{{ url('checkout') }}">Checkout</a></li>
+            <li class="{{ Request::is('products-carousel') ? 'current' : '' }}"><a href="{{ url('products-carousel') }}">{{ __('common.menu_products_carousel') }}</a></li>
+            <li class="{{ Request::is('product-details') ? 'current' : '' }}"><a href="{{ url('product-details') }}">{{ __('common.menu_product_details') }}</a></li>
+            <li class="{{ Request::is('cart') ? 'current' : '' }}"><a href="{{ url('cart') }}">{{ __('common.menu_cart') }}</a></li>
+            <li class="{{ Request::is('checkout') ? 'current' : '' }}"><a href="{{ url('checkout') }}">{{ __('common.menu_checkout') }}</a></li>
         </ul>
-    </li>
+    </li> --}}
 
-    <li class="dropdown {{ Request::is('blog*') ? 'current' : '' }}">
-        <a href="#">News</a>
+    {{-- <li class="dropdown {{ Request::is('blog*') ? 'current' : '' }}">
+        <a href="#">{{ __('common.news') }}</a>
         <ul class="sub-menu">
             <li class="dropdown {{ Request::is('blog-grid*') ? 'current' : '' }}">
-                <a href="#">News Grid</a>
+                <a href="#">{{ __('common.menu_news_grid') }}</a>
                 <ul class="sub-menu">
-                    <li class="{{ Request::is('blog-grid') ? 'current' : '' }}"><a href="{{ url('blog-grid') }}">No Sidebar</a></li>
-                    <li class="{{ Request::is('blog-grid-left') ? 'current' : '' }}"><a href="{{ url('blog-grid-left') }}">Left Sidebar</a></li>
-                    <li class="{{ Request::is('blog-grid-right') ? 'current' : '' }}"><a href="{{ url('blog-grid-right') }}">Right Sidebar</a></li>
+                    <li class="{{ Request::is('blog-grid') ? 'current' : '' }}"><a href="{{ url('blog-grid') }}">{{ __('common.menu_no_sidebar') }}</a></li>
+                    <li class="{{ Request::is('blog-grid-left') ? 'current' : '' }}"><a href="{{ url('blog-grid-left') }}">{{ __('common.menu_left_sidebar') }}</a></li>
+                    <li class="{{ Request::is('blog-grid-right') ? 'current' : '' }}"><a href="{{ url('blog-grid-right') }}">{{ __('common.menu_right_sidebar') }}</a></li>
                 </ul>
             </li>
             <li class="dropdown {{ Request::is('blog-list*') ? 'current' : '' }}">
-                <a href="#">News List</a>
+                <a href="#">{{ __('common.menu_news_list') }}</a>
                 <ul class="sub-menu">
-                    <li class="{{ Request::is('blog-list') ? 'current' : '' }}"><a href="{{ url('blog-list') }}">No Sidebar</a></li>
-                    <li class="{{ Request::is('blog-list-left') ? 'current' : '' }}"><a href="{{ url('blog-list-left') }}">Left Sidebar</a></li>
-                    <li class="{{ Request::is('blog-list-right') ? 'current' : '' }}"><a href="{{ url('blog-list-right') }}">Right Sidebar</a></li>
+                    <li class="{{ Request::is('blog-list') ? 'current' : '' }}"><a href="{{ url('blog-list') }}">{{ __('common.menu_no_sidebar') }}</a></li>
+                    <li class="{{ Request::is('blog-list-left') ? 'current' : '' }}"><a href="{{ url('blog-list-left') }}">{{ __('common.menu_left_sidebar') }}</a></li>
+                    <li class="{{ Request::is('blog-list-right') ? 'current' : '' }}"><a href="{{ url('blog-list-right') }}">{{ __('common.menu_right_sidebar') }}</a></li>
                 </ul>
             </li>
-            <li class="{{ Request::is('blog-carousel') ? 'current' : '' }}"><a href="{{ url('blog-carousel') }}">News Carousel</a></li>
+            <li class="{{ Request::is('blog-carousel') ? 'current' : '' }}"><a href="{{ url('blog-carousel') }}">{{ __('common.menu_news_carousel') }}</a></li>
             <li class="dropdown {{ Request::is('blog-details*') ? 'current' : '' }}">
-                <a href="#">News Details</a>
+                <a href="#">{{ __('common.menu_news_details') }}</a>
                 <ul class="sub-menu">
-                    <li class="{{ Request::is('blog-details') ? 'current' : '' }}"><a href="{{ url('blog-details') }}">No Sidebar</a></li>
-                    <li class="{{ Request::is('blog-details-left') ? 'current' : '' }}"><a href="{{ url('blog-details-left') }}">Left Sidebar</a></li>
-                    <li class="{{ Request::is('blog-details-right') ? 'current' : '' }}"><a href="{{ url('blog-details-right') }}">Right Sidebar</a></li>
+                    <li class="{{ Request::is('blog-details') ? 'current' : '' }}"><a href="{{ url('blog-details') }}">{{ __('common.menu_no_sidebar') }}</a></li>
+                    <li class="{{ Request::is('blog-details-left') ? 'current' : '' }}"><a href="{{ url('blog-details-left') }}">{{ __('common.menu_left_sidebar') }}</a></li>
+                    <li class="{{ Request::is('blog-details-right') ? 'current' : '' }}"><a href="{{ url('blog-details-right') }}">{{ __('common.menu_right_sidebar') }}</a></li>
                 </ul>
             </li>
         </ul>
-    </li>
+    </li> --}}
 
     <li class="{{ Request::is('contact') ? 'current' : '' }}">
-        <a href="{{ url('/contact') }}">Contact</a>
+        <a href="{{ url('/contact') }}">{{ __('common.contact') }}</a>
     </li>
-    
+
     <li class="dropdown language-selector">
         <a href="#">
             <i class="fa fa-globe"></i> <span class="current-lang"> &nbsp; {{ strtoupper(app()->getLocale()) }}</span>
-            
+
         </a>
         <ul>
             <li class="{{ app()->getLocale() == 'ms' ? 'current' : '' }}">
@@ -355,6 +418,6 @@
             </li>
         </ul>
     </li>
-    
-    
+
+
 </ul>

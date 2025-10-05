@@ -12,13 +12,63 @@ return [
 
     // Navigation
     'home' => 'Home',
-    'about' => 'About',
+    'about' => 'About Us',
+    'profile' => 'Profile',
     'services' => 'Services',
     'pages' => 'Pages',
     'shop' => 'Shop',
     'news' => 'News',
     'contact' => 'Contact',
     'discover_more' => 'Discover More',
+    
+    // Menu Items
+    'menu_our_project' => 'Our Project',
+    'menu_project_page' => 'Project Page',
+    'menu_project_carousel' => 'Project Carousel',
+    'menu_project_details' => 'Project Details',
+    'menu_our_team' => 'Our Team',
+    'menu_team_carousel' => 'Team Carousel',
+    'menu_team_details' => 'Team Details',
+    'menu_testimonial' => 'Testimonial',
+    'menu_testimonial_carousel' => 'Testimonial Carousel',
+    'menu_pricing_page' => 'Pricing Page',
+    'menu_pricing_carousel' => 'Pricing Carousel',
+    'menu_gallery' => 'Gallery',
+    'menu_gallery_masonry' => 'Gallery Masonry',
+    'menu_gallery_filter' => 'Gallery Filter',
+    'menu_gallery_grid' => 'Gallery Grid',
+    'menu_gallery_carousel' => 'Gallery Carousel',
+    'menu_faq' => 'FAQs',
+    'menu_login' => 'Login',
+    'menu_error_404' => '404 Error',
+    
+    // Services Menu
+    'menu_services_one' => 'Services One',
+    'menu_services_one_carousel' => 'Services One Carousel',
+    'menu_services_two' => 'Services Two',
+    'menu_services_two_carousel' => 'Services Two Carousel',
+    'menu_business_growth' => 'Business Growth',
+    'menu_business_solution' => 'Business Solution',
+    'menu_marketing_solution' => 'Marketing Solution',
+    'menu_technology_services' => 'Technology Services',
+    'menu_business_marketing' => 'Business Marketing',
+    'menu_business_support' => 'Business Support',
+    
+    // Shop Menu
+    'menu_products' => 'Products',
+    'menu_no_sidebar' => 'No Sidebar',
+    'menu_left_sidebar' => 'Left Sidebar',
+    'menu_right_sidebar' => 'Right Sidebar',
+    'menu_products_carousel' => 'Products Carousel',
+    'menu_product_details' => 'Product Details',
+    'menu_cart' => 'Cart',
+    'menu_checkout' => 'Checkout',
+    
+    // News Menu
+    'menu_news_grid' => 'News Grid',
+    'menu_news_list' => 'News List',
+    'menu_news_carousel' => 'News Carousel',
+    'menu_news_details' => 'News Details',
 
     // Hero Section
     'welcome_to_kreatif' => 'Welcome To Kreatif Digital Dinamik!',
@@ -161,5 +211,21 @@ return [
     'faq_a3' => 'Our process begins with strategic planning (briefing), followed by professional shooting sessions, and ends with high-quality editing. You will receive studio-caliber media products, ready for marketing.',
     'faq_q4' => 'How long does it take to see results from CDD digital strategy?',
     'faq_a4' => 'Early results can be seen as early as 4-8 weeks, especially in social media engagement improvement. However, strong branding and sales impact is built through consistency over 6 months and above.',
+    
+    // Contact Page
+    'contact_page_title' => 'Contact Us | Creative Digital Dynamic',
+    'contact_information' => 'Contact Information',
+    'contact_description' => 'Contact us today for consultation. We are ready to formulate a consistent and high-standard digital brand management strategy to support your corporate vision.',
+    'call_this_now' => 'Call This Now',
+    'your_message' => 'Your Message',
+    'your_location' => 'Your Location',
+    'follow_social' => 'Follow Social',
+    'contact_us_tagline' => 'Contact Us',
+    'contact_us_title' => 'Let\'s Discuss Your Corporate Branding Strategy Now!',
+    'contact_form_description' => 'We are ready to help you formulate a comprehensive digital brand management strategy. Start your strategic partnership with us today.',
+    'your_name_placeholder' => 'Your Name',
+    'email_address_placeholder' => 'Email Address',
+    'message_placeholder' => 'Message',
+    'send_request' => 'Send Request',
     
 ];
