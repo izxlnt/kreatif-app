@@ -10,12 +10,12 @@
                         <img src="assets/images/logo-4.png" width="184" alt="Tolak Laravel Template">
                     </a>
                     <ul class="footer-widget__info">
-                        <li><span class="icofont-clock-time"></span>Open Hours of Government:<br> Mon - Fri: 8.00 am. - 6.00 pm.</li>
-                        <li><span class="icofont-location-pin"></span>13/A, Miranda Halim City .</li>
-                        <li><span class="icofont-phone"></span><a href="tel:09969569535">099 695 695 35</a></li>
+                        <li><span class="icofont-clock-time"></span>Open Hours:<br> Mon - Fri: 8.00 am. - 6.00 pm.</li>
+                        <li><span class="icofont-location-pin"></span>Alor Setar, Kedah.</li>
+                        <li><span class="icofont-phone"></span><a href="tel:0135338190">013 533 8190</a></li>
                     </ul>
                     <div class="footer-widget__social">
-                        <a href="https://facebook.com">
+                        {{-- <a href="https://facebook.com">
                             <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
@@ -26,8 +26,8 @@
                         <a href="https://twitter.com">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
-                        </a>
-                        <a href="https://instagram.com">
+                        </a> --}}
+                        <a href="https://www.instagram.com/kreatifdigitaldinamik/">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
@@ -39,7 +39,7 @@
             </div><!-- /.col-md-6 -->
             <div class="col-md-6 col-lg-4">
                 <div class="footer-widget footer-widget--posts">
-                    <h2 class="footer-widget__title">Recent Posts</h2><!-- /.footer-widget__title -->
+                    <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
                     <ul class="footer-widget__posts list-unstyled">
                         <li class="footer-widget__posts__item">
                             <div class="footer-widget__posts__image">
@@ -93,7 +93,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="main-footer__copyright">
-                        &copy; Copyright <span class="dynamic-year"></span> by Tolak Laravel Template.
+                        &copy; Copyright <span class="dynamic-year"></span> by Kreatif Digital Dinamik.
                     </p>
                 </div>
                 <div class="col-md-6">

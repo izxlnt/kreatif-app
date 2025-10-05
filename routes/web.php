@@ -3,7 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\LanguageController;
 
+// Language switching route
+Route::get('/language/{locale}', [LanguageController::class, 'switch'])->name('language.switch');
 
 Route::get('/', [HomeController::class, 'index4'])->name('index');
 Route::get('index-one-page', [HomeController::class, 'index_one_page'])->name('index-one-page');
@@ -32,6 +35,7 @@ Route::get('demo-landing', [HomeController::class, 'demo_landing'])->name('demo-
 
 
 // Pages
+Route::get('home', [HomeController::class, 'index4'])->name('home');
 Route::get('about', [PagesController::class, 'about'])->name('about');
 Route::get('project', [PagesController::class, 'project'])->name('project');
 Route::get('project-carousel', [PagesController::class, 'project_carousel'])->name('project-carousel');

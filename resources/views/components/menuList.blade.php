@@ -331,5 +331,27 @@
     <li class="{{ Request::is('contact') ? 'current' : '' }}">
         <a href="{{ url('/contact') }}">Contact</a>
     </li>
-    <li class="dot"></li>
+    
+    <li class="dropdown language-selector">
+        <a href="#">
+            <i class="fa fa-globe"></i> <span class="current-lang"> &nbsp; {{ strtoupper(app()->getLocale()) }}</span>
+            
+        </a>
+        <ul>
+            <li class="{{ app()->getLocale() == 'ms' ? 'current' : '' }}">
+                <a href="{{ route('language.switch', ['locale' => 'ms']) }}">
+                    <span class="flag-emoji">🇲🇾</span>&nbsp;
+                    <span>{{ __('common.malay') }}</span>
+                </a>
+            </li>
+            <li class="{{ app()->getLocale() == 'en' ? 'current' : '' }}">
+                <a href="{{ route('language.switch', ['locale' => 'en']) }}">
+                    <span class="flag-emoji">🇬🇧</span> &nbsp;
+                    <span>{{ __('common.english') }}</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    
+    
 </ul>
