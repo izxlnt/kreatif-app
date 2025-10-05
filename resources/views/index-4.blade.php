@@ -878,7 +878,7 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-four__image">
-                        <img src="{{ asset('/assets/images/resources/about-4-1.jpg') }}" alt="kreatif">
+                        <img src="{{ asset('/assets/images/resources/service-4-4.jpg') }}" alt="kreatif">
                         <img src="{{ asset('/assets/images/gallery/DSC09582-3.jpg') }}" alt="kreatif">
                         <div class="about-four__image__shape tolak-tilt"
                             data-tilt-options='{ "glare": false, "maxGlare": 0, "maxTilt": 7, "speed": 700, "scale": 1 }'>
@@ -889,7 +889,7 @@
                             <div class="about-four__fact__icon"><i class="icon-check-mark"></i></div>
                             <h3 class="about-four__fact__count"><span class="count-text" data-stop="100"
                                     data-speed="1500"></span>+</h3><!-- /.about-four__fact__number -->
-                            <p class="about-four__fact__text">Projek Berjaya</p><!-- /.about-four__fact__title -->
+                            <p class="about-four__fact__text">{{ __('common.successful_projects') }}</p><!-- /.about-four__fact__title -->
                         </div><!-- /.about-four__fact -->
                     </div>
                 </div><!-- /.col-xl-6 -->
@@ -897,26 +897,19 @@
                     <div class="about-four__content">
                         <div class="sec-title-two text-left">
                             <h6 class="sec-title-two__tagline"><span
-                                    class="sec-title-two__tagline__left icofont-rounded-double-left"></span>Tentang
-                                Kami<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
+                                    class="sec-title-two__tagline__left icofont-rounded-double-left"></span>{{ __('common.about_us') }}<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
                             <!-- /.sec-title-two__tagline -->
-                            <h3 class="sec-title-two__title">Kreatif Digital Dinamik (KDD) <span>Your SME Marketing
-                                    Partner</span></h3>
+                            <h3 class="sec-title-two__title">{{ __('common.company_title') }} <span>{{ __('common.company_subtitle') }}</span></h3>
                             <!-- /.sec-title-two__title -->
                         </div><!-- /.sec-title-two -->
                         <p class="about-four__content__text">
-                            Sejak 2019, kami telah membantu lebih 200+ perniagaan Malaysia meningkatkan kehadiran digital mereka. 
-                            Kami bukan sekadar agensi kreatif - kami rakan strategik yang memahami cabaran sebenar SME Malaysia.
+                            {{ __('common.company_description_1') }}
                         </p>
                         <p>
-                            Portfolio kami termasuk jenama terkenal seperti <strong>PNB, SME Bank, Al-Ikhsan, Attana Hotel</strong> dan banyak lagi. 
-                            Kepercayaan mereka membuktikan kualiti kerja kami dalam menghasilkan kandungan visual dan strategi pemasaran 
-                            yang berkesan untuk setiap industri.
+                            {{ __('common.company_description_2') }}
                         </p>
                         <p>
-                            <strong>Dari Alor Setar untuk seluruh Malaysia</strong> - kami bangga menjadi agensi digital yang berkembang 
-                            dari utara hingga ke seluruh negara. Setiap klien mendapat perhatian peribadi dan strategi 
-                            yang disesuaikan dengan keperluan mereka.
+                            {{ __('common.company_description_3') }}
                         </p>
                         
                     </div><!-- /.about__content -->
@@ -931,13 +924,12 @@
         <div class="container">
             <div class="sec-title-two text-center">
                 <h6 class="sec-title-two__tagline"><span
-                        class="sec-title-two__tagline__left icofont-rounded-double-left"></span>Servis Kami<span
+                        class="sec-title-two__tagline__left icofont-rounded-double-left"></span>{{ __('common.our_services') }}<span
                         class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
                 <!-- /.sec-title-two__tagline -->
-                <h3 class="sec-title-two__title">Kami menyediakan pelbagai servis media dan pemasaran digital</h3>
+                <h3 class="sec-title-two__title">{{ __('common.services_description') }}</h3>
                 <!-- /.sec-title-two__title -->
-                <p>Setiap servis disusun bagi memenuhi keperluan klien dari segi branding, pemasaran, dan strategi jangka
-                    panjang.</p>
+                <p>{{ __('common.services_full_description') }}</p>
             </div><!-- /.sec-title-two -->
             <div class="service-one__carousel tolak-owl__carousel tolak-owl__carousel--basic-nav owl-carousel owl-theme"
                 data-owl-options='{
@@ -974,15 +966,15 @@
                                 <span class="icon-camera"></span>
                             </div><!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('fotografi-videografi') }}">Fotografi & Videografi</a>
+                                <a href="{{ url('fotografi-videografi') }}">{{ __('common.photography_videography') }}</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
-                                Gambar dan video profesional untuk promosi, korporat, dan produk yang meningkatkan keyakinan pelanggan.
+                                {{ __('common.photography_description') }}
                             </p><!-- /.service-text -->
                         </div>
                         <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('fotografi-videografi') }}">Baca Selanjutnya<span class="fas fa-angle-double-right"></span></a>
+                            <a class="service-one__item__bottom__rm" href="{{ url('fotografi-videografi') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
@@ -996,15 +988,15 @@
                                 <span class="icon-design"></span>
                             </div><!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('rekaan-grafik') }}">Rekaan Grafik</a>
+                                <a href="{{ url('rekaan-grafik') }}">{{ __('common.graphic_design') }}</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
-                                Rekaan kreatif untuk poster, brosur, banner, dan grafik media sosial yang konsisten.
+                                {{ __('common.graphic_design_description') }}
                             </p><!-- /.service-text -->
                         </div>
                         <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('rekaan-grafik') }}">Baca Selanjutnya<span class="fas fa-angle-double-right"></span></a>
+                            <a class="service-one__item__bottom__rm" href="{{ url('rekaan-grafik') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
@@ -1018,15 +1010,15 @@
                                 <span class="icon-social-media"></span>
                             </div><!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('pengurusan-media-sosial') }}">Pengurusan Media Sosial</a>
+                                <a href="{{ url('pengurusan-media-sosial') }}">{{ __('common.social_media_management') }}</a>
                             </h3><!-- /.service-title -->
-                                                        <p class="service-one__item__text">
-                                Pengurusan akaun media sosial dengan kandungan menarik untuk tingkatkan interaksi.
+                            <p class="service-one__item__text">
+                                {{ __('common.social_media_description') }}
                             </p><!-- /.service-text -->
                         </div>
                         <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('pengurusan-media-sosial') }}">Baca Selanjutnya<span class="fas fa-angle-double-right"></span></a>
+                            <a class="service-one__item__bottom__rm" href="{{ url('pengurusan-media-sosial') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
@@ -1040,15 +1032,15 @@
                                 <span class="icon-digital-marketing"></span>
                             </div><!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('strategi-pemasaran-digital') }}">Strategi Pemasaran Digital</a>
+                                <a href="{{ url('strategi-pemasaran-digital') }}">{{ __('common.digital_marketing_strategy') }}</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
-                                Strategi iklan berbayar (Facebook Ads, Google Ads, TikTok Ads) yang disasarkan untuk ROI maksimum.
+                                {{ __('common.digital_marketing_description') }}
                             </p><!-- /.service-text -->
                         </div>
                         <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('strategi-pemasaran-digital') }}">Baca Selanjutnya<span class="fas fa-angle-double-right"></span></a>
+                            <a class="service-one__item__bottom__rm" href="{{ url('strategi-pemasaran-digital') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
@@ -1281,9 +1273,9 @@
                 <div class="col-lg-6">
                     <div class="our-solution__content">
                         <div class="sec-title text-left">
-                                                        <h6 class="sec-title__tagline"><span class="sec-title__tagline__left"></span>Mengapa Pilih Kami<span class="sec-title__tagline__right"></span></h6>
+                            <h6 class="sec-title__tagline"><span class="sec-title__tagline__left"></span>{{ __('common.why_choose_us') }}<span class="sec-title__tagline__right"></span></h6>
                             <!-- /.sec-title__tagline -->
-                            <h3 class="sec-title__title">Rakan Strategik Memacu Perkembangan Jenama Anda.</h3>
+                            <h3 class="sec-title__title">{{ __('common.strategic_partner_title') }}</h3>
                             <!-- /.sec-title__title -->
                         </div><!-- /.sec-title -->
                         {{-- <p class="our-solution__content__text">
@@ -1294,22 +1286,24 @@
                         <div class="row">
                             <div class="col-xl-5 col-lg-5 col-md-5">
                                 <div class="our-solution__box">
-                                    <div class="our-solution__box__icon"><span class="icon-social-care"></span></div>
+                                    <div class="our-solution__box__icon">
+                                        <img src="{{ asset('/assets/images/logo-4.png') }}" alt="Kreatif Digital Dinamik" style="max-width: 120px; height: auto;">
+                                    </div>
                                     <p class="our-solution__box__text">
-                                        KREATIF DIGITAL DINAMIK<br>
-                                        <span style="font-size: 14px; opacity: 0.9;">Rakan Strategik Terpercaya</span>
+                                       <br>
+                                        <span style="font-size: 14px; opacity: 0.9;">{{ __('common.strategic_partner_tagline') }}</span>
                                     </p>
                                 </div>
                             </div>
                             <div class="col-xl-7 col-lg-7 col-md-7">
                                 <div class="our-solution__list">
-                                    <h5 class="our-solution__list__title">Komitmen Kualiti Kami</h5>
+                                    <h5 class="our-solution__list__title">{{ __('common.quality_commitment_title') }}</h5>
                                     <ul>
-                                        <li><span class="fas fa-check-circle"></span>🏆 Portfolio Terbukti - Lebih 200+ projek berjaya</li>
-                                        <li><span class="fas fa-check-circle"></span>🎯 ROI Terukur - Strategi yang memberikan pulangan nyata</li>
-                                        <li><span class="fas fa-check-circle"></span>⚡ Respons Pantas - Sokongan dan penyelesaian segera</li>
-                                        <li><span class="fas fa-check-circle"></span>🤝 Pendekatan Peribadi - Setiap klien mendapat perhatian khusus</li>
-                                        <li><span class="fas fa-check-circle"></span>🔄 Khidmat Menyeluruh - Dari konsep hingga pelaksanaan</li>
+                                        <li><span class="fas fa-check-circle"></span>{{ __('common.portfolio_proven') }}</li>
+                                        <li><span class="fas fa-check-circle"></span>{{ __('common.roi_measured') }}</li>
+                                        <li><span class="fas fa-check-circle"></span>{{ __('common.quick_response') }}</li>
+                                        <li><span class="fas fa-check-circle"></span>{{ __('common.personal_approach') }}</li>
+                                        <li><span class="fas fa-check-circle"></span>{{ __('common.comprehensive_service') }}</li>
                                     </ul>
                                     <div class="our-solution__list__border"></div>
                                 </div>
@@ -1331,62 +1325,56 @@
                     <div class="accrodion">
                         <div class="accrodion-title">
                             <h4>
-                                Bagaimana KDD memastikan jenama saya berkembang secara konsisten?
+                                {{ __('common.faq_q1') }}
                                 <span class="accrodion-title__icon"></span>
                             </h4>
                         </div>
                         <div class="accrodion-content">
                             <div class="inner">
                                 <p>
-                                    Strategi kami fokus pada impak jangka panjang, bukan hasil sekali guna. Kami bina 
-                                    <strong>'Brand Book'</strong> dan <strong>'Content Pillar'</strong> untuk memastikan 
-                                    kesemua foto, video, dan kandungan media sosial anda sejajar dengan visi jenama anda.
+                                    {{ __('common.faq_a1') }}
                                 </p>
                             </div>
                         </div>
                     </div><div class="accrodion active">
                         <div class="accrodion-title">
                             <h4>
-                                Adakah KDD hanya mengendalikan projek besar (korporat) sahaja?
+                                {{ __('common.faq_q2') }}
                                 <span class="accrodion-title__icon"></span>
                             </h4>
                         </div>
                         <div class="accrodion-content">
                             <div class="inner">
                                 <p>
-                                    <strong>Tidak.</strong> Kami adalah Rakan Strategi Pemasaran SME dan berbangga bekerjasama dengan pelbagai organisasi, 
-                                    dari PNB dan Al-Ikhsan, hingga ke perniagaan tempatan. Fokus kami adalah pada potensi pertumbuhan perniagaan anda.
+                                    {{ __('common.faq_a2') }}
                                 </p>
                             </div>
                         </div>
                     </div><div class="accrodion">
                         <div class="accrodion-title">
                             <h4>
-                                Apakah proses kerjasama fotografi/videografi yang akan dijalankan?
+                                {{ __('common.faq_q3') }}
                                 <span class="accrodion-title__icon"></span>
                             </h4>
                         </div>
                         <div class="accrodion-content">
                             <div class="inner">
                                 <p>
-                                    Proses kami bermula dengan <strong>perancangan strategi</strong> (briefing), diikuti 
-                                    <strong>sesi penggambaran profesional</strong>, dan diakhiri dengan <strong>penyuntingan kualiti tinggi</strong>. 
-                                    Anda akan menerima produk media yang berkaliber studio, sedia untuk pemasaran.
+                                    {{ __('common.faq_a3') }}
                                 </p>
                             </div>
                         </div>
                     </div><div class="accrodion">
                         <div class="accrodion-title">
                             <h4>
-                                Berapa lama masa yang diambil untuk melihat kesan dari strategi digital KDD?
+                                {{ __('common.faq_q4') }}
                                 <span class="accrodion-title__icon"></span>
                             </h4>
                         </div>
                         <div class="accrodion-content">
                             <div class="inner">
                                 <p>
-                                    Kesan awal boleh dilihat seawal <strong>4-8 minggu</strong>, terutamanya dalam peningkatan engagement media sosial. 
-                                    Namun, impak penjenamaan dan jualan yang kukuh dibina melalui <strong>konsistensi</strong> dalam tempoh 6 bulan ke atas.
+                                    {{ __('common.faq_a4') }}
                                 </p>
                             </div>
                         </div>
@@ -1395,9 +1383,9 @@
                 <div class="faq-one__content">
                     <div class="sec-title-two text-left">
                         <h6 class="sec-title-two__tagline"><span
-                                class="sec-title-two__tagline__left icofont-rounded-double-left"></span>Soalan Lazim (FAQ)<span 
+                                class="sec-title-two__tagline__left icofont-rounded-double-left"></span>{{ __('common.faq_tagline') }}<span 
                                 class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
-                        <h3 class="sec-title-two__title">Jawab Persoalan Utama Anda Mengenai Strategi Digital</h3>
+                        <h3 class="sec-title-two__title">{{ __('common.faq_title') }}</h3>
                     </div><div class="row">
                         <div class="col-md-5">
                             <div class="faq-one__image tolak-tilt"
@@ -1410,11 +1398,10 @@
                                 <div class="faq-one__experiance count-box">
                                     <h3 class="faq-one__experiance__count"><span class="count-text" data-stop="100"
                                             data-speed="1500"></span>+</h3>
-                                    <h5 class="faq-one__experiance__title">Projek<br> Berjaya</h5>
+                                    <h5 class="faq-one__experiance__title">{{ __('common.projects_successful') }}</h5>
                                 </div>
-                                <h4 class="faq-one__right__title">Kenapa Pilih Kreatif Digital Dinamik?</h4>
-                                <p class="faq-one__right__text">Kami bantu perniagaan anda mencapai <strong>hasil yang konsisten</strong> 
-                                    dengan strategi yang terbukti dan pengalaman bersama jenama-jenama terkemuka di Malaysia.</p>
+                                <h4 class="faq-one__right__title">{{ __('common.faq_right_title') }}</h4>
+                                <p class="faq-one__right__text">{{ __('common.faq_right_text') }}</p>
                             </div>
                         </div>
                     </div>

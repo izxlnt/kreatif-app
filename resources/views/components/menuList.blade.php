@@ -1,6 +1,6 @@
 <ul class="main-menu__list">
 
-    <li class="megamenu megamenu-clickable megamenu-clickable--toggler {{ Request::is('/') || Request::is('index-*') ? 'current' : '' }}">
+    {{-- <li class="megamenu megamenu-clickable megamenu-clickable--toggler {{ Request::is('/') || Request::is('index-*') ? 'current' : '' }}">
         <a href="{{ url('/') }}">Demos</a>
         <ul>
             <li>
@@ -224,8 +224,11 @@
                 </div><!-- /.megamenu-popup -->
             </li>
         </ul>
-    </li>
+    </li> --}}
 
+    <li class="{{ Request::is('/') ? 'current' : '' }}">
+        <a href="{{ url('home') }}">Home</a>
+    </li>
     <li class="{{ Request::is('about') ? 'current' : '' }}">
         <a href="{{ url('about') }}">About</a>
     </li>
