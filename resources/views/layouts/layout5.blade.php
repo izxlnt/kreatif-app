@@ -8,7 +8,7 @@
 
     <div class="page-wrapper">
         
-        <x-headerStyleFive/>
+        <x-headerStyleTwo/>
 
 
     @yield('content')

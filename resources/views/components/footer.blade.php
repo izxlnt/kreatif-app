@@ -7,7 +7,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="footer-widget footer-widget--about">
                     <a href="{{ url('/') }}" class="footer-widget__logo">
-                        <img src="assets/images/logo-light.png" width="184" alt="Tolak Laravel Template">
+                        <img src="assets/images/logo-4.png" width="184" alt="Tolak Laravel Template">
                     </a>
                     <ul class="footer-widget__info">
                         <li><span class="icofont-clock-time"></span>Open Hours of Government:<br> Mon - Fri: 8.00 am. - 6.00 pm.</li>

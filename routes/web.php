@@ -5,7 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PagesController;
 
 
-Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/', [HomeController::class, 'index4'])->name('index');
 Route::get('index-one-page', [HomeController::class, 'index_one_page'])->name('index-one-page');
 Route::get('index-dark', [HomeController::class, 'index_dark'])->name('index-dark');
 Route::get('index-2', [HomeController::class, 'index2'])->name('index-2');

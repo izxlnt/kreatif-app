@@ -1,0 +1,59 @@
+:root {
+  --tolak-font: "Rubik", /* Cobalt Blue Override for main-header-four__logo */
+.main-header-four__logo {
+  background-color: var(--tolak-cobalt-blue, #0047AB) !important;
+}
+
+.main-header-four__logo::before {
+  border-color: transparent transparent var(--tolak-cobalt-blue, #0047AB) transparent !important;
+}
+
+.main-header-four__logo::after {
+  border-color: transparent transparent transparent var(--tolak-cobalt-blue, #0047AB) transparent !important;
+}  --tolak-heading-font: "Raleway", sans-serif;
+  --tolak-text: #636363;
+  --tolak-text-rgb: 99, 99, 99;
+  --tolak-text2: #9fa0a0;
+  --tolak-text2-rgb: 159, 160, 160;
+  --tolak-text-dark: #b7b7b7;
+  --tolak-text-dark-rgb: 183, 183, 183;
+  --tolak-base: #0047AB;
+  --tolak-base-rgb: 0, 71, 171;
+  --tolak-gray: #e6f0ff;
+  --tolak-gray-rgb: 230, 240, 255;
+  --tolak-gray2: #c1c1c1;
+  --tolak-gray2-rgb: 193, 193, 193;
+  --tolak-white: #fff;
+  --tolak-white-rgb: 255, 255, 255;
+  --tolak-black: #051d1f;
+  --tolak-black-rgb: 5, 29, 31;
+  --tolak-black2: #222222;
+  --tolak-black2-rgb: 34, 34, 34;
+  --tolak-black3: #000;
+  --tolak-black3-rgb: 0, 0, 0;
+  --tolak-black4: #1b272a;
+  --tolak-black4-rgb: 27, 39, 42;
+  --tolak-border-color: #dddddd;
+  --tolak-border-color-rgb: 221, 221, 221;
+  --tolak-border-color2: #eaf0fa;
+  --tolak-border-color2-rgb: 234, 240, 250;
+  --tolak-cobalt-blue: #0047AB;
+  --tolak-cobalt-blue-rgb: 0, 71, 171;
+  --tolak-letter-space: 0.1em;
+  --tolak-letter-space-xl: 0.2em;
+}
+
+/* Cobalt Blue Override for main-header-four__logo */
+.main-header-four__logo {
+  background-color: var(--tolak-base, #0047AB) !important;
+}
+
+.main-header-four__logo::before {
+  border-color: transparent transparent var(--tolak-base, #0047AB) transparent !important;
+}
+
+.main-header-four__logo::after {
+  border-color: transparent transparent transparent var(--tolak-base, #0047AB) !important;
+}
+
+/*# sourceMappingURL=tolak-color-cobalt.css.map */

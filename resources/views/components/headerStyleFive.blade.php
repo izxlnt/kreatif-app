@@ -3,7 +3,7 @@
         <div class="main-header-four__inner">
             <div class="main-header-four__logo">
                 <a href="{{ url("/") }}">
-                    <img src="{{ asset("/assets/images/logo-dark.png") }}" alt="Tolak HTML" width="184">
+                    <img src="{{ asset("/assets/images/logo-4.png") }}" alt="Tolak HTML" width="184">
                 </a>
             </div><!-- /.main-header-four__logo -->
 

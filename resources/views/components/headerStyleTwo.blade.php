@@ -3,7 +3,7 @@
         <div class="main-header-inner__inner">
             <div class="main-header-inner__logo">
                 <a href="{{ url('/') }}">
-                    <img src="assets/images/logo-light.png" alt="Tolak HTML" width="184">
+                    <img src="assets/images/logo-4.png" alt="Tolak HTML" width="184">
                 </a>
             </div><!-- /.main-header-inner__logo -->
 
