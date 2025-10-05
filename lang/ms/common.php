@@ -75,4 +75,16 @@ return [
     'hours' => 'jam',
     'minutes' => 'minit',
     'seconds' => 'saat',
+
+    // Services
+    'our_services' => 'Servis Kami',
+    'services_description' => 'Kami menyediakan pelbagai servis media dan pemasaran digital',
+    'services_subtitle' => 'Strategi Pemasaran Digital',
+    'services_full_description' => 'Setiap servis disusun bagi memenuhi keperluan klien dari segi branding, pemasaran, dan strategi jangka panjang.',
+    
+    // Service Items
+    'photography_videography' => 'Fotografi & Videografi',
+    'graphic_design' => 'Rekaan Grafik', 
+    'social_media_management' => 'Pengurusan Media Sosial',
+    'digital_marketing_strategy' => 'Strategi Pemasaran Digital',
 ];

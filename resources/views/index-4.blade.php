@@ -66,8 +66,8 @@
 
     <style>
         /* ==========================================================================
-               Hero Video Section Styles
-               ========================================================================== */
+                   Hero Video Section Styles
+                   ========================================================================== */
 
         /* Base Layout */
         .hero-video-section {
@@ -133,8 +133,8 @@
         }
 
         /* ==========================================================================
-               Hero Content Styles
-               ========================================================================== */
+                   Hero Content Styles
+                   ========================================================================== */
 
         .hero-content {
             color: white;
@@ -190,8 +190,8 @@
         }
 
         /* ==========================================================================
-               Button Styles
-               ========================================================================== */
+                   Button Styles
+                   ========================================================================== */
 
         .hero-buttons {
             display: flex;
@@ -242,8 +242,8 @@
         }
 
         /* ==========================================================================
-               Video Play Button Styles
-               ========================================================================== */
+                   Video Play Button Styles
+                   ========================================================================== */
 
         .video-play-button {
             display: inline-flex;
@@ -307,8 +307,8 @@
         }
 
         /* ==========================================================================
-               Modal Styles
-               ========================================================================== */
+                   Modal Styles
+                   ========================================================================== */
 
         .video-modal {
             display: none;
@@ -382,8 +382,8 @@
         }
 
         /* ==========================================================================
-               Responsive Design
-               ========================================================================== */
+                   Responsive Design
+                   ========================================================================== */
 
         /* Large Desktop */
         @media (min-width: 1200px) {
@@ -905,40 +905,20 @@
                             <!-- /.sec-title-two__title -->
                         </div><!-- /.sec-title-two -->
                         <p class="about-four__content__text">
-                            Kami membantu syarikat dan perniagaan membina jenama yang lebih kuat melalui media dan
-                            pemasaran digital. Fokus kami adalah memastikan setiap projek yang dijalankan memberi kesan
-                            jangka panjang, bukan sekadar hasil sekali lalu.
+                            Sejak 2019, kami telah membantu lebih 200+ perniagaan Malaysia meningkatkan kehadiran digital mereka. 
+                            Kami bukan sekadar agensi kreatif - kami rakan strategik yang memahami cabaran sebenar SME Malaysia.
                         </p>
                         <p>
-                            Kami berpengalaman bekerjasama dengan pelbagai organisasi dan jenama seperti PNB, SME
-                            Bank, Attana Hotel, Johorean Comrade, Al-Ikhsan, Madad Dakwah Centre, Protasa Properties,
-                            Mergong Tiling Sdn. Bhd., Esthetic Medical Solution, Dr Meow, dan PERKIM. Hasilnya, kami
-                            membuktikan kemampuan untuk menghasilkan foto, video, dan strategi pemasaran yang
-                            konsisten serta memberi nilai kepada klien.
+                            Portfolio kami termasuk jenama terkenal seperti <strong>PNB, SME Bank, Al-Ikhsan, Attana Hotel</strong> dan banyak lagi. 
+                            Kepercayaan mereka membuktikan kualiti kerja kami dalam menghasilkan kandungan visual dan strategi pemasaran 
+                            yang berkesan untuk setiap industri.
                         </p>
-                        <div class="about-four__tabs">
-                            <div class="tabs-content">
-                                <div class="tab fadeInUp animated active-tab" id="mission">
-                                    <ul class="about-four__content__list">
-                                        <li><span class="icofont-checked"></span>
-                                            <p>Fotografi & videografi.</p>
-                                        </li>
-                                        <li><span class="icofont-checked"></span>
-                                            <p>Rekaan grafik</p>
-                                        </li>
-                                        <li><span class="icofont-checked"></span>
-                                            <p>Pengurusan media sosial</p>
-                                        </li>
-                                        <li><span class="icofont-checked"></span>
-                                            <p>Strategi pemasaran digital</p>
-                                        </li>
-                                    </ul>
-                                    
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
+                        <p>
+                            <strong>Dari Alor Setar untuk seluruh Malaysia</strong> - kami bangga menjadi agensi digital yang berkembang 
+                            dari utara hingga ke seluruh negara. Setiap klien mendapat perhatian peribadi dan strategi 
+                            yang disesuaikan dengan keperluan mereka.
+                        </p>
+                        
                     </div><!-- /.about__content -->
                 </div><!-- /.col-xl-6 -->
             </div><!-- /.row -->
@@ -951,10 +931,13 @@
         <div class="container">
             <div class="sec-title-two text-center">
                 <h6 class="sec-title-two__tagline"><span
-                        class="sec-title-two__tagline__left icofont-rounded-double-left"></span>Our Best Service<span
+                        class="sec-title-two__tagline__left icofont-rounded-double-left"></span>Servis Kami<span
                         class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
                 <!-- /.sec-title-two__tagline -->
-                <h3 class="sec-title-two__title">We Kinds of Services Business</h3><!-- /.sec-title-two__title -->
+                <h3 class="sec-title-two__title">Kami menyediakan pelbagai servis media dan pemasaran digital</h3>
+                <!-- /.sec-title-two__title -->
+                <p>Setiap servis disusun bagi memenuhi keperluan klien dari segi branding, pemasaran, dan strategi jangka
+                    panjang.</p>
             </div><!-- /.sec-title-two -->
             <div class="service-one__carousel tolak-owl__carousel tolak-owl__carousel--basic-nav owl-carousel owl-theme"
                 data-owl-options='{
@@ -975,215 +958,312 @@
         },
         "992": {
             "items": 3
-        }
+        },
+        "1200": {
+            "items": 4
+        }    
     }
     }'>
                 <div class="item">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/resources/service-1-1.jpg') }}" alt="tolak">
+                            <img src="{{ asset('/assets/images/resources/service-1-1.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
                             <div class="service-one__item__icon">
-                                <span class="icon-cooperation"></span>
+                                <span class="icon-camera"></span>
                             </div><!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('business-growth') }}">Business of Growth</a>
+                                <a href="{{ url('fotografi-videografi') }}">Fotografi & Videografi</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
-                                We businesss standard chunk of Ipsum used since is Agency & Star tup.
+                                Gambar dan video profesional untuk promosi, korporat, dan produk yang meningkatkan keyakinan pelanggan.
                             </p><!-- /.service-text -->
                         </div>
                         <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('business-growth') }}">Read More<span
-                                    class="fas fa-angle-double-right"></span></a>
+                            <a class="service-one__item__bottom__rm" href="{{ url('fotografi-videografi') }}">Baca Selanjutnya<span class="fas fa-angle-double-right"></span></a>
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
                 <div class="item">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/resources/service-1-2.jpg') }}" alt="tolak">
+                            <img src="{{ asset('/assets/images/resources/service-1-2.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
                             <div class="service-one__item__icon">
-                                <span class="icon-ads-campaign"></span>
+                                <span class="icon-design"></span>
                             </div><!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('business-solution') }}">Solution to Business</a>
+                                <a href="{{ url('rekaan-grafik') }}">Rekaan Grafik</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
-                                We businesss standard chunk of Ipsum used since is Agency & Star tup.
+                                Rekaan kreatif untuk poster, brosur, banner, dan grafik media sosial yang konsisten.
                             </p><!-- /.service-text -->
                         </div>
                         <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('business-solution') }}">Read More<span
-                                    class="fas fa-angle-double-right"></span></a>
+                            <a class="service-one__item__bottom__rm" href="{{ url('rekaan-grafik') }}">Baca Selanjutnya<span class="fas fa-angle-double-right"></span></a>
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
                 <div class="item">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/resources/service-1-3.jpg') }}" alt="tolak">
+                            <img src="{{ asset('/assets/images/resources/service-1-3.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
                             <div class="service-one__item__icon">
-                                <span class="icon-headhunter"></span>
+                                <span class="icon-social-media"></span>
                             </div><!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('marketing-solution') }}">Markting of Solution</a>
+                                <a href="{{ url('pengurusan-media-sosial') }}">Pengurusan Media Sosial</a>
                             </h3><!-- /.service-title -->
-                            <p class="service-one__item__text">
-                                We businesss standard chunk of Ipsum used since is Agency & Star tup.
+                                                        <p class="service-one__item__text">
+                                Pengurusan akaun media sosial dengan kandungan menarik untuk tingkatkan interaksi.
                             </p><!-- /.service-text -->
                         </div>
                         <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('marketing-solution') }}">Read
-                                More<span class="fas fa-angle-double-right"></span></a>
+                            <a class="service-one__item__bottom__rm" href="{{ url('pengurusan-media-sosial') }}">Baca Selanjutnya<span class="fas fa-angle-double-right"></span></a>
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
                 <div class="item">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/resources/service-1-4.jpg') }}" alt="tolak">
+                            <img src="{{ asset('/assets/images/resources/service-1-4.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
                             <div class="service-one__item__icon">
-                                <span class="icon-agency"></span>
+                                <span class="icon-digital-marketing"></span>
                             </div><!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('technology-services') }}">Technology Services</a>
+                                <a href="{{ url('strategi-pemasaran-digital') }}">Strategi Pemasaran Digital</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
-                                We businesss standard chunk of Ipsum used since is Agency & Star tup.
+                                Strategi iklan berbayar (Facebook Ads, Google Ads, TikTok Ads) yang disasarkan untuk ROI maksimum.
                             </p><!-- /.service-text -->
                         </div>
                         <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('technology-services') }}">Read
-                                More<span class="fas fa-angle-double-right"></span></a>
+                            <a class="service-one__item__bottom__rm" href="{{ url('strategi-pemasaran-digital') }}">Baca Selanjutnya<span class="fas fa-angle-double-right"></span></a>
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
-                <div class="item">
-                    <div class="service-one__item text-center">
-                        <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/resources/service-1-5.jpg') }}" alt="tolak">
-                        </div>
-                        <div class="service-one__item__content">
-                            <div class="service-one__item__icon">
-                                <span class="icon-advertisig-agency"></span>
-                            </div><!-- /.service-icon -->
-                            <h3 class="service-one__item__title">
-                                <a href="{{ url('business-marketing') }}">Marketing Business</a>
-                            </h3><!-- /.service-title -->
-                            <p class="service-one__item__text">
-                                We businesss standard chunk of Ipsum used since is Agency & Star tup.
-                            </p><!-- /.service-text -->
-                        </div>
-                        <div class="service-one__item__bottom">
-                            <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('business-marketing') }}">Read
-                                More<span class="fas fa-angle-double-right"></span></a>
-                        </div>
-                    </div><!-- /.service-card-one -->
-                </div>
-                <div class="item">
-                    <div class="service-one__item text-center">
-                        <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/resources/service-1-6.jpg') }}" alt="tolak">
-                        </div>
-                        <div class="service-one__item__content">
-                            <div class="service-one__item__icon">
-                                <span class="icon-management"></span>
-                            </div><!-- /.service-icon -->
-                            <h3 class="service-one__item__title">
-                                <a href="{{ url('business-support') }}">Support of Business</a>
-                            </h3><!-- /.service-title -->
-                            <p class="service-one__item__text">
-                                We businesss standard chunk of Ipsum used since is Agency & Star tup.
-                            </p><!-- /.service-text -->
-                        </div>
-                        <div class="service-one__item__bottom">
-                            <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('business-support') }}">Read More<span
-                                    class="fas fa-angle-double-right"></span></a>
-                        </div>
-                    </div><!-- /.service-card-one -->
-                </div>
+          
             </div>
         </div>
         <img class="service-one--home-four__shape" src="{{ asset('/assets/images/shapes/counter-border-1.png') }}"
             alt="tolak">
     </section>
-    <!-- Service End -->
+    
+    <!-- Custom CSS for Equal Height Service Boxes -->
+    <style>
+        /* Make all service boxes the same height */
+        .service-one__carousel .service-one__item {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            min-height: 420px; /* Set minimum height for consistency */
+        }
+        
+        .service-one__item__image {
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .service-one__item__image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .service-one__item__content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        
+        .service-one__item__text {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            min-height: 60px; /* Ensure consistent text area height */
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        
+        .service-one__item__title {
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        
+        .service-one__item__bottom {
+            margin-top: auto; /* Push to bottom */
+            padding: 15px 20px;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .service-one__item {
+                min-height: 380px;
+            }
+            
+            .service-one__item__image {
+                height: 180px;
+            }
+            
+            .service-one__item__text {
+                font-size: 13px;
+                min-height: 50px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .service-one__item {
+                min-height: 350px;
+            }
+            
+            .service-one__item__image {
+                height: 160px;
+            }
+            
+            .service-one__item__text {
+                font-size: 12px;
+                min-height: 45px;
+            }
+        }
+    </style>
 
-    <section class="why-choose-two">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="why-choose-two__content">
-                        <div class="sec-title-two text-left">
-                            <h6 class="sec-title-two__tagline"><span
-                                    class="sec-title-two__tagline__left icofont-rounded-double-left"></span>Why Choose
-                                Us<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
-                            <!-- /.sec-title-two__tagline -->
-                            <h3 class="sec-title-two__title">We Grow Your Business<br> Choose Service</h3>
-                            <!-- /.sec-title-two__title -->
-                        </div><!-- /.sec-title-two -->
-                        <p class="why-choose-two__content__text">
-                            Business tailored it design, management & support services <br>business agency elit, sed do
-                            eiusmod tempor.
-                        </p>
-                        <div class="why-choose-two__item wow fadeInUp" data-wow-delay="00ms">
-                            <div class="why-choose-two__item__icon">
-                                <span class="icon-family"></span>
-                            </div>
-                            <h4 class="why-choose-two__item__title">Our Success Team Man</h4>
-                            <a href="{{ url('team') }}" class="why-choose-two__item__rm"><span
-                                    class="icon-right-arrow"></span></a>
-                        </div><!-- why-choose-two__item -->
-                        <div class="why-choose-two__item why-choose-two__item--reverse wow fadeInUp"
-                            data-wow-delay="100ms">
-                            <div class="why-choose-two__item__icon">
-                                <span class="icon-agency"></span>
-                            </div>
-                            <h4 class="why-choose-two__item__title">Professional Best Service</h4>
-                            <a href="{{ url('services') }}" class="why-choose-two__item__rm"><span
-                                    class="icon-right-arrow"></span></a>
-                        </div><!-- why-choose-two__item -->
-                        <div class="why-choose-two__item wow fadeInUp" data-wow-delay="200ms">
-                            <div class="why-choose-two__item__icon">
-                                <span class="icon-management"></span>
-                            </div>
-                            <h4 class="why-choose-two__item__title">Long Experience Support</h4>
-                            <a href="{{ url('contact') }}" class="why-choose-two__item__rm"><span
-                                    class="icon-right-arrow"></span></a>
-                        </div><!-- why-choose-two__item -->
-                    </div><!-- /.why-choose-two__content -->
-                </div><!-- /.col-lg-5 -->
-                <div class="col-lg-7">
-                    <div class="why-choose-two__image">
-                        <img src="{{ asset('/assets/images/resources/why-choose-2-1.jpg') }}" alt="tolak">
-                        <div class="why-choose-two__image__two wow fadeInUp" data-wow-delay="200ms">
-                            <img src="{{ asset('/assets/images/resources/why-choose-2-2.jpg') }}" alt="tolak">
-                        </div>
-                        <div class="why-choose-two__image__three wow fadeInUp" data-wow-delay="300ms">
-                            <img src="{{ asset('/assets/images/resources/why-choose-2-3.jpg') }}" alt="tolak">
-                        </div>
-                        <div class="why-choose-two__image__four wow fadeInUp" data-wow-delay="400ms">
-                            <img src="{{ asset('/assets/images/resources/why-choose-2-4.jpg') }}" alt="tolak">
-                        </div>
-                    </div><!-- /.why-choose-two__image -->
-                </div><!-- /.col-lg-7 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.why-choose-two -->
+    <!-- Professional Layout CSS for Clean Positioning -->
+    <style>
+        /* Clean and Professional Solution Section */
+        .our-solution {
+            padding: 80px 0;
+        }
+
+        .our-solution__content {
+            padding-left: 30px;
+        }
+
+        .our-solution__content__text {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #555;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        /* Benefits Section Styling */
+        .benefit-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border-left: 3px solid #0047ab;
+        }
+
+        .benefit-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,71,171,0.15);
+        }
+
+        .benefit-icon {
+            flex-shrink: 0;
+        }
+
+        /* Solution Section Improvements */
+        .our-solution__list {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .our-solution__list__title {
+            color: #1a1a1a;
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
+        .our-solution__list ul li {
+            padding: 12px 0;
+            border-bottom: 1px solid #f1f5f9;
+            font-size: 15px;
+            color: #555;
+            display: flex;
+            align-items: center;
+        }
+
+        .our-solution__list ul li:last-child {
+            border-bottom: none;
+        }
+
+        .our-solution__list ul li span.fas {
+            color: #0047ab;
+            margin-right: 12px;
+            font-size: 14px;
+        }
+
+        .our-solution__box {
+            background: #0047ab;
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,71,171,0.3);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .our-solution__box__icon {
+            margin-bottom: 20px;
+        }
+
+        .our-solution__box__icon span {
+            font-size: 40px;
+            color: white;
+        }
+
+        .our-solution__box__text {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.4;
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 991px) {
+            .our-solution__content {
+                padding-left: 0;
+                margin-top: 50px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .our-solution {
+                padding: 60px 0;
+            }
+
+            .benefit-item {
+                padding: 15px;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+    <!-- Service End -->
 
     <section class="our-solution" style="background-image: url(assets/images/backgrounds/solution-bg-1.jpg);">
         <div class="container">
@@ -1201,32 +1281,35 @@
                 <div class="col-lg-6">
                     <div class="our-solution__content">
                         <div class="sec-title text-left">
-                            <h6 class="sec-title__tagline"><span class="sec-title__tagline__left"></span>Our Solution
-                                Business<span class="sec-title__tagline__right"></span></h6><!-- /.sec-title__tagline -->
-                            <h3 class="sec-title__title">We’re Are Commited Deliver Marketing for Business.</h3>
+                                                        <h6 class="sec-title__tagline"><span class="sec-title__tagline__left"></span>Mengapa Pilih Kami<span class="sec-title__tagline__right"></span></h6>
+                            <!-- /.sec-title__tagline -->
+                            <h3 class="sec-title__title">Rakan Strategik Memacu Perkembangan Jenama Anda.</h3>
                             <!-- /.sec-title__title -->
                         </div><!-- /.sec-title -->
-                        <p class="our-solution__content__text">
-                            Business tailored it design, management & support services business agency elit, sed do eiusmod
-                            tempor.
-                        </p>
+                        {{-- <p class="our-solution__content__text">
+                            Dengan pengalaman melayani lebih 100+ perniagaan di Malaysia, kami memahami cabaran sebenar yang dihadapi oleh syarikat tempatan. Berpusat di Alor Setar, Kedah, kami melayani klien dari seluruh Malaysia dengan komitmen memberikan solusi pemasaran digital yang berkesan dan terukur.
+                        </p> --}}
+                        
+                        <!-- Key Benefits Section -->
                         <div class="row">
-                            <div class="col-xl-4 col-lg-5 col-md-4">
+                            <div class="col-xl-5 col-lg-5 col-md-5">
                                 <div class="our-solution__box">
                                     <div class="our-solution__box__icon"><span class="icon-social-care"></span></div>
                                     <p class="our-solution__box__text">
-                                        THIS BEST MANS SOLUTION BEST BUSINESS FOR PROVED IS TO COMPANY
+                                        KREATIF DIGITAL DINAMIK<br>
+                                        <span style="font-size: 14px; opacity: 0.9;">Rakan Strategik Terpercaya</span>
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-7 col-md-6">
+                            <div class="col-xl-7 col-lg-7 col-md-7">
                                 <div class="our-solution__list">
-                                    <h5 class="our-solution__list__title">Solution This Business</h5>
+                                    <h5 class="our-solution__list__title">Komitmen Kualiti Kami</h5>
                                     <ul>
-                                        <li><span class="fas fa-check-circle"></span>We provide a revolutionary</li>
-                                        <li><span class="fas fa-check-circle"></span>This man for it solution.</li>
-                                        <li><span class="fas fa-check-circle"></span>We provide a revolutionary</li>
-                                        <li><span class="fas fa-check-circle"></span>This man for it solution.</li>
+                                        <li><span class="fas fa-check-circle"></span>🏆 Portfolio Terbukti - Lebih 200+ projek berjaya</li>
+                                        <li><span class="fas fa-check-circle"></span>🎯 ROI Terukur - Strategi yang memberikan pulangan nyata</li>
+                                        <li><span class="fas fa-check-circle"></span>⚡ Respons Pantas - Sokongan dan penyelesaian segera</li>
+                                        <li><span class="fas fa-check-circle"></span>🤝 Pendekatan Peribadi - Setiap klien mendapat perhatian khusus</li>
+                                        <li><span class="fas fa-check-circle"></span>🔄 Khidmat Menyeluruh - Dari konsep hingga pelaksanaan</li>
                                     </ul>
                                     <div class="our-solution__list__border"></div>
                                 </div>
@@ -1238,223 +1321,108 @@
         </div><!-- /.container -->
     </section><!-- /.our-solution -->
     <!-- Feature Start -->
-    
-    <section class="faq-one faq-one--dark" style="background-image: url(assets/images/shapes/faq-bg-1.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="faq-one__accordion tolak-accrodion" data-grp-name="tolak-accrodion">
-                        <div class="accrodion">
-                            <div class="accrodion-title">
-                                <h4>
-                                    What happens to my data if I cancel?
-                                    <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
-                                </h4>
-                            </div><!-- /.accordian-title -->
-                            <div class="accrodion-content">
-                                <div class="inner">
-                                    <p>
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t
-                                        look even as slightly believable now.
-                                    </p>
-                                </div><!-- /.accordian-content -->
+
+  <section class="faq-one faq-one--dark" style="background-image: url(assets/images/shapes/faq-bg-1.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="faq-one__accordion tolak-accrodion" data-grp-name="tolak-accrodion">
+                    
+                    <div class="accrodion">
+                        <div class="accrodion-title">
+                            <h4>
+                                Bagaimana KDD memastikan jenama saya berkembang secara konsisten?
+                                <span class="accrodion-title__icon"></span>
+                            </h4>
+                        </div>
+                        <div class="accrodion-content">
+                            <div class="inner">
+                                <p>
+                                    Strategi kami fokus pada impak jangka panjang, bukan hasil sekali guna. Kami bina 
+                                    <strong>'Brand Book'</strong> dan <strong>'Content Pillar'</strong> untuk memastikan 
+                                    kesemua foto, video, dan kandungan media sosial anda sejajar dengan visi jenama anda.
+                                </p>
                             </div>
-                        </div><!-- /.accordian-item -->
-                        <div class="accrodion active">
-                            <div class="accrodion-title">
-                                <h4>
-                                    What are the different types of marketing solutions?
-                                    <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
-                                </h4>
-                            </div><!-- /.accordian-title -->
-                            <div class="accrodion-content">
-                                <div class="inner">
-                                    <p>
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t
-                                        look even as slightly believable now.
-                                    </p>
-                                </div><!-- /.accordian-content -->
+                        </div>
+                    </div><div class="accrodion active">
+                        <div class="accrodion-title">
+                            <h4>
+                                Adakah KDD hanya mengendalikan projek besar (korporat) sahaja?
+                                <span class="accrodion-title__icon"></span>
+                            </h4>
+                        </div>
+                        <div class="accrodion-content">
+                            <div class="inner">
+                                <p>
+                                    <strong>Tidak.</strong> Kami adalah Rakan Strategi Pemasaran SME dan berbangga bekerjasama dengan pelbagai organisasi, 
+                                    dari PNB dan Al-Ikhsan, hingga ke perniagaan tempatan. Fokus kami adalah pada potensi pertumbuhan perniagaan anda.
+                                </p>
                             </div>
-                        </div><!-- /.accordian-item -->
-                        <div class="accrodion">
-                            <div class="accrodion-title">
-                                <h4>
-                                    How often should i work on the digital marketing?
-                                    <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
-                                </h4>
-                            </div><!-- /.accordian-title -->
-                            <div class="accrodion-content">
-                                <div class="inner">
-                                    <p>
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t
-                                        look even as slightly believable now.
-                                    </p>
-                                </div><!-- /.accordian-content -->
+                        </div>
+                    </div><div class="accrodion">
+                        <div class="accrodion-title">
+                            <h4>
+                                Apakah proses kerjasama fotografi/videografi yang akan dijalankan?
+                                <span class="accrodion-title__icon"></span>
+                            </h4>
+                        </div>
+                        <div class="accrodion-content">
+                            <div class="inner">
+                                <p>
+                                    Proses kami bermula dengan <strong>perancangan strategi</strong> (briefing), diikuti 
+                                    <strong>sesi penggambaran profesional</strong>, dan diakhiri dengan <strong>penyuntingan kualiti tinggi</strong>. 
+                                    Anda akan menerima produk media yang berkaliber studio, sedia untuk pemasaran.
+                                </p>
                             </div>
-                        </div><!-- /.accordian-item -->
-                        <div class="accrodion">
-                            <div class="accrodion-title">
-                                <h4>
-                                    Are social media good for the business growth?
-                                    <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
-                                </h4>
-                            </div><!-- /.accordian-title -->
-                            <div class="accrodion-content">
-                                <div class="inner">
-                                    <p>
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t
-                                        look even as slightly believable now.
-                                    </p>
-                                </div><!-- /.accordian-content -->
+                        </div>
+                    </div><div class="accrodion">
+                        <div class="accrodion-title">
+                            <h4>
+                                Berapa lama masa yang diambil untuk melihat kesan dari strategi digital KDD?
+                                <span class="accrodion-title__icon"></span>
+                            </h4>
+                        </div>
+                        <div class="accrodion-content">
+                            <div class="inner">
+                                <p>
+                                    Kesan awal boleh dilihat seawal <strong>4-8 minggu</strong>, terutamanya dalam peningkatan engagement media sosial. 
+                                    Namun, impak penjenamaan dan jualan yang kukuh dibina melalui <strong>konsistensi</strong> dalam tempoh 6 bulan ke atas.
+                                </p>
                             </div>
-                        </div><!-- /.accordian-item -->
-                    </div>
-                </div><!-- /.col-lg-6 -->
-                <div class="col-lg-6 d-flex align-items-center">
-                    <div class="faq-one__content">
-                        <div class="sec-title-two text-left">
-                            <h6 class="sec-title-two__tagline"><span
-                                    class="sec-title-two__tagline__left icofont-rounded-double-left"></span>See our
-                                faqs<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
-                            <!-- /.sec-title-two__tagline -->
-                            <h3 class="sec-title-two__title">We Fast Frequently Asked The Questions Now</h3>
-                            <!-- /.sec-title-two__title -->
-                        </div><!-- /.sec-title-two -->
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="faq-one__image tolak-tilt"
-                                    data-tilt-options='{ "glare": false, "maxGlare": 0, "maxTilt": 7, "speed": 700, "scale": 1 }'>
-                                    <img src="{{ asset('/assets/images/resources/faq-1-1.jpg') }}" alt="tolak">
+                        </div>
+                    </div></div>
+            </div><div class="col-lg-6 d-flex align-items-center">
+                <div class="faq-one__content">
+                    <div class="sec-title-two text-left">
+                        <h6 class="sec-title-two__tagline"><span
+                                class="sec-title-two__tagline__left icofont-rounded-double-left"></span>Soalan Lazim (FAQ)<span 
+                                class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
+                        <h3 class="sec-title-two__title">Jawab Persoalan Utama Anda Mengenai Strategi Digital</h3>
+                    </div><div class="row">
+                        <div class="col-md-5">
+                            <div class="faq-one__image tolak-tilt"
+                                data-tilt-options='{ "glare": false, "maxGlare": 0, "maxTilt": 7, "speed": 700, "scale": 1 }'>
+                                <img src="{{ asset('/assets/images/resources/faq-1-1.jpg') }}" alt="Kreatif Digital Dinamik">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="faq-one__right">
+                                <div class="faq-one__experiance count-box">
+                                    <h3 class="faq-one__experiance__count"><span class="count-text" data-stop="100"
+                                            data-speed="1500"></span>+</h3>
+                                    <h5 class="faq-one__experiance__title">Projek<br> Berjaya</h5>
                                 </div>
-                            </div>
-                            <div class="col-md-7">
-                                <div class="faq-one__right">
-                                    <div class="faq-one__experiance count-box">
-                                        <h3 class="faq-one__experiance__count"><span class="count-text" data-stop="36"
-                                                data-speed="1500"></span>+</h3><!-- /.experiance-count -->
-                                        <h5 class="faq-one__experiance__title">Years<br> Experience</h5>
-                                        <!-- /.experiance-title -->
-                                    </div><!-- /.experiance -->
-                                    <h4 class="faq-one__right__title">Donec Quis felis Commodo</h4>
-                                    <p class="faq-one__right__text">Lorem ipsum is simply free text dol amet, passage of
-                                        consectetur notted.</p>
-                                </div>
+                                <h4 class="faq-one__right__title">Kenapa Pilih Kreatif Digital Dinamik?</h4>
+                                <p class="faq-one__right__text">Kami bantu perniagaan anda mencapai <strong>hasil yang konsisten</strong> 
+                                    dengan strategi yang terbukti dan pengalaman bersama jenama-jenama terkemuka di Malaysia.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><!-- /.container -->
-    </section><!-- /.faq-one -->
+        </div>
+    </div></section>
 
-    <section class="testimonials-three">
-        <div class="testimonials-three__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%"
-            style="background-image: url(assets/images/backgrounds/testimonial-bg-3.jpg);"></div>
-        <div class="container">
-            <div class="sec-title-two text-center">
-                <h6 class="sec-title-two__tagline"><span
-                        class="sec-title-two__tagline__left icofont-rounded-double-left"></span>Our testimonial say<span
-                        class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
-                <!-- /.sec-title-two__tagline -->
-                <h3 class="sec-title-two__title">What Customers Awesome Reviews</h3><!-- /.sec-title-two__title -->
-            </div><!-- /.sec-title-two -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="testimonials-three__image">
-                        <img src="{{ asset('/assets/images/resources/testimonial-3-1.jpg') }}" alt="tolak">
-                        <img class="testimonials-three__image__left"
-                            src="{{ asset('/assets/images/resources/testimonial-3-2.png') }}" alt="tolak">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="testimonials-three__content">
-                        <h3 class="testimonials-three__content__title">
-                            Highly Skilled Busines Client Defense Solution
-                        </h3>
-                        <div class="testimonials-three__carousel tolak-owl__carousel tolak-owl__carousel--basic-nav owl-carousel owl-theme"
-                            data-owl-options='{
-                "items": 1,
-                "margin": 0,
-                "loop": false,
-                "smartSpeed": 700,
-                "nav": false,
-                "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-                "dots": true,
-                "autoplay": false
-                }'>
-                            <div class="item">
-                                <div class="testimonials-card-three">
-                                    <div class="testimonials-card-three__content">
-                                        <span class="testimonials-card-three__content__quote">“</span>If you are accused of
-                                        committing a crime, you will need the very best criminal defense attorneys in
-                                        Fresno. We are especially skilled in the following practice area
-                                        simperative that you.
-                                    </div><!-- /.testimonials-card-three__content -->
-                                    <div class="testimonials-card-three__author">
-                                        <div class="testimonials-card-three__image">
-                                            <img src="{{ asset('/assets/images/resources/testi-1-4.jpg') }}"
-                                                alt="Lataro Marsena">
-                                        </div><!-- /.testimonials-card-three__image -->
-                                        <h3 class="testimonials-card-three__name">
-                                            Lataro Marsena
-                                        </h3><!-- /.testimonials-card-three__name -->
-                                        <p class="testimonials-card-three__designation">Founder Ceo</p>
-                                        <!-- /.testimonials-card-three__designation -->
-                                    </div>
-                                </div><!-- /.testimonials-card-three -->
-                            </div><!-- /.item -->
-                            <div class="item">
-                                <div class="testimonials-card-three">
-                                    <div class="testimonials-card-three__content">
-                                        <span class="testimonials-card-three__content__quote">“</span>If you are accused of
-                                        committing a crime, you will need the very best criminal defense attorneys in
-                                        Fresno. We are especially skilled in the following practice area
-                                        simperative that you.
-                                    </div><!-- /.testimonials-card-three__content -->
-                                    <div class="testimonials-card-three__author">
-                                        <div class="testimonials-card-three__image">
-                                            <img src="{{ asset('/assets/images/resources/testi-1-5.jpg') }}"
-                                                alt="Marsena Baran">
-                                        </div><!-- /.testimonials-card-three__image -->
-                                        <h3 class="testimonials-card-three__name">
-                                            Marsena Baran
-                                        </h3><!-- /.testimonials-card-three__name -->
-                                        <p class="testimonials-card-three__designation">Founder</p>
-                                        <!-- /.testimonials-card-three__designation -->
-                                    </div>
-                                </div><!-- /.testimonials-card-three -->
-                            </div><!-- /.item -->
-                            <div class="item">
-                                <div class="testimonials-card-three">
-                                    <div class="testimonials-card-three__content">
-                                        <span class="testimonials-card-three__content__quote">“</span>If you are accused of
-                                        committing a crime, you will need the very best criminal defense attorneys in
-                                        Fresno. We are especially skilled in the following practice area
-                                        simperative that you.
-                                    </div><!-- /.testimonials-card-three__content -->
-                                    <div class="testimonials-card-three__author">
-                                        <div class="testimonials-card-three__image">
-                                            <img src="{{ asset('/assets/images/resources/testi-1-3.jpg') }}"
-                                                alt="David Cooper">
-                                        </div><!-- /.testimonials-card-three__image -->
-                                        <h3 class="testimonials-card-three__name">
-                                            David Cooper
-                                        </h3><!-- /.testimonials-card-three__name -->
-                                        <p class="testimonials-card-three__designation">Manager</p>
-                                        <!-- /.testimonials-card-three__designation -->
-                                    </div>
-                                </div><!-- /.testimonials-card-three -->
-                            </div><!-- /.item -->
-                        </div><!-- /.testimonials-three__carousel -->
-                    </div>
-                </div>
-            </div>
-        </div><!-- /.container -->
-    </section><!-- /.testimonials-three -->
 
     <x-footer />
     <x-mobileMenu />

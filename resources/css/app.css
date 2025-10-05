@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles for KDD */
+.sec-title-two__subtitle {
+    color: #6366f1;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.5rem 0 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
