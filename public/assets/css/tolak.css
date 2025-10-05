@@ -15,8 +15,8 @@
 # Client Carousel
 --------------------------------------------------------------*/
 :root {
-  --tolak-font: "Rubik", sans-serif;
-  --tolak-heading-font: "Raleway", sans-serif;
+  --tolak-font: "Roboto", sans-serif;
+  --tolak-heading-font: "Roboto", sans-serif;
   --tolak-text: #636363;
   --tolak-text-rgb: 99, 99, 99;
   --tolak-text2: #9fa0a0;
