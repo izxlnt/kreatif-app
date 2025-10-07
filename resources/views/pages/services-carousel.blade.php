@@ -1,8 +1,8 @@
 @extends('layouts.layout2')
-@section('title', 'Servis Kami | Kreatif Digital Dinamik')
+@section('title', __('common.services_carousel_page_title'))
 @php
-    $title = 'Servis Kami';
-    $subtitle = 'Portfolio Servis';
+    $title = __('common.services_carousel_title');
+    $subtitle = __('common.services_carousel_subtitle');
 @endphp
 @section('content')
 
@@ -13,10 +13,10 @@
                 <div class="sec-title-two text-center">
                     <h6 class="sec-title-two__tagline">
                         <span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>
-                        Portfolio Servis Teras KDD
+                        {{ __('common.services_carousel_tagline') }}
                         <span class="sec-title-two__tagline__right icofont-rounded-double-right"></span>
                     </h6>
-                    <h3 class="sec-title-two__title">Fokus Strategik Kami untuk Kejayaan Jenama Anda</h3>
+                    <h3 class="sec-title-two__title">{{ __('common.services_carousel_main_title') }}</h3>
                 </div>
                 
                 <div class="service-one__carousel tolak-owl__carousel tolak-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
@@ -45,22 +45,22 @@
                     <div class="item">
                         <div class="service-one__item text-center">
                             <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/resources/service-1-1.jpg") }}" alt="Strategi Pemasaran Digital">
+                                <img src="{{ asset("/assets/images/resources/service-1-1.jpg") }}" alt="{{ __('common.service_1_alt') }}">
                             </div>
                             <div class="service-one__item__content">
                                 <div class="service-one__item__icon">
                                     <span class="icon-cooperation"></span>
                                 </div>
                                 <h3 class="service-one__item__title">
-                                    <a href="{{ url("strategi-pemasaran-digital") }}">Strategi Pemasaran Digital Berfokus ROI</a>
+                                    <a href="{{ url(__('common.service_1_url')) }}">{{ __('common.service_carousel_1_title') }}</a>
                                 </h3>
                                 <p class="service-one__item__text">
-                                    Merangka strategi iklan berbayar (Meta Ads, Google Ads) yang disasarkan untuk memastikan pulangan pelaburan (ROI) yang optimum dan terukur.
+                                    {{ __('common.service_carousel_1_description') }}
                                 </p>
                             </div>
                             <div class="service-one__item__bottom">
                                 <div class="service-one__item__bottom__number">01</div>
-                                <a class="service-one__item__bottom__rm" href="{{ url("strategi-pemasaran-digital") }}">Baca Lanjut<span class="fas fa-angle-double-right"></span></a>
+                                <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_1_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
                             </div>
                         </div>
                     </div>
@@ -69,22 +69,22 @@
                     <div class="item">
                         <div class="service-one__item text-center">
                             <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/resources/service-1-2.jpg") }}" alt="Pengurusan Jenama Digital">
+                                <img src="{{ asset("/assets/images/resources/service-1-2.jpg") }}" alt="{{ __('common.service_2_alt') }}">
                             </div>
                             <div class="service-one__item__content">
                                 <div class="service-one__item__icon">
                                     <span class="icon-ads-campaign"></span>
                                 </div>
                                 <h3 class="service-one__item__title">
-                                    <a href="{{ url("pengurusan-jenama-digital") }}">Pengurusan Jenama Digital Konsisten</a>
+                                    <a href="{{ url(__('common.service_2_url')) }}">{{ __('common.service_carousel_2_title') }}</a>
                                 </h3>
                                 <p class="service-one__item__text">
-                                    Pengurusan menyeluruh semua platform sosial untuk membina kewibawaan dan menjamin konsistensi jenama korporat.
+                                    {{ __('common.service_carousel_2_description') }}
                                 </p>
                             </div>
                             <div class="service-one__item__bottom">
                                 <div class="service-one__item__bottom__number">02</div>
-                                <a class="service-one__item__bottom__rm" href="{{ url("pengurusan-jenama-digital") }}">Baca Lanjut<span class="fas fa-angle-double-right"></span></a>
+                                <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_2_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
                             </div>
                         </div>
                     </div>
@@ -93,22 +93,22 @@
                     <div class="item">
                         <div class="service-one__item text-center">
                             <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/resources/service-1-3.jpg") }}" alt="Penerbitan Media Korporat">
+                                <img src="{{ asset("/assets/images/resources/service-1-3.jpg") }}" alt="{{ __('common.service_3_alt') }}">
                             </div>
                             <div class="service-one__item__content">
                                 <div class="service-one__item__icon">
                                     <span class="icon-headhunter"></span>
                                 </div>
                                 <h3 class="service-one__item__title">
-                                    <a href="{{ url("penerbitan-media-korporat") }}">Penerbitan Media Korporat Profesional</a>
+                                    <a href="{{ url(__('common.service_3_url')) }}">{{ __('common.service_carousel_3_title') }}</a>
                                 </h3>
                                 <p class="service-one__item__text">
-                                    Menghasilkan aset visual (Fotografi, Videografi & Grafik) berpiawaian tinggi yang mematuhi panduan jenama (Brand Guidelines) anda.
+                                    {{ __('common.service_carousel_3_description') }}
                                 </p>
                             </div>
                             <div class="service-one__item__bottom">
                                 <div class="service-one__item__bottom__number">03</div>
-                                <a class="service-one__item__bottom__rm" href="{{ url("penerbitan-media-korporat") }}">Baca Lanjut<span class="fas fa-angle-double-right"></span></a>
+                                <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_3_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
                             </div>
                         </div>
                     </div>
@@ -117,22 +117,22 @@
                     <div class="item">
                         <div class="service-one__item text-center">
                             <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/resources/service-1-4.jpg") }}" alt="Perundingan Strategi">
+                                <img src="{{ asset("/assets/images/resources/service-1-4.jpg") }}" alt="{{ __('common.service_4_alt') }}">
                             </div>
                             <div class="service-one__item__content">
                                 <div class="service-one__item__icon">
                                     <span class="icon-agency"></span>
                                 </div>
                                 <h3 class="service-one__item__title">
-                                    <a href="{{ url("perundingan-strategi") }}">Perundingan Strategi Jangka Panjang</a>
+                                    <a href="{{ url(__('common.service_4_url')) }}">{{ __('common.service_carousel_4_title') }}</a>
                                 </h3>
                                 <p class="service-one__item__text">
-                                    Konsultasi bersama pakar KDD untuk menganalisis prestasi dan memeta pelan tindakan pertumbuhan jenama yang berterusan.
+                                    {{ __('common.service_carousel_4_description') }}
                                 </p>
                             </div>
                             <div class="service-one__item__bottom">
                                 <div class="service-one__item__bottom__number">04</div>
-                                <a class="service-one__item__bottom__rm" href="{{ url("perundingan-strategi") }}">Baca Lanjut<span class="fas fa-angle-double-right"></span></a>
+                                <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_4_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
                             </div>
                         </div>
                     </div>

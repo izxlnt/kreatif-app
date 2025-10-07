@@ -37,7 +37,7 @@
                     </div>
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 -->
-            <div class="col-md-6 col-lg-4">
+            {{-- <div class="col-md-6 col-lg-4">
                 <div class="footer-widget footer-widget--posts">
                     <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
                     <ul class="footer-widget__posts list-unstyled">
@@ -61,8 +61,8 @@
                         </li>
                     </ul><!-- /.sidebar__posts list-unstyled -->
                 </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-6 -->
-            <div class="col-md-6 col-lg-2">
+            </div><!-- /.col-md-6 --> --}}
+            {{-- <div class="col-md-6 col-lg-2">
                 <div class="footer-widget footer-widget--links">
                     <h2 class="footer-widget__title">Service</h2><!-- /.footer-widget__title -->
                     <ul class="list-unstyled footer-widget__links">
@@ -73,16 +73,16 @@
                         <li><a href="{{ url('/project') }}">Our projects</a></li>
                     </ul><!-- /.list-unstyled footer-widget__links -->
                 </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-6 -->
+            </div><!-- /.col-md-6 --> --}}
             <div class="col-md-6 col-lg-2">
                 <div class="footer-widget footer-widget--links footer-widget--last">
                     <h2 class="footer-widget__title">Quick Link</h2><!-- /.footer-widget__title -->
                     <ul class="list-unstyled footer-widget__links">
-                        <li><a href="{{ url('/gallery') }}">Gallery</a></li>
-                        <li><a href="{{ url('/packages') }}">Packages</a></li>
-                        <li><a href="{{ url('/team') }}">Team</a></li>
+                        <li><a href="{{ url('/home') }}">Home</a></li>
                         <li><a href="{{ url('/contact') }}">Contact</a></li>
-                        <li><a href="{{ url('/blog-grid-right') }}">News</a></li>
+                        {{-- <li><a href="{{ url('/team') }}">Team</a></li>
+                        <li><a href="{{ url('/contact') }}">Contact</a></li>
+                        <li><a href="{{ url('/blog-grid-right') }}">News</a></li> --}}
                     </ul><!-- /.list-unstyled footer-widget__links -->
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 -->

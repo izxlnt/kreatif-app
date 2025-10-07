@@ -228,4 +228,113 @@ return [
     'message_placeholder' => 'Mesej',
     'send_request' => 'Hantar Permintaan',
     
+    // Services Page Specific
+    'services_page_title' => 'Portfolio Servis Korporat | Kreatif Digital Dinamik',
+    'services_portfolio_title' => 'Portfolio Servis Korporat',
+    'services_portfolio_subtitle' => 'Servis Teras Kami',
+    'services_tagline' => 'Portfolio Servis Teras KDD',
+    'services_main_title' => 'Fokus Strategik Kami untuk Kejayaan Jenama Anda',
+    
+    // Service 1 - Digital Marketing Strategy
+    'service_1_title' => 'Strategi Pemasaran Digital Berfokus ROI',
+    'service_1_description' => 'Merangka strategi iklan berbayar (Meta Ads, Google Ads) dan kempen disasarkan untuk memastikan pulangan pelaburan (ROI) yang optimum dan terukur.',
+    'service_1_alt' => 'Strategi Pemasaran',
+    'service_1_url' => 'strategi-pemasaran-digital',
+    
+    // Service 2 - Brand Management
+    'service_2_title' => 'Pengurusan Jenama Digital Konsisten',
+    'service_2_description' => 'Pengurusan menyeluruh semua platform sosial dengan kandungan tersusun untuk membina kewibawaan dan menjamin konsistensi jenama korporat.',
+    'service_2_alt' => 'Pengurusan Jenama Digital',
+    'service_2_url' => 'pengurusan-jenama-digital',
+    
+    // Service 3 - Media Publishing
+    'service_3_title' => 'Penerbitan Media Korporat Profesional',
+    'service_3_description' => 'Menghasilkan aset visual (Fotografi & Videografi) serta Rekaan Grafik berpiawaian tinggi yang mematuhi panduan jenama (Brand Guidelines) anda.',
+    'service_3_alt' => 'Penerbitan Media Korporat',
+    'service_3_url' => 'penerbitan-media-korporat',
+    
+    // Service 4 - Strategy Consultation
+    'service_4_title' => 'Perundingan Strategi Jangka Panjang',
+    'service_4_description' => 'Konsultasi bersama pakar KDD untuk menganalisis prestasi semasa, memeta pelan tindakan, dan memastikan pertumbuhan jenama yang berterusan.',
+    'service_4_alt' => 'Perundingan Strategi',
+    'service_4_url' => 'perundingan-strategi',
+    
+    // Common Service Elements
+    'read_more' => 'Baca Lanjut',
+    
+    // Services Carousel Page Specific
+    'services_carousel_page_title' => 'Servis Kami | Kreatif Digital Dinamik',
+    'services_carousel_title' => 'Servis Kami',
+    'services_carousel_subtitle' => 'Portfolio Servis',
+    'services_carousel_tagline' => 'Portfolio Servis KDD',
+    'services_carousel_main_title' => 'Fokus Strategik Kami untuk Kejayaan Anda',
+    
+    // Service Carousel Specific Descriptions (slight variations)
+    'service_carousel_1_title' => 'Strategi Pemasaran Digital Berfokus ROI',
+    'service_carousel_1_description' => 'Merangka strategi iklan berbayar (Meta Ads, Google Ads) yang disasarkan untuk memastikan pulangan pelaburan (ROI) yang optimum dan sistematik.',
+    
+    'service_carousel_2_title' => 'Pengurusan Digital Secara Konsisten',
+    'service_carousel_2_description' => 'Pengurusan menyeluruh ke semua platform sosial media bagi membina keyakinan dan menjamin kualiti.',
+    
+    'service_carousel_3_title' => 'Penerbitan Media Korporat Profesional',
+    'service_carousel_3_description' => 'Menghasilkan aset visual (Fotografi, Videografi & Grafik) berpiawaian tinggi yang memenuhi panduan penjenamaan (Brand Guidelines) anda.',
+    
+    'service_carousel_4_title' => 'Perundingan Strategi Bagi Jangka Panjang',
+    'service_carousel_4_description' => 'Konsultasi bersama pakar KDD untuk menganalisis prestasi dan merangka pelan tindakan pertumbuhan jenama yang berterusan.',
+    
+    // About Page Specific
+    'about_page_title' => 'Tentang Kami | Kreatif Digital Dinamik',
+    'about_page_header_title' => 'Halaman Tentang',
+    'about_page_header_subtitle' => 'Halaman Tentang',
+    
+    // About Section
+    'about_who_we_are' => 'Siapa Kami',
+    'about_company_name' => 'Kreatif Digital Dinamik (KDD)',
+    'about_company_description_1' => 'Kreatif Digital Dinamik (KDD) ialah sebuah syarikat media dan pemasaran digital yang berdedikasi untuk memperkasakan jenama tempatan dan korporat.',
+    'about_company_description_2' => 'Kami percaya bahawa strategi yang konsisten adalah kunci untuk kekal relevan dalam pasaran yang dinamik. Oleh itu, kami menawarkan penyelesaian jangka panjang yang memberi impak berterusan, bukan sekadar projek sekali sahaja.',
+    
+    // About Services List
+    'about_service_photography' => 'Fotografi & Videografi Profesional',
+    'about_service_graphic_design' => 'Rekaan Grafik Kreatif',
+    'about_service_social_media' => 'Pengurusan Media Sosial Harian',
+    'about_service_digital_marketing' => 'Strategi Pemasaran Digital Berorientasikan Hasil',
+    
+    // Why Choose Us
+    'about_why_choose_us' => 'Kenapa Pilih Kami',
+    'about_experienced_title' => 'Berpengalaman:',
+    'about_experienced_text' => 'Rekod prestasi kami terbukti melalui kerjasama dengan syarikat dan organisasi terkemuka seperti PNB, SME Bank, Al-Ikhsan, Mergong Tiling, dan PERKIM.',
+    'about_high_quality_title' => 'Berkualiti Tinggi:',
+    'about_high_quality_text' => 'Setiap hasil kerja kami disampaikan dengan standard profesionalisme tertinggi.',
+    'about_consistent_title' => 'Konsisten & Berimpak:',
+    'about_consistent_text' => 'Fokus kami adalah untuk memberikan nilai tambah secara berterusan demi kejayaan jenama anda.',
+    
+    // About Quote
+    'about_company_quote' => 'Berpusat di Alor Setar, Kedah, kami bersedia menjadi rakan strategik kepada klien di seluruh Malaysia dalam membina jenama yang lebih kukuh dan dipercayai.',
+    'about_company_tagline' => 'Kreatif Digital Dinamik – Rakan Strategi Bisnes Anda.',
+    
+    // Statistics
+    'stats_successful_projects' => 'Projek Korporat Berjaya',
+    'stats_brands_developed' => 'Jenama Dibangunkan',
+    'stats_years_experience' => 'Tahun Strategi Jenama',
+    'stats_audience_reach' => 'Jangkauan Audiens Impak',
+    
+    // CTA Section
+    'cta_guarantee_title' => 'Jaminan Konsultasi Strategi Jenama Korporat',
+    'cta_guarantee_description' => 'Dapatkan sesi perundingan 1-ke-1 bersama pakar KDD untuk memeta pelan tindakan pengurusan jenama digital yang konsisten dan berkesan.',
+    'cta_contact_us' => 'Hubungi Kami',
+    'cta_success_text' => 'Lebih 100+ Projek Korporat Berjaya** diselesaikan.',
+    'cta_start_now' => '( Mulakan Sekarang! )',
+    
+    // Services Section
+    'about_services_tagline' => 'Perkhidmatan Kami',
+    'about_services_title' => 'Apa yang Kami Lakukan',
+    'about_services_photography_title' => 'Fotografi & Videografi',
+    'about_services_photography_description' => 'Merakam visual yang memukau untuk jenama anda.',
+    'about_services_graphic_title' => 'Rekaan Grafik Kreatif',
+    'about_services_graphic_description' => 'Menghasilkan rekaan yang menarik dan berkesan.',
+    'about_services_social_title' => 'Pengurusan Media Sosial',
+    'about_services_social_description' => 'Mengurus akaun media sosial anda secara harian.',
+    'about_services_digital_title' => 'Strategi Pemasaran Digital',
+    'about_services_digital_description' => 'Membina strategi pemasaran yang berorientasikan hasil.',
+    
 ];

@@ -10,7 +10,7 @@
         <!-- Background Video Container -->
         <div class="video-background-container">
             <iframe id="background-video"
-                src="https://www.youtube.com/embed/y7si6iAo0Vo?autoplay=1&mute=1&loop=1&playlist=y7si6iAo0Vo&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&iv_load_policy=3&disablekb=1&cc_load_policy=0&fs=0"
+                src="https://www.youtube.com/embed/hFklkIWCuDM?autoplay=1&mute=1&loop=1&controls=0&rel=0&modestbranding=1&playsinline=1&playlist=hFklkIWCuDM"
                 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title="Background Video">
             </iframe>
             <div class="video-overlay"></div>
@@ -549,7 +549,7 @@
             constructor() {
                 this.modal = null;
                 this.modalVideo = null;
-                this.videoId = 'y7si6iAo0Vo';
+                this.videoId = 'hFklkIWCuDM';
                 this.isInitialized = false;
 
                 // Initialize when DOM is ready
@@ -878,7 +878,7 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-four__image">
-                        <img src="{{ asset('/assets/images/resources/service-4-4.jpg') }}" alt="kreatif">
+                        <img src="{{ asset('/assets/images/new-images/image.png') }}" alt="kreatif">
                         <img src="{{ asset('/assets/images/gallery/DSC09582-3.jpg') }}" alt="kreatif">
                         <div class="about-four__image__shape tolak-tilt"
                             data-tilt-options='{ "glare": false, "maxGlare": 0, "maxTilt": 7, "speed": 700, "scale": 1 }'>
@@ -959,7 +959,7 @@
                 <div class="item">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/resources/service-1-1.jpg') }}" alt="kreatif">
+                            <img src="{{ asset('/assets/images/new-images/image1.jpeg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
                             <div class="service-one__item__icon">
@@ -972,16 +972,16 @@
                                 {{ __('common.photography_description') }}
                             </p><!-- /.service-text -->
                         </div>
-                        <div class="service-one__item__bottom">
+                        {{-- <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
                             <a class="service-one__item__bottom__rm" href="{{ url('fotografi-videografi') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
-                        </div>
+                        </div> --}}
                     </div><!-- /.service-card-one -->
                 </div>
                 <div class="item">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/resources/service-1-2.jpg') }}" alt="kreatif">
+                            <img src="{{ asset('/assets/images/new-images/DSC09581-2.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
                             <div class="service-one__item__icon">
@@ -994,16 +994,16 @@
                                 {{ __('common.graphic_design_description') }}
                             </p><!-- /.service-text -->
                         </div>
-                        <div class="service-one__item__bottom">
+                        {{-- <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
                             <a class="service-one__item__bottom__rm" href="{{ url('rekaan-grafik') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
-                        </div>
+                        </div> --}}
                     </div><!-- /.service-card-one -->
                 </div>
                 <div class="item">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/resources/service-1-3.jpg') }}" alt="kreatif">
+                            <img src="{{ asset('/assets/images/new-images/image3.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
                             <div class="service-one__item__icon">
@@ -1016,16 +1016,16 @@
                                 {{ __('common.social_media_description') }}
                             </p><!-- /.service-text -->
                         </div>
-                        <div class="service-one__item__bottom">
+                        {{-- <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
                             <a class="service-one__item__bottom__rm" href="{{ url('pengurusan-media-sosial') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
-                        </div>
+                        </div> --}}
                     </div><!-- /.service-card-one -->
                 </div>
                 <div class="item">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/resources/service-1-4.jpg') }}" alt="kreatif">
+                            <img src="{{ asset('/assets/images/new-images/IMG_9832-2.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
                             <div class="service-one__item__icon">
@@ -1038,10 +1038,10 @@
                                 {{ __('common.digital_marketing_description') }}
                             </p><!-- /.service-text -->
                         </div>
-                        <div class="service-one__item__bottom">
+                        {{-- <div class="service-one__item__bottom">
                             <div class="service-one__item__bottom__number"></div>
                             <a class="service-one__item__bottom__rm" href="{{ url('strategi-pemasaran-digital') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
-                        </div>
+                        </div> --}}
                     </div><!-- /.service-card-one -->
                 </div>
           

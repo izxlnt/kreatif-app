@@ -26,13 +26,13 @@
                             </ul><!-- /.thm-breadcrumb list-unstyled -->
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    {{-- <div class="col-md-5">
                         <div class="page-header__layer wow fadeInUp" data-wow-delay="100ms">
                             <img src="assets/images/backgrounds/page-banner-layer.png" alt="tolak">
                             <div class="page-header__layer__shape"></div>
                             <div class="page-header__layer__bg wow fadeInRight" data-wow-delay="200ms"></div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div><!-- /.container -->
         </section><!-- /.page-header -->

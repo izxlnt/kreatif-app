@@ -203,13 +203,13 @@ return [
     'projects_successful' => 'Successful Projects',
     
     // FAQ Questions and Answers
-    'faq_q1' => 'How does CDD ensure my brand grows consistently?',
+    'faq_q1' => 'How does KDD ensure my brand grows consistently?',
     'faq_a1' => 'Our strategy focuses on long-term impact, not one-time results. We build a Brand Book and Content Pillar to ensure all photos, videos, and social media content align with your brand vision.',
-    'faq_q2' => 'Does CDD only handle large (corporate) projects?',
+    'faq_q2' => 'Does KDD only handle large (corporate) projects?',
     'faq_a2' => 'No. We are SME Marketing Strategy Partners and proudly collaborate with various organizations, from PNB and Al-Ikhsan to local businesses. Our focus is on your business growth potential.',
     'faq_q3' => 'What is the photography/videography collaboration process?',
     'faq_a3' => 'Our process begins with strategic planning (briefing), followed by professional shooting sessions, and ends with high-quality editing. You will receive studio-caliber media products, ready for marketing.',
-    'faq_q4' => 'How long does it take to see results from CDD digital strategy?',
+    'faq_q4' => 'How long does it take to see results from KDD digital strategy?',
     'faq_a4' => 'Early results can be seen as early as 4-8 weeks, especially in social media engagement improvement. However, strong branding and sales impact is built through consistency over 6 months and above.',
     
     // Contact Page
@@ -227,5 +227,114 @@ return [
     'email_address_placeholder' => 'Email Address',
     'message_placeholder' => 'Message',
     'send_request' => 'Send Request',
+    
+    // Services Page Specific
+    'services_page_title' => 'Corporate Services Portfolio | Kreatif Digital Dinamik',
+    'services_portfolio_title' => 'Corporate Services Portfolio',
+    'services_portfolio_subtitle' => 'Our Core Services',
+    'services_tagline' => 'KDD Core Services Portfolio',
+    'services_main_title' => 'Our Strategic Focus for Your Brand Success',
+    
+    // Service 1 - Digital Marketing Strategy
+    'service_1_title' => 'ROI-Focused Digital Marketing Strategy',
+    'service_1_description' => 'Developing paid advertising strategies (Meta Ads, Google Ads) and targeted campaigns to ensure optimal and measurable return on investment (ROI).',
+    'service_1_alt' => 'Marketing Strategy',
+    'service_1_url' => 'digital-marketing-strategy',
+    
+    // Service 2 - Brand Management
+    'service_2_title' => 'Consistent Digital Brand Management',
+    'service_2_description' => 'Comprehensive management of all social platforms with structured content to build authority and ensure corporate brand consistency.',
+    'service_2_alt' => 'Digital Brand Management',
+    'service_2_url' => 'digital-brand-management',
+    
+    // Service 3 - Media Publishing
+    'service_3_title' => 'Professional Corporate Media Publishing',
+    'service_3_description' => 'Producing high-standard visual assets (Photography & Videography) and Graphic Design that comply with your brand guidelines.',
+    'service_3_alt' => 'Corporate Media Publishing',
+    'service_3_url' => 'corporate-media-publishing',
+    
+    // Service 4 - Strategy Consultation
+    'service_4_title' => 'Long-term Strategy Consultation',
+    'service_4_description' => 'Consultation with KDD experts to analyze current performance, map action plans, and ensure continuous brand growth.',
+    'service_4_alt' => 'Strategy Consultation',
+    'service_4_url' => 'strategy-consultation',
+    
+    // Common Service Elements
+    'read_more' => 'Read More',
+    
+    // Services Carousel Page Specific
+    'services_carousel_page_title' => 'Our Services | Kreatif Digital Dinamik',
+    'services_carousel_title' => 'Our Services',
+    'services_carousel_subtitle' => 'Services Portfolio',
+    'services_carousel_tagline' => 'KDD Services Portfolio',
+    'services_carousel_main_title' => 'Our Strategic Focus for Your Success',
+    
+    // Service Carousel Specific Descriptions (slight variations)
+    'service_carousel_1_title' => 'ROI-Focused Digital Marketing Strategy',
+    'service_carousel_1_description' => 'Developing targeted paid advertising strategies (Meta Ads, Google Ads) to ensure optimal and systematic return on investment (ROI).',
+    
+    'service_carousel_2_title' => 'Consistent Digital Management',
+    'service_carousel_2_description' => 'Comprehensive management across all social media platforms to build confidence and ensure quality.',
+    
+    'service_carousel_3_title' => 'Professional Corporate Media Publishing',
+    'service_carousel_3_description' => 'Producing high-standard visual assets (Photography, Videography & Graphics) that meet your brand guidelines.',
+    
+    'service_carousel_4_title' => 'Long-term Strategy Consultation',
+    'service_carousel_4_description' => 'Consultation with KDD experts to analyze performance and develop continuous brand growth action plans.',
+    
+    // About Page Specific
+    'about_page_title' => 'About | Kreatif Digital Dinamik',
+    'about_page_header_title' => 'About Page',
+    'about_page_header_subtitle' => 'About Page',
+    
+    // About Section
+    'about_who_we_are' => 'Who We Are',
+    'about_company_name' => 'Kreatif Digital Dinamik (KDD)',
+    'about_company_description_1' => 'Kreatif Digital Dinamik (KDD) is a media and digital marketing company dedicated to empowering local and corporate brands.',
+    'about_company_description_2' => 'We believe that consistent strategy is the key to staying relevant in a dynamic market. Therefore, we offer long-term solutions that provide continuous impact, not just one-time projects.',
+    
+    // About Services List
+    'about_service_photography' => 'Professional Photography & Videography',
+    'about_service_graphic_design' => 'Creative Graphic Design',
+    'about_service_social_media' => 'Daily Social Media Management',
+    'about_service_digital_marketing' => 'Result-Oriented Digital Marketing Strategy',
+    
+    // Why Choose Us
+    'about_why_choose_us' => 'Why Choose Us',
+    'about_experienced_title' => 'Experienced:',
+    'about_experienced_text' => 'Our track record is proven through collaborations with leading companies and organizations such as PNB, SME Bank, Al-Ikhsan, Mergong Tiling, and PERKIM.',
+    'about_high_quality_title' => 'High Quality:',
+    'about_high_quality_text' => 'Every piece of our work is delivered with the highest standards of professionalism.',
+    'about_consistent_title' => 'Consistent & Impactful:',
+    'about_consistent_text' => 'Our focus is to provide continuous added value for your brand success.',
+    
+    // About Quote
+    'about_company_quote' => 'Based in Alor Setar, Kedah, we are ready to be a strategic partner for clients throughout Malaysia in building stronger and more trusted brands.',
+    'about_company_tagline' => 'Kreatif Digital Dinamik – Your Business Strategy Partner.',
+    
+    // Statistics
+    'stats_successful_projects' => 'Successful Corporate Projects',
+    'stats_brands_developed' => 'Brands Developed',
+    'stats_years_experience' => 'Years of Brand Strategy',
+    'stats_audience_reach' => 'Impact Audience Reach',
+    
+    // CTA Section
+    'cta_guarantee_title' => 'Corporate Brand Strategy Consultation Guarantee',
+    'cta_guarantee_description' => 'Get a 1-on-1 consultation session with KDD experts to map out a consistent and effective digital brand management action plan.',
+    'cta_contact_us' => 'Contact Us',
+    'cta_success_text' => '100+ Successful Corporate Projects** completed.',
+    'cta_start_now' => '( Start Now! )',
+    
+    // Services Section
+    'about_services_tagline' => 'Our Services',
+    'about_services_title' => 'What We Do',
+    'about_services_photography_title' => 'Photography & Videography',
+    'about_services_photography_description' => 'Capturing stunning visuals for your brand.',
+    'about_services_graphic_title' => 'Creative Graphic Design',
+    'about_services_graphic_description' => 'Creating attractive and effective designs.',
+    'about_services_social_title' => 'Social Media Management',
+    'about_services_social_description' => 'Managing your social media accounts daily.',
+    'about_services_digital_title' => 'Digital Marketing Strategy',
+    'about_services_digital_description' => 'Building result-oriented marketing strategies.',
     
 ];

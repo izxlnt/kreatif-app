@@ -1,9 +1,9 @@
 
 @extends('layouts.layout2')
-@section('title', 'About || Tolak || Tolak Laravel Template')
+@section('title', __('common.about_page_title'))
 @php
-    $title = 'About Page';
-    $subtitle = 'About Page';
+    $title = __('common.about_page_header_title');
+    $subtitle = __('common.about_page_header_subtitle');
 @endphp
 @section('content')
 
@@ -41,41 +41,41 @@
                             <div class="sec-title-two text-left">
                                 <h6 class="sec-title-two__tagline">
                                     <span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>
-                                    Siapa Kami
+                                    {{ __('common.about_who_we_are') }}
                                     <span class="sec-title-two__tagline__right icofont-rounded-double-right"></span>
                                 </h6>
-                                <h3 class="sec-title-two__title">Kreatif Digital Dinamik (KDD)</h3>
+                                <h3 class="sec-title-two__title">{{ __('common.about_company_name') }}</h3>
                             </div>
                             <p class="about-three__content__text">
-                                Kreatif Digital Dinamik (KDD) ialah sebuah syarikat media dan pemasaran digital yang berdedikasi untuk memperkasakan jenama tempatan dan korporat.
-<br><br>Kami percaya bahawa strategi yang konsisten adalah kunci untuk kekal relevan dalam pasaran yang dinamik. Oleh itu, kami menawarkan penyelesaian jangka panjang yang memberi impak berterusan, bukan sekadar projek sekali sahaja.
+                                {{ __('common.about_company_description_1') }}
+<br><br>{{ __('common.about_company_description_2') }}
                             </p>
                             <div class="about-three__content__bar"></div>
                             <div class="row">
                                 <div class="col-md-5">
                                     <ul class="about-three__content__list">
-                                        <li>Fotografi & Videografi Profesional</li>
-                                        <li>Rekaan Grafik Kreatif</li>
-                                        <li>Pengurusan Media Sosial Harian</li>
-                                        <li>Strategi Pemasaran Digital Berorientasikan Hasil</li>
+                                        <li>{{ __('common.about_service_photography') }}</li>
+                                        <li>{{ __('common.about_service_graphic_design') }}</li>
+                                        <li>{{ __('common.about_service_social_media') }}</li>
+                                        <li>{{ __('common.about_service_digital_marketing') }}</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="about-three__content__skill">
-                                        <h5 class="about-three__content__skill__title">Kenapa Pilih Kami</h5>
-                                        <p class="about-three__content__skill__text"><b>Berpengalaman:</b> Rekod prestasi kami terbukti melalui kerjasama dengan syarikat dan organisasi terkemuka seperti PNB, SME Bank, Al-Ikhsan, Mergong Tiling, dan PERKIM.</p>
-                                        <p class="about-three__content__skill__text"><b>Berkualiti Tinggi:</b> Setiap hasil kerja kami disampaikan dengan standard profesionalisme tertinggi.</p>
-                                        <p class="about-three__content__skill__text"><b>Konsisten & Berimpak:</b> Fokus kami adalah untuk memberikan nilai tambah secara berterusan demi kejayaan jenama anda.</p>
+                                        <h5 class="about-three__content__skill__title">{{ __('common.about_why_choose_us') }}</h5>
+                                        <p class="about-three__content__skill__text"><b>{{ __('common.about_experienced_title') }}</b> {{ __('common.about_experienced_text') }}</p>
+                                        <p class="about-three__content__skill__text"><b>{{ __('common.about_high_quality_title') }}</b> {{ __('common.about_high_quality_text') }}</p>
+                                        <p class="about-three__content__skill__text"><b>{{ __('common.about_consistent_title') }}</b> {{ __('common.about_consistent_text') }}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="about-three__content__quote">
-                                Berpusat di Alor Setar, Kedah, kami bersedia menjadi rakan strategik kepada klien di seluruh Malaysia dalam membina jenama yang lebih kukuh dan dipercayai.
+                                {{ __('common.about_company_quote') }}
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="about-three__content__author">
-                                        <p class="about-three__content__author__text">Kreatif Digital Dinamik – Rakan Strategi Bisnes Anda.</p>
+                                        <p class="about-three__content__author__text">{{ __('common.about_company_tagline') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@
                 <div class="funfact-two__content">
                     {{-- Sila GANTI angka 100 dengan data sebenar anda --}}
                     <h3 class="funfact-two__count"><span class="count-text" data-stop="100" data-speed="1500"></span> +</h3>
-                    <p class="funfact-two__text">Projek Korporat Berjaya</p>
+                    <p class="funfact-two__text">{{ __('common.stats_successful_projects') }}</p>
                 </div>
             </li>
             
@@ -106,7 +106,7 @@
                 <div class="funfact-two__content">
                     {{-- Sila GANTI angka 55 dengan data sebenar anda --}}
                     <h3 class="funfact-two__count"><span class="count-text" data-stop="55" data-speed="1500"></span> +</h3>
-                    <p class="funfact-two__text">Jenama Dibangunkan</p>
+                    <p class="funfact-two__text">{{ __('common.stats_brands_developed') }}</p>
                 </div>
             </li>
             
@@ -116,7 +116,7 @@
                 <div class="funfact-two__content">
                     {{-- Sila GANTI angka 7 dengan data sebenar anda --}}
                     <h3 class="funfact-two__count"><span class="count-text" data-stop="7" data-speed="1500"></span> +</h3>
-                    <p class="funfact-two__text">Tahun Strategi Jenama</p>
+                    <p class="funfact-two__text">{{ __('common.stats_years_experience') }}</p>
                 </div>
             </li>
             
@@ -126,7 +126,7 @@
                 <div class="funfact-two__content">
                     {{-- Sila GANTI angka 10 dengan data sebenar anda --}}
                     <h3 class="funfact-two__count"><span class="count-text" data-stop="10" data-speed="1500"></span> M+</h3> 
-                    <p class="funfact-two__text">Jangkauan Audiens Impak</p>
+                    <p class="funfact-two__text">{{ __('common.stats_audience_reach') }}</p>
                 </div>
             </li>
             
@@ -144,10 +144,9 @@
                             <div class="cta-one__box">
                                 {{-- Gantikan dengan ikon Strategi/Perancangan yang sesuai --}}
                                 <div class="cta-one__box__icon"><span class="icon-settings"></span></div> 
-                                <h3 class="cta-one__box__title">Jaminan Konsultasi Strategi Jenama Korporat</h3>
+                                <h3 class="cta-one__box__title">{{ __('common.cta_guarantee_title') }}</h3>
                                 <p class="cta-one__box__text">
-                                    Dapatkan sesi perundingan 1-ke-1 bersama pakar KDD untuk memeta pelan tindakan 
-                                    pengurusan jenama digital yang konsisten dan berkesan.
+                                    {{ __('common.cta_guarantee_description') }}
                                 </p>
                             </div>
                             <div class="cta-one__author">
@@ -157,13 +156,13 @@
                                 <img src="{{ asset('assets/images/resources/cta-1-author-3.jpg') }}" alt="Pakar KDD 3">
                                 
                                 <a class="cta-one__author__rm" href="{{ url('contact') }}">
-                                    Hubungi Kami <span class="fas fa-arrow-right"></span>
+                                    {{ __('common.cta_contact_us') }} <span class="fas fa-arrow-right"></span>
                                 </a>
                             </div>
                             <p class="cta-one__content__text">
-                                Lebih 100+ Projek Korporat Berjaya** diselesaikan. 
+                                {{ __('common.cta_success_text') }} 
                                 <a href="{{ url('contact') }}">
-                                    ( Mulakan Sekarang! )
+                                    {{ __('common.cta_start_now') }}
                                 </a>
                             </p>
                         </div>
@@ -183,8 +182,8 @@
         <section class="service-two service-two--about">
             <div class="container">
                 <div class="sec-title-two text-center">
-                    <h6 class="sec-title-two__tagline"><span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>Perkhidmatan Kami<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6><!-- /.sec-title-two__tagline -->
-                    <h3 class="sec-title-two__title">Apa yang Kami Lakukan</h3><!-- /.sec-title-two__title -->
+                    <h6 class="sec-title-two__tagline"><span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>{{ __('common.about_services_tagline') }}<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6><!-- /.sec-title-two__tagline -->
+                    <h3 class="sec-title-two__title">{{ __('common.about_services_title') }}</h3><!-- /.sec-title-two__title -->
                 </div><!-- /.sec-title-two -->
                 <div class="service-two__carousel tolak-owl__carousel tolak-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
 				"items": 1,
@@ -214,14 +213,14 @@
                             </div>
                             <div class="service-two__item__normal">
                                 <div class="service-two__item__normal__icon"><span class="icon-camera"></span></div>
-                                <h3 class="service-two__item__normal__title">Fotografi & Videografi</h3>
+                                <h3 class="service-two__item__normal__title">{{ __('common.about_services_photography_title') }}</h3>
                             </div><!-- normal-content -->
                             <div class="service-two__item__hover">
                                 <div class="service-two__item__normal__icon"><span class="icon-camera"></span></div>
                                 <h3 class="service-two__item__hover__title">
-                                    <a href="#">Fotografi & Videografi</a>
+                                    <a href="#">{{ __('common.about_services_photography_title') }}</a>
                                 </h3>
-                                <p class="service-two__item__hover__text">Merakam visual yang memukau untuk jenama anda.</p>
+                                <p class="service-two__item__hover__text">{{ __('common.about_services_photography_description') }}</p>
                                 <a class="service-two__item__hover__btn" href="#"><span class="icon-right-arrow"></span></a>
                             </div><!-- hover-content -->
                         </div><!-- /.service-card-two -->
@@ -233,14 +232,14 @@
                             </div>
                             <div class="service-two__item__normal">
                                 <div class="service-two__item__normal__icon"><span class="icon-design"></span></div>
-                                <h3 class="service-two__item__normal__title">Rekaan Grafik Kreatif</h3>
+                                <h3 class="service-two__item__normal__title">{{ __('common.about_services_graphic_title') }}</h3>
                             </div><!-- normal-content -->
                             <div class="service-two__item__hover">
                                 <div class="service-two__item__normal__icon"><span class="icon-design"></span></div>
                                 <h3 class="service-two__item__hover__title">
-                                    <a href="#">Rekaan Grafik Kreatif</a>
+                                    <a href="#">{{ __('common.about_services_graphic_title') }}</a>
                                 </h3>
-                                <p class="service-two__item__hover__text">Menghasilkan rekaan yang menarik dan berkesan.</p>
+                                <p class="service-two__item__hover__text">{{ __('common.about_services_graphic_description') }}</p>
                                 <a class="service-two__item__hover__btn" href="#"><span class="icon-right-arrow"></span></a>
                             </div><!-- hover-content -->
                         </div><!-- /.service-card-two -->
@@ -252,14 +251,14 @@
                             </div>
                             <div class="service-two__item__normal">
                                 <div class="service-two__item__normal__icon"><span class="icon-social-media"></span></div>
-                                <h3 class="service-two__item__normal__title">Pengurusan Media Sosial</h3>
+                                <h3 class="service-two__item__normal__title">{{ __('common.about_services_social_title') }}</h3>
                             </div><!-- normal-content -->
                             <div class="service-two__item__hover">
                                 <div class="service-two__item__normal__icon"><span class="icon-social-media"></span></div>
                                 <h3 class="service-two__item__hover__title">
-                                    <a href="#">Pengurusan Media Sosial</a>
+                                    <a href="#">{{ __('common.about_services_social_title') }}</a>
                                 </h3>
-                                <p class="service-two__item__hover__text">Mengurus akaun media sosial anda secara harian.</p>
+                                <p class="service-two__item__hover__text">{{ __('common.about_services_social_description') }}</p>
                                 <a class="service-two__item__hover__btn" href="#"><span class="icon-right-arrow"></span></a>
                             </div><!-- hover-content -->
                         </div><!-- /.service-card-two -->
@@ -271,14 +270,14 @@
                             </div>
                             <div class="service-two__item__normal">
                                 <div class="service-two__item__normal__icon"><span class="icon-digital-marketing"></span></div>
-                                <h3 class="service-two__item__normal__title">Strategi Pemasaran Digital</h3>
+                                <h3 class="service-two__item__normal__title">{{ __('common.about_services_digital_title') }}</h3>
                             </div><!-- normal-content -->
                             <div class="service-two__item__hover">
                                 <div class="service-two__item__normal__icon"><span class="icon-digital-marketing"></span></div>
                                 <h3 class="service-two__item__hover__title">
-                                    <a href="#">Strategi Pemasaran Digital</a>
+                                    <a href="#">{{ __('common.about_services_digital_title') }}</a>
                                 </h3>
-                                <p class="service-two__item__hover__text">Membina strategi pemasaran yang berorientasikan hasil.</p>
+                                <p class="service-two__item__hover__text">{{ __('common.about_services_digital_description') }}</p>
                                 <a class="service-two__item__hover__btn" href="#"><span class="icon-right-arrow"></span></a>
                             </div><!-- hover-content -->
                         </div><!-- /.service-card-two -->
