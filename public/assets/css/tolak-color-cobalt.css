@@ -56,4 +56,13 @@
   border-color: transparent transparent transparent var(--tolak-base, #0047AB) !important;
 }
 
+.main-header-inner__inner,
+.main-header-inner.sticky-header--cloned .main-header-inner__inner {
+  background-color: var(--tolak-base, #0047AB);
+}
+
+.main-header-inner.sticky-header--cloned {
+  background-color: var(--tolak-base, #0047AB);
+}
+
 /*# sourceMappingURL=tolak-color-cobalt.css.map */

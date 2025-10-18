@@ -162,9 +162,9 @@ return [
     'about_us' => 'Tentang Kami',
     'company_title' => 'Kreatif Digital Dinamik (KDD)',
     'company_subtitle' => 'Rakan Strategik Pengurusan Jenama Anda.',
-    'company_description_1' => 'Sejak 2019, kami telah membantu lebih 200+ perniagaan Malaysia meningkatkan kehadiran digital mereka. Kami bukan sekadar agensi kreatif - kami rakan strategik yang memahami cabaran sebenar SME Malaysia.',
-    'company_description_2' => 'Portfolio kami termasuk jenama terkenal seperti PNB, SME Bank, Al-Ikhsan, Attana Hotel dan banyak lagi. Kepercayaan mereka membuktikan kualiti kerja kami dalam menghasilkan kandungan visual dan strategi pemasaran yang berkesan untuk setiap industri.',
-    'company_description_3' => 'Dari Alor Setar untuk seluruh Malaysia - kami bangga menjadi agensi digital yang berkembang dari utara hingga ke seluruh negara. Setiap klien mendapat perhatian peribadi dan strategi yang disesuaikan dengan keperluan mereka.',
+    'company_description_1' => 'Sejak 2019, kami telah memperkasakan lebih 200+ perniagaan di seluruh Malaysia—daripada syarikat pemula yang sedang berkembang hingga ke korporasi yang mantap—untuk meningkatkan kehadiran digital mereka. Kami lebih daripada sekadar agensi kreatif; kami adalah rakan kongsi strategik yang berdedikasi untuk menyelesaikan cabaran unik yang dihadapi oleh pelanggan kami.',
+    'company_description_2' => 'Portfolio kami yang pelbagai merangkumi kerjasama dengan peneraju industri seperti PNB, SME Bank, dan Al-Ikhsan, serta banyak lagi syarikat dinamik yang lain. Kepercayaan berterusan mereka menjadi bukti keupayaan kami untuk menyampaikan kandungan visual dan strategi pemasaran yang berimpak dan selari dengan mana-mana industri.',
+    'company_description_3' => 'Beribu pejabat di Alor Setar, jangkauan kami meluas ke seluruh negara. Kami berbangga menjadi sebuah agensi digital yang menggabungkan akar umbi tempatan dengan kehadiran nasional, menawarkan setiap pelanggan perhatian peribadi dan strategi yang direka khas untuk kejayaan.',
     'successful_projects' => 'Projek Berjaya',
     
     // Why Choose Us Section

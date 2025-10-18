@@ -15,15 +15,15 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@tolak.com">needhelp@tolak.com</a>
+                <a href="mailto:business@kreatifdinamik.com">business@kreatifdinamik.com</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="tel:0135338190">+6013 533 8190</a>
             </li>
         </ul><!-- /.mobile-nav__contact -->
         <div class="mobile-nav__social">
-            <a href="https://facebook.com">
+            {{-- <a href="https://facebook.com">
                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>
             </a>
@@ -34,8 +34,8 @@
             <a href="https://twitter.com">
                 <i class="fab fa-twitter" aria-hidden="true"></i>
                 <span class="sr-only">Twitter</span>
-            </a>
-            <a href="https://instagram.com">
+            </a> --}}
+            <a href="https://www.instagram.com/kreatifdigitaldinamik">  
                 <i class="fab fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">Instagram</span>
             </a>

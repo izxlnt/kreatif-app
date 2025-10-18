@@ -162,9 +162,9 @@ return [
     'about_us' => 'About Us',
     'company_title' => 'Kreatif Digital Dinamik (KDD)',
     'company_subtitle' => 'Your Trusted Brand Strategy Partner.',
-    'company_description_1' => 'Since 2019, we have helped over 200+ Malaysian businesses enhance their digital presence. We are not just a creative agency - we are strategic partners who understand the real challenges of Malaysian SMEs.',
-    'company_description_2' => 'Our portfolio includes renowned brands such as PNB, SME Bank, Al-Ikhsan, Attana Hotel and many more. Their trust proves the quality of our work in producing effective visual content and marketing strategies for every industry.',
-    'company_description_3' => 'From Alor Setar to all of Malaysia - we are proud to be a digital agency that has grown from the north to the entire country. Each client receives personal attention and strategies tailored to their needs.',
+    'company_description_1' => 'Since 2019, we have empowered over 200+ businesses across Malaysia, from growing startups to established corporations, to elevate their digital presence. We are more than a creative agency; we are strategic partners dedicated to solving the unique challenges our clients face.',
+    'company_description_2' => 'Our diverse portfolio features collaborations with industry leaders like PNB, SME Bank, and Al-Ikhsan, as well as numerous other dynamic companies. Their continued trust is a testament to our ability to deliver impactful visual content and marketing strategies that resonate in any industry.',
+    'company_description_3' => 'Headquartered in Alor Setar, our reach extends nationwide. We are proud to be a digital agency that combines local roots with a national presence, offering every client personalized attention and bespoke strategies for success.',
     'successful_projects' => 'Successful Projects',
     
     // Why Choose Us Section
@@ -231,6 +231,7 @@ return [
     // Services Page Specific
     'services_page_title' => 'Corporate Services Portfolio | Kreatif Digital Dinamik',
     'services_portfolio_title' => 'Corporate Services Portfolio',
+    'Our Services Title' => 'Our Services',
     'services_portfolio_subtitle' => 'Our Core Services',
     'services_tagline' => 'KDD Core Services Portfolio',
     'services_main_title' => 'Our Strategic Focus for Your Brand Success',

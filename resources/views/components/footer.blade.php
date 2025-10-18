@@ -1,5 +1,5 @@
-<footer class="main-footer background-black">
-    <div class="main-footer__bg background-black" style="background-image: url(assets/images/backgrounds/footer-bg-1-1.jpg);"></div>
+<footer class="main-footer background-base">
+    <div class="main-footer__bg background-black"></div>
     <!-- /.main-footer__bg -->
     <div class="main-footer__shape" style="background-image: url(assets/images/shapes/footer-shape-1.png);"></div>
     <div class="container">
@@ -32,9 +32,9 @@
                             <span class="sr-only">Instagram</span>
                         </a>
                     </div>
-                    <div class="footer-widget__image">
-                        <img src="assets/images/resources/footer-about.jpg" alt="tolak">
-                    </div>
+                    {{-- <div class="footer-widget__image">
+                        <img src="assets/images/new-images/image-ws2.jpeg" alt="tolak">
+                    </div> --}}
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 -->
             {{-- <div class="col-md-6 col-lg-4">
@@ -74,18 +74,18 @@
                     </ul><!-- /.list-unstyled footer-widget__links -->
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 --> --}}
-            <div class="col-md-6 col-lg-2">
+            {{-- <div class="col-md-6 col-lg-2">
                 <div class="footer-widget footer-widget--links footer-widget--last">
                     <h2 class="footer-widget__title">Quick Link</h2><!-- /.footer-widget__title -->
                     <ul class="list-unstyled footer-widget__links">
                         <li><a href="{{ url('/home') }}">Home</a></li>
                         <li><a href="{{ url('/contact') }}">Contact</a></li>
-                        {{-- <li><a href="{{ url('/team') }}">Team</a></li>
+                        <li><a href="{{ url('/team') }}">Team</a></li>
                         <li><a href="{{ url('/contact') }}">Contact</a></li>
-                        <li><a href="{{ url('/blog-grid-right') }}">News</a></li> --}}
+                        <li><a href="{{ url('/blog-grid-right') }}">News</a></li>
                     </ul><!-- /.list-unstyled footer-widget__links -->
                 </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-6 -->
+            </div><!-- /.col-md-6 --> --}}
         </div><!-- /.row -->
     </div><!-- /.container -->
     <div class="main-footer__bottom">

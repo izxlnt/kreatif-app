@@ -4898,7 +4898,7 @@ h6 {
   }
 }
 .main-header-inner.sticky-header--cloned {
-  background-color: var(--tolak-black, #051d1f);
+  background-color: var(--tolak-cobalt-blue, #0047AB);
   box-shadow: 0px 3px 18px rgba(var(--tolak-white-rgb, 255, 255, 255), 0.07);
 }
 @media (max-width: 1199px) {
@@ -11579,7 +11579,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-repeat: no-repeat;
   background-position: right center;
   background-size: cover;
-  background-image: url(../images/backgrounds/page-header-bg-1-1.png);
+  background-image: url(../images/new-images/image-ws1.jpeg);
 }
 @media (max-width: 1199px) {
   .page-header__bg {

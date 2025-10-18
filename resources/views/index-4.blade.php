@@ -1263,8 +1263,8 @@
                 <div class="col-lg-6">
                     <div class="our-solution__image">
                         <div class="our-solution__border-one"></div>
-                        <div class="our-solution__border-two"></div>
-                        <img src="{{ asset('/assets/images/resources/solution-1-2.png') }}" alt="tolak">
+                        {{-- <div class="our-solution__border-two"></div> --}}
+                        <img src="{{ asset("/assets/images/new-images/image-ws3.jpeg") }}" alt="tolak">
                         <div class="our-solution__border-three"></div>
                         <div class="our-solution__image__shape"><img
                                 src="{{ asset('/assets/images/shapes/solution-1-shape-1.png') }}" alt="tolak"></div>
@@ -1390,7 +1390,7 @@
                         <div class="col-md-5">
                             <div class="faq-one__image tolak-tilt"
                                 data-tilt-options='{ "glare": false, "maxGlare": 0, "maxTilt": 7, "speed": 700, "scale": 1 }'>
-                                <img src="{{ asset('/assets/images/resources/faq-1-1.jpg') }}" alt="Kreatif Digital Dinamik">
+                                <img src="{{ asset('/assets/images/new-images/image-ws2-r.jpeg') }}" alt="Kreatif Digital Dinamik">
                             </div>
                         </div>
                         <div class="col-md-7">

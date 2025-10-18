@@ -569,7 +569,7 @@
                 <div class="our-solution__image">
                     <div class="our-solution__border-one"></div>
                     <div class="our-solution__border-two"></div>
-                    <img src="{{ asset("/assets/images/resources/solution-1-2.png") }}" alt="tolak">
+                    <img src="{{ asset("/assets/images/new-images/image5-rtl.png") }}" alt="tolak">
                     <div class="our-solution__border-three"></div>
                     <div class="our-solution__image__shape"><img src="{{ asset("/assets/images/shapes/solution-1-shape-1.png") }}" alt="tolak"></div>
                 </div><!-- /.our-solution__image -->

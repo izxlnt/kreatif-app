@@ -179,7 +179,7 @@
         ```
 
         <!-- Service Start -->
-        <section class="service-two service-two--about">
+        {{-- <section class="service-two service-two--about">
             <div class="container">
                 <div class="sec-title-two text-center">
                     <h6 class="sec-title-two__tagline"><span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>{{ __('common.about_services_tagline') }}<span class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6><!-- /.sec-title-two__tagline -->
@@ -284,7 +284,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- Service End -->
 {{-- 
         <section class="testimonials-two testimonials-two--about">
