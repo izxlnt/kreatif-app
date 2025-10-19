@@ -878,7 +878,7 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-four__image">
-                        <img src="{{ asset('/assets/images/new-images/image.png') }}" alt="kreatif">
+                        <img src="{{ asset('/assets/images/gallery/resize.jpg') }}" alt="kreatif">
                         <img src="{{ asset('/assets/images/gallery/DSC09582-3.jpg') }}" alt="kreatif">
                         <div class="about-four__image__shape tolak-tilt"
                             data-tilt-options='{ "glare": false, "maxGlare": 0, "maxTilt": 7, "speed": 700, "scale": 1 }'>
@@ -927,9 +927,8 @@
                         class="sec-title-two__tagline__left icofont-rounded-double-left"></span>{{ __('common.our_services') }}<span
                         class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
                 <!-- /.sec-title-two__tagline -->
-                <h3 class="sec-title-two__title">{{ __('common.services_description') }}</h3>
+                <h3 class="sec-title-two__title">{{ __('common.services_description_full') }}</h3>
                 <!-- /.sec-title-two__title -->
-                <p>{{ __('common.services_full_description') }}</p>
             </div><!-- /.sec-title-two -->
             <div class="service-one__carousel tolak-owl__carousel tolak-owl__carousel--basic-nav owl-carousel owl-theme"
                 data-owl-options='{
@@ -962,9 +961,7 @@
                             <img src="{{ asset('/assets/images/new-images/image1.jpeg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
-                            <div class="service-one__item__icon">
-                                <span class="icon-camera"></span>
-                            </div><!-- /.service-icon -->
+                   
                             <h3 class="service-one__item__title">
                                 <a href="{{ url('fotografi-videografi') }}">{{ __('common.photography_videography') }}</a>
                             </h3><!-- /.service-title -->
@@ -984,14 +981,12 @@
                             <img src="{{ asset('/assets/images/new-images/DSC09581-2.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
-                            <div class="service-one__item__icon">
-                                <span class="icon-design"></span>
-                            </div><!-- /.service-icon -->
+                 
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('rekaan-grafik') }}">{{ __('common.graphic_design') }}</a>
+                                <a href="{{ url('rekaan-grafik') }}">{{ __('common.video_content_creation') }}</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
-                                {{ __('common.graphic_design_description') }}
+                                {{ __('common.video_content_creation_description') }}
                             </p><!-- /.service-text -->
                         </div>
                         {{-- <div class="service-one__item__bottom">
@@ -1006,9 +1001,7 @@
                             <img src="{{ asset('/assets/images/new-images/image3.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
-                            <div class="service-one__item__icon">
-                                <span class="icon-social-media"></span>
-                            </div><!-- /.service-icon -->
+                         
                             <h3 class="service-one__item__title">
                                 <a href="{{ url('pengurusan-media-sosial') }}">{{ __('common.social_media_management') }}</a>
                             </h3><!-- /.service-title -->
@@ -1028,9 +1021,7 @@
                             <img src="{{ asset('/assets/images/new-images/IMG_9832-2.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
-                            <div class="service-one__item__icon">
-                                <span class="icon-digital-marketing"></span>
-                            </div><!-- /.service-icon -->
+                          
                             <h3 class="service-one__item__title">
                                 <a href="{{ url('strategi-pemasaran-digital') }}">{{ __('common.digital_marketing_strategy') }}</a>
                             </h3><!-- /.service-title -->
@@ -1044,7 +1035,6 @@
                         </div> --}}
                     </div><!-- /.service-card-one -->
                 </div>
-          
             </div>
         </div>
         <img class="service-one--home-four__shape" src="{{ asset('/assets/images/shapes/counter-border-1.png') }}"
@@ -1257,6 +1247,89 @@
     </style>
     <!-- Service End -->
 
+    
+
+     <div class="client-carousel client-carousel--no-border">
+        
+            <div class="container">
+                <div class="client-carousel__one tolak-owl__carousel owl-theme owl-carousel" data-owl-options='{
+            "items": 5,
+            "margin": 30,
+            "smartSpeed": 700,
+            "loop":true,
+            "autoplay": 6000,
+            "nav":false,
+            "dots":false,
+            "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+            "responsive":{
+                "0":{
+                    "items":1
+                },
+                "360":{
+                    "items":2
+                },
+                "575":{
+                    "items":3
+                },
+                "768":{
+                    "items":3
+                },
+                "992":{
+                    "items": 4
+                },
+                "1200":{
+                    "items": 5
+                }
+            }
+            }'>
+                    <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/pnb.png') }}" alt="PNB">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/pnb.png') }}" alt="PNB">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/sme-bank-seeklogo.png') }}" alt="SME Bank">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/sme-bank-seeklogo.png') }}" alt="SME Bank">
+                    </div><!-- /.owl-slide-item-->
+                    {{-- <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/attana-hotel.png') }}" alt="Attana Hotel">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/attana-hotel-hover.png') }}" alt="Attana Hotel">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/johorean-comrade.png') }}" alt="Johorean Comrade">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/johorean-comrade-hover.png') }}" alt="Johorean Comrade">
+                    </div><!-- /.owl-slide-item--> --}}
+                    {{-- <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/al-ikhsan.png') }}" alt="Al-Ikhsan">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/al-ikhsan-hover.png') }}" alt="Al-Ikhsan">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/madad-dakwah-centre.png') }}" alt="Madad Dakwah Centre">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/madad-dakwah-centre-hover.png') }}" alt="Madad Dakwah Centre">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/protasa-properties.png') }}" alt="Protasa Properties">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/protasa-properties-hover.png') }}" alt="Protasa Properties">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/mergong-tiling.png') }}" alt="Mergong Tiling Sdn Bhd">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/mergong-tiling-hover.png') }}" alt="Mergong Tiling Sdn Bhd">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/esthetic-medical-solution.png') }}" alt="Esthetic Medical Solution">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/esthetic-medical-solution-hover.png') }}" alt="Esthetic Medical Solution">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/dr-meow.png') }}" alt="Dr Meow">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/dr-meow-hover.png') }}" alt="Dr Meow">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/perkim.png') }}" alt="PERKIM">
+                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/perkim-hover.png') }}" alt="PERKIM"> --}}
+                    </div><!-- /.owl-slide-item-->
+                </div><!-- /.thm-owl__slider -->
+            </div><!-- /.container -->
+        </div><!-- /.client-carousel -->
+
     <section class="our-solution" style="background-image: url(assets/images/backgrounds/solution-bg-1.jpg);">
         <div class="container">
             <div class="row">
@@ -1315,6 +1388,8 @@
         </div><!-- /.container -->
     </section><!-- /.our-solution -->
     <!-- Feature Start -->
+
+    
 
   <section class="faq-one faq-one--dark" style="background-image: url(assets/images/shapes/faq-bg-1.jpg);">
     <div class="container">
@@ -1385,12 +1460,12 @@
                         <h6 class="sec-title-two__tagline"><span
                                 class="sec-title-two__tagline__left icofont-rounded-double-left"></span>{{ __('common.faq_tagline') }}<span 
                                 class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
-                        <h3 class="sec-title-two__title">{{ __('common.faq_title') }}</h3>
+                        <h3 class="sec-title-two__title">{{ __('common.faq_titlYour Trusted Brand Strategy Partner.e') }}</h3>
                     </div><div class="row">
                         <div class="col-md-5">
                             <div class="faq-one__image tolak-tilt"
                                 data-tilt-options='{ "glare": false, "maxGlare": 0, "maxTilt": 7, "speed": 700, "scale": 1 }'>
-                                <img src="{{ asset('/assets/images/new-images/image-ws2-r.jpeg') }}" alt="Kreatif Digital Dinamik">
+                                <img src="{{ asset('/assets/images/gallery/untitled-5crop.jpg') }}" alt="Kreatif Digital Dinamik">
                             </div>
                         </div>
                         <div class="col-md-7">

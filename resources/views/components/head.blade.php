@@ -11,6 +11,11 @@
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Kreatif Digital Dinamik (KDD) adalah rakan strategi pemasaran digital anda. Kami bantu SME Malaysia bina jenama lebih kuat melalui fotografi, videografi & pengurusan media sosial." />
 
+      <link rel="stylesheet" href="{{ asset('assets/css/tolak-icons.css') }}">
+    {{-- Common icon CDN fallback (IcoFont) --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/icofont/1.0.1/icofont.min.css" crossorigin="anonymous">
+    {{-- Font Awesome (if needed elsewhere) --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
    <!-- fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

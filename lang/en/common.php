@@ -143,18 +143,23 @@ return [
     // Services
     'our_services' => 'Our Services',
     'services_description' => 'We provide various media and digital marketing services',
+    'services_description_full' => 'We provide a variety of media and digital marketing services designed to help your business grow consistently',
     'services_subtitle' => 'Digital Marketing Strategy',
     'services_full_description' => 'Each service is designed to meet client needs in terms of branding, marketing, and long-term strategy.',
     
     // Service Items
     'photography_videography' => 'Photography & Videography',
-    'graphic_design' => 'Graphic Design', 
+    'graphic_design' => 'Graphic Design',
+    'video_content_creation' => 'Video Content Creation',
+    'branding_campaign' => 'Branding Campaign',
     'social_media_management' => 'Social Media Management',
     'digital_marketing_strategy' => 'Digital Marketing Strategy',
     
     // Service Descriptions
     'photography_description' => 'Professional photos and videos for promotion, corporate, and products that increase customer confidence.',
     'graphic_design_description' => 'Creative designs for posters, brochures, banners, and consistent social media graphics.',
+    'video_content_creation_description' => 'Engaging video content production for marketing, social media, and corporate presentations.',
+    'branding_campaign_description' => 'Comprehensive branding strategies to build strong brand identity and market presence.',
     'social_media_description' => 'Social media account management with engaging content to increase interaction.',
     'digital_marketing_description' => 'Targeted paid advertising strategies (Facebook Ads, Google Ads, TikTok Ads) for maximum ROI.',
     

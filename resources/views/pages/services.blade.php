@@ -82,7 +82,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay="200ms">
                         <div class="service-one__item text-center">
                             <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/new-images/image-ws4.jpeg") }}" alt="{{ __('common.service_3_alt') }}" class="service-one__item__image-fixed">
+                                <img src="{{ asset("/assets/images/gallery/untitled-1-2.jpg") }}" alt="{{ __('common.service_3_alt') }}" class="service-one__item__image-fixed">
                             </div>
                             <div class="service-one__item__content">
                                 <div class="service-one__item__icon">

@@ -285,6 +285,8 @@
                             href="{{ url('project-details') }}">{{ __('common.menu_project_details') }}</a></li>
                 </ul> --}}
             </li>
+
+
             {{-- <li class="{{ Request::is('team') ? 'current' : '' }}"><a
                     href="{{ url('team') }}">{{ __('common.menu_our_team') }}</a></li>
             <li class="{{ Request::is('team-carousel') ? 'current' : '' }}"><a
@@ -297,8 +299,8 @@
             <li class="{{ Request::is('packages') ? 'current' : '' }}"><a
                     href="{{ url('packages') }}">{{ __('common.menu_pricing_page') }}</a></li>
             <li class="{{ Request::is('packages-carousel') ? 'current' : '' }}"><a
-                    href="{{ url('packages-carousel') }}">{{ __('common.menu_pricing_carousel') }}</a></li> --}}
-            {{-- <li class="{{ Request::is('gallery*') ? 'current' : '' }}">
+                    href="{{ url('packages-carousel') }}">{{ __('common.menu_pricing_carousel') }}</a></li>
+            <li class="{{ Request::is('gallery*') ? 'current' : '' }}">
                 <a href="{{ url('gallery') }}">{{ __('common.menu_gallery') }}</a>
                 <ul>
                     <li class="{{ Request::is('gallery') ? 'current' : '' }}"><a
@@ -310,8 +312,8 @@
                     <li class="{{ Request::is('gallery-carousel') ? 'current' : '' }}"><a
                             href="{{ url('gallery-carousel') }}">{{ __('common.menu_gallery_carousel') }}</a></li>
                 </ul>
-            </li> --}}
-            {{-- <li class="{{ Request::is('faq') ? 'current' : '' }}"><a
+            </li>
+            <li class="{{ Request::is('faq') ? 'current' : '' }}"><a
                     href="{{ url('faq') }}">{{ __('common.menu_faq') }}</a></li>
             <li class="{{ Request::is('login') ? 'current' : '' }}"><a
                     href="{{ url('/login') }}">{{ __('common.menu_login') }}</a></li>
