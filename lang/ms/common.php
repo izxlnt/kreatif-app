@@ -41,7 +41,10 @@ return [
     'menu_faq' => 'Soalan Lazim',
     'menu_login' => 'Log Masuk',
     'menu_error_404' => 'Ralat 404',
-    
+    'menu_photos_gallery' => 'Galeri Foto',
+    'menu_video_gallery' => 'Galeri Video',
+    'menu_career' => 'Kerjaya',
+
     // Services Menu
     'menu_services_one' => 'Perkhidmatan Satu',
     'menu_services_one_carousel' => 'Karusel Perkhidmatan Satu',
@@ -285,8 +288,8 @@ return [
     
     // About Page Specific
     'about_page_title' => 'Tentang Kami | Kreatif Digital Dinamik',
-    'about_page_header_title' => 'Halaman Tentang',
-    'about_page_header_subtitle' => 'Halaman Tentang',
+    'about_page_header_title' => 'Tentang Kami',
+    'about_page_header_subtitle' => 'Tentang Kami',
     
     // About Section
     'about_who_we_are' => 'Siapa Kami',
@@ -337,5 +340,18 @@ return [
     'about_services_social_description' => 'Mengurus akaun media sosial anda secara harian.',
     'about_services_digital_title' => 'Strategi Pemasaran Digital',
     'about_services_digital_description' => 'Membina strategi pemasaran yang berorientasikan hasil.',
+    
+    // Career Page
+    'join_us_tagline' => 'Bersedia untuk berkembang bersama kami?',
+    'join_us_title' => 'Sertai Pasukan Kami atau Kolaborasi Sebagai Freelancer!',
+    'career_form_description' => 'Kami sentiasa mencari individu yang bersemangat dan freelancer berbakat untuk menyertai pasukan dinamik kami. Kongsi maklumat anda dan muat naik resume (PDF sahaja) untuk memulakan perjalanan bersama Kreatif Digital Dinamik.',
+    'your_name_placeholder' => 'Nama Anda',
+    'email_address_placeholder' => 'Alamat E-mel',
+    'role_placeholder' => 'Jawatan atau Kemahiran Freelance (cth. Pembangun Web, Pereka Grafik)',
+    'message_placeholder' => 'Ceritakan tentang diri anda dan mengapa anda ingin sertai atau freelance bersama kami.',
+    'resume_label' => 'Muat Naik Resume (PDF sahaja):',
+    'send_application' => 'Hantar Permohonan',
+    'thank_you_message' => 'Terima kasih kerana berkongsi maklumat anda!',
+    'submission_failed' => 'Permohonan gagal.',
     
 ];

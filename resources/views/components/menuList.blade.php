@@ -276,14 +276,12 @@
             <li class="{{ Request::is('project') ? 'current' : '' }}">
                
                 {{-- <a href="{{ url('project') }}">{{ __('common.menu_our_project') }}</a> --}}
-                <a href="{{ url('gallery-filter') }}">{{ __('common.menu_our_project') }}</a>
-                {{-- <ul>
-                     <li class="{{ Request::is('gallery-filter') ? 'current' : '' }}"><a href="{{ url('gallery-filter') }}">{{ __('common.menu_gallery_filter') }}</a></li>
-                    <li class="{{ Request::is('project-carousel') ? 'current' : '' }}"><a
-                            href="{{ url('project-carousel') }}">{{ __('common.menu_project_carousel') }}</a></li>
-                    <li class="{{ Request::is('project-details') ? 'current' : '' }}"><a
-                            href="{{ url('project-details') }}">{{ __('common.menu_project_details') }}</a></li>
-                </ul> --}}
+                <a href="#">{{ __('common.menu_our_project') }}</a>
+                <ul class="sub-menu">
+                     <li class="{{ Request::is('photo-gallery') ? 'current' : '' }}"><a href="{{ url('photo-gallery') }}">{{ __('common.menu_photos_gallery') }}</a></li>
+                    <li class="{{ Request::is('video-gallery') ? 'current' : '' }}"><a
+                            href="{{ url('video-gallery') }}">{{ __('common.menu_video_gallery') }}</a></li>
+                </ul>
             </li>
 
 
@@ -328,14 +326,14 @@
             <li class="{{ Request::is('services') ? 'current' : '' }}"><a
                     href="{{ url('/services') }}">{{ __('common.Our Services Title') }}</a></li>
            {{-- <li class="{{ Request::is('services-carousel') ? 'current' : '' }}"><a
-                    href="{{ url('services-carousel') }}">{{ __('common.menu_services_one_carousel') }}</a></li>  --}}
-           {{--  <li class="{{ Request::is('services-two') ? 'current' : '' }}"><a
+                    href="{{ url('services-carousel') }}">{{ __('common.menu_services_one_carousel') }}</a></li> 
+            <li class="{{ Request::is('services-two') ? 'current' : '' }}"><a
                     href="{{ url('services-two') }}">{{ __('common.menu_services_two') }}</a></li>
             <li class="{{ Request::is('services-two-carousel') ? 'current' : '' }}"><a
-                    href="{{ url('services-two-carousel') }}">{{ __('common.menu_services_two_carousel') }}</a></li> --}}
-            {{-- <li class="{{ Request::is('business-growth') ? 'current' : '' }}"><a --}}
-                    {{-- href="{{ url('business-growth') }}">{{ __('common.menu_business_growth') }}</a></li> --}}
-            {{-- <li class="{{ Request::is('business-solution') ? 'current' : '' }}"><a
+                    href="{{ url('services-two-carousel') }}">{{ __('common.menu_services_two_carousel') }}</a></li>
+            <li class="{{ Request::is('business-growth') ? 'current' : '' }}"><a
+                    href="{{ url('business-growth') }}">{{ __('common.menu_business_growth') }}</a></li>
+            <li class="{{ Request::is('business-solution') ? 'current' : '' }}"><a
                     href="{{ url('business-solution') }}">{{ __('common.menu_business_solution') }}</a></li>
             <li class="{{ Request::is('marketing-solution') ? 'current' : '' }}"><a
                     href="{{ url('marketing-solution') }}">{{ __('common.menu_marketing_solution') }}</a></li>
@@ -397,6 +395,10 @@
         </ul>
     </li> --}}
 
+    <li class="{{ Request::is('career') ? 'current' : '' }}">
+        <a href="{{ url('/career') }}">{{ __('common.menu_career') }}</a>
+    </li> 
+    
     <li class="{{ Request::is('contact') ? 'current' : '' }}">
         <a href="{{ url('/contact') }}">{{ __('common.contact') }}</a>
     </li>

@@ -1,9 +1,9 @@
 
 @extends('layouts.layout2')
-@section('title', 'Gallery Filter || Tolak || Tolak Laravel Template')
+@section('title', __('common.menu_photos_gallery'). ' || Kreatif Digital Dinamik')
 @php
-    $title = 'Our Project';
-    $subtitle = 'Project';
+    $title = __('common.menu_photos_gallery');
+    $subtitle = __('common.menu_photos_gallery');
 @endphp
 @section('content')
 
@@ -16,7 +16,7 @@
                         <li class="active" data-filter=".filter-item"><span>All</span></li>
                         <li data-filter=".photography"><span>Photography</span></li>
                        <li data-filter=".branding"><span>Brand Design</span></li> 
-                        <li data-filter=".design"><span>Misi Kemanusian</span></li>
+                        <li data-filter=".design"><span>Misi Kemanusian Cambodia</span></li>
                         <li data-filter=".live-action"><span>Live Action Shoot</span></li>
                         <li data-filter=".development"><span>Al-Ikhsan Bowling Tour</span></li>
                     </ul><!-- /.list-unstyledf -->

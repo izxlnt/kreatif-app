@@ -124,7 +124,7 @@
                     <div class="funfact-two__icon"><i class="icon-admin"></i></div>
                     <div class="funfact-two__content">
                         {{-- Sila GANTI angka 7 dengan data sebenar anda --}}
-                        <h3 class="funfact-two__count"><span class="count-text" data-stop="7" data-speed="1500"></span> +
+                        <h3 class="funfact-two__count"><span class="count-text" data-stop="3" data-speed="1500"></span> +
                         </h3>
                         <p class="funfact-two__text">{{ __('common.stats_years_experience') }}</p>
                     </div>
@@ -182,7 +182,7 @@
                 <div class="col-lg-7 wow fadeInRight" data-wow-delay="100ms">
                     <div class="cta-one__image">
                         {{-- Gantikan dengan imej KDD yang menunjukkan Pasukan/Pusat Operasi/Visual Korporat --}}
-                        <img src="{{ asset('assets/images/gallery/untitled-3.jpg') }}" alt="Strategi KDD">
+                        <img src="{{ asset('assets/images/gallery/1-team.jpg') }}" alt="Strategi KDD">
                     </div>
                 </div>
             </div>

@@ -41,6 +41,10 @@ return [
     'menu_faq' => 'FAQs',
     'menu_login' => 'Login',
     'menu_error_404' => '404 Error',
+    'menu_photos_gallery' => 'Photos Gallery',
+    'menu_video_gallery' => 'Video Gallery',
+    'menu_career' => 'Career',
+
     
     // Services Menu
     'menu_services_one' => 'Services One',
@@ -290,8 +294,8 @@ return [
     
     // About Page Specific
     'about_page_title' => 'About | Kreatif Digital Dinamik',
-    'about_page_header_title' => 'About Page',
-    'about_page_header_subtitle' => 'About Page',
+    'about_page_header_title' => 'About Us',
+    'about_page_header_subtitle' => 'About Us',
     
     // About Section
     'about_who_we_are' => 'Who We Are',
