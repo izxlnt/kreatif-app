@@ -154,7 +154,7 @@ return [
     // Service Items
     'photography_videography' => 'Photography & Videography',
     'graphic_design' => 'Graphic Design',
-    'video_content_creation' => 'Video Content Creation',
+    'video_content_creation' => 'Video Content & Graphic Design',
     'branding_campaign' => 'Branding Campaign',
     'social_media_management' => 'Social Media Management',
     'digital_marketing_strategy' => 'Digital Marketing Strategy',
@@ -346,5 +346,18 @@ return [
     'about_services_social_description' => 'Managing your social media accounts daily.',
     'about_services_digital_title' => 'Digital Marketing Strategy',
     'about_services_digital_description' => 'Building result-oriented marketing strategies.',
+
+    // Career Page
+    'join_us_tagline' => 'Come Join Our Team!',
+    'join_us_title' => 'Join Our Team or Collaborate as a Freelancer!',
+    'career_form_description' => 'We are always looking for passionate individuals and talented freelancers to join our dynamic team. Share your information and upload your resume (PDF only) to start your journey with Kreatif Digital Dinamik.',
+    'your_name_placeholder' => 'Your Name',
+    'email_address_placeholder' => 'Email Address',
+    'role_placeholder' => 'Position or Freelance Skills (e.g. Web Developer, Graphic Designer)',
+    'message_placeholder' => 'Tell us about yourself and why you want to join or freelance with us.',
+    'resume_label' => 'Upload Resume (PDF only):',
+    'send_application' => 'Send Application',
+    'thank_you_message' => 'Thank you for sharing your information!',
+    'submission_failed' => 'Submission failed.',
     
 ];

@@ -152,15 +152,19 @@ return [
     
     // Service Items
     'photography_videography' => 'Fotografi & Videografi',
-    'graphic_design' => 'Rekaan Grafik', 
+    'graphic_design' => 'Rekaan Grafik',
+    'video_content_creation' => 'Kandungan Video & Reka Bentuk Grafik',
+    'branding_campaign' => 'Kempen Penjenamaan',
     'social_media_management' => 'Pengurusan Media Sosial',
     'digital_marketing_strategy' => 'Strategi Pemasaran Digital',
     
     // Service Descriptions
-    'photography_description' => 'Gambar dan video profesional untuk promosi, korporat, dan produk yang meningkatkan keyakinan pelanggan.',
-    'graphic_design_description' => 'Rekaan kreatif untuk poster, brosur, banner, dan grafik media sosial yang konsisten.',
-    'social_media_description' => 'Pengurusan akaun media sosial dengan kandungan menarik untuk tingkatkan interaksi.',
-    'digital_marketing_description' => 'Strategi iklan berbayar (Facebook Ads, Google Ads, TikTok Ads) yang disasarkan untuk ROI maksimum.',
+    'photography_description' => 'Foto dan video profesional untuk promosi, korporat, dan produk yang meningkatkan keyakinan pelanggan.',
+    'graphic_design_description' => 'Rekaan kreatif untuk poster, risalah, banner, dan grafik media sosial yang konsisten.',
+    'video_content_creation_description' => 'Penghasilan kandungan video yang menarik untuk pemasaran, media sosial, dan pembentangan korporat.',
+    'branding_campaign_description' => 'Strategi penjenamaan menyeluruh untuk membina identiti jenama yang kukuh dan kehadiran pasaran.',
+    'social_media_description' => 'Pengurusan akaun media sosial dengan kandungan menarik untuk meningkatkan interaksi.',
+    'digital_marketing_description' => 'Strategi pengiklanan berbayar yang disasarkan (Facebook Ads, Google Ads, TikTok Ads) untuk pulangan pelaburan maksimum.',
     
     // About Section
     'about_us' => 'Tentang Kami',
@@ -342,7 +346,7 @@ return [
     'about_services_digital_description' => 'Membina strategi pemasaran yang berorientasikan hasil.',
     
     // Career Page
-    'join_us_tagline' => 'Bersedia untuk berkembang bersama kami?',
+    'join_us_tagline' => 'Mari Bersama Kami',
     'join_us_title' => 'Sertai Pasukan Kami atau Kolaborasi Sebagai Freelancer!',
     'career_form_description' => 'Kami sentiasa mencari individu yang bersemangat dan freelancer berbakat untuk menyertai pasukan dinamik kami. Kongsi maklumat anda dan muat naik resume (PDF sahaja) untuk memulakan perjalanan bersama Kreatif Digital Dinamik.',
     'your_name_placeholder' => 'Nama Anda',
