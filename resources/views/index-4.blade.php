@@ -920,7 +920,7 @@
 
     <!-- Service Start -->
     <section class="service-one service-one--home-four"
-        style="background-image: url(assets/images/backgrounds/service-bg-2.jpg);">
+        style="background-image: url(assets/images/backgrounds/service-bg-12.jpg);">
         <div class="container">
             <div class="sec-title-two text-center">
                 <h6 class="sec-title-two__tagline"><span
@@ -1330,7 +1330,7 @@
             </div><!-- /.container -->
         </div><!-- /.client-carousel -->
 
-    <section class="our-solution" style="background-image: url(assets/images/backgrounds/solution-bg-1.jpg);">
+    <section class="our-solution" style="background-image: url(assets/images/backgrounds/solution-bg-12.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">

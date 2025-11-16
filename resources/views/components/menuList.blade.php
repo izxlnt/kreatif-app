@@ -273,14 +273,11 @@
             <li class="{{ Request::is('about') ? 'current' : '' }}">
                 <a href="{{ url('about') }}">{{ __('common.about') }}</a>
             </li>
-            <li class="{{ Request::is('project') ? 'current' : '' }}">
-               
-                {{-- <a href="{{ url('project') }}">{{ __('common.menu_our_project') }}</a> --}}
+            <li class="{{ Request::is('project') ? 'current' : '' }} dropdown">
                 <a href="#">{{ __('common.menu_our_project') }}</a>
                 <ul class="sub-menu">
-                     <li class="{{ Request::is('photo-gallery') ? 'current' : '' }}"><a href="{{ url('photo-gallery') }}">{{ __('common.menu_photos_gallery') }}</a></li>
-                    <li class="{{ Request::is('video-gallery') ? 'current' : '' }}"><a
-                            href="{{ url('video-gallery') }}">{{ __('common.menu_video_gallery') }}</a></li>
+                    <li class="{{ Request::is('photo-gallery') ? 'current' : '' }}"><a href="{{ url('photo-gallery') }}">{{ __('common.menu_photos_gallery') }}</a></li>
+                    <li class="{{ Request::is('video-gallery') ? 'current' : '' }}"><a href="{{ url('video-gallery') }}">{{ __('common.menu_video_gallery') }}</a></li>
                 </ul>
             </li>
 

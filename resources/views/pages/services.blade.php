@@ -40,7 +40,7 @@
                                     <span class="icon-cooperation"></span>
                                 </div>
                                 <h3 class="service-one__item__title">
-                                    <a href="{{ url(__('common.service_1_url')) }}">{{ __('common.service_1_title') }}</a>
+                                    <h4 href="">{{ __('common.service_1_title') }}</h4>
                                 </h3>
                                 <p class="service-one__item__text">
                                     {{ __('common.service_1_description') }}
@@ -64,7 +64,7 @@
                                     <span class="icon-ads-campaign"></span>
                                 </div>
                                 <h3 class="service-one__item__title">
-                                    <a href="{{ url(__('common.service_2_url')) }}">{{ __('common.service_2_title') }}</a>
+                                    <h4 href="">{{ __('common.service_2_title') }}</h4>
                                 </h3>
                                 <p class="service-one__item__text">
                                     {{ __('common.service_2_description') }}
@@ -89,7 +89,7 @@
                                     <span class="icon-headhunter"></span>
                                 </div>
                                 <h3 class="service-one__item__title">
-                                    <a href="{{ url(__('common.service_3_url')) }}">{{ __('common.service_3_title') }}</a>
+                                    <h4 href="">{{ __('common.service_3_title') }}</h4>
                                 </h3>
                                 <p class="service-one__item__text">
                                     {{ __('common.service_3_description') }}
@@ -113,7 +113,7 @@
                                     <span class="icon-agency"></span>
                                 </div>
                                 <h3 class="service-one__item__title">
-                                    <a href="{{ url(__('common.service_4_url')) }}">{{ __('common.service_4_title') }}</a>
+                                    <h4 href="">{{ __('common.service_4_title') }}</h4>
                                 </h3>
                                 <p class="service-one__item__text">
                                     {{ __('common.service_4_description') }}
