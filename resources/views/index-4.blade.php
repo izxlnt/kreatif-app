@@ -1244,6 +1244,63 @@
                 margin-bottom: 15px;
             }
         }
+
+        /* Client Carousel Logo Styling */
+        .client-carousel__one__item {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            height: 120px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .client-carousel__one__item:hover {
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .client-carousel__one__item img {
+            max-width: 150px;
+            max-height: 90px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            opacity: 1.0 !important;
+            transition: all 0.3s ease;
+        }
+
+        .client-carousel__one__item:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .client-carousel__one__item {
+                height: 100px;
+                padding: 10px;
+            }
+
+            .client-carousel__one__item img {
+                max-width: 120px;
+                max-height: 70px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .client-carousel__one__item {
+                height: 80px;
+                padding: 8px;
+            }
+
+            .client-carousel__one__item img {
+                max-width: 100px;
+                max-height: 60px;
+            }
+        }
     </style>
     <!-- Service End -->
 
@@ -1252,6 +1309,13 @@
      <div class="client-carousel client-carousel--no-border">
         
             <div class="container">
+                <!-- Section Header -->
+                <div class="text-center mb-5">
+                    <div class="sec-title">
+                        <h6 class="sec-title__tagline"><span class="sec-title__tagline__left"></span>{{ __('common.trusted_by') }}<span class="sec-title__tagline__right"></span></h6>
+                        <h3 class="sec-title__title">{{ __('common.our_clients') }}</h3>
+                    </div>
+                </div>
                 <div class="client-carousel__one tolak-owl__carousel owl-theme owl-carousel" data-owl-options='{
             "items": 5,
             "margin": 30,
@@ -1283,48 +1347,37 @@
             }
             }'>
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/pnb.png') }}" alt="PNB">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/pnb.png') }}" alt="PNB">
+                        <img src="{{ asset('/assets/images/clients/pnb.png') }}" alt="PNB">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/sme-bank-seeklogo.png') }}" alt="SME Bank">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/sme-bank-seeklogo.png') }}" alt="SME Bank">
-                    </div><!-- /.owl-slide-item-->
-                    {{-- <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/attana-hotel.png') }}" alt="Attana Hotel">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/attana-hotel-hover.png') }}" alt="Attana Hotel">
+                        <img src="{{ asset('/assets/images/clients/sme-bank-seeklogo.png') }}" alt="SME Bank">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/johorean-comrade.png') }}" alt="Johorean Comrade">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/johorean-comrade-hover.png') }}" alt="Johorean Comrade">
-                    </div><!-- /.owl-slide-item--> --}}
-                    {{-- <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/al-ikhsan.png') }}" alt="Al-Ikhsan">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/al-ikhsan-hover.png') }}" alt="Al-Ikhsan">
+                        <img src="{{ asset('/assets/images/clients/johorean_comrade.jpg') }}" alt="Johorean Comrade">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/madad-dakwah-centre.png') }}" alt="Madad Dakwah Centre">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/madad-dakwah-centre-hover.png') }}" alt="Madad Dakwah Centre">
+                        <img src="{{ asset('/assets/images/clients/al-ikhsan.png') }}" alt="Al-Ikhsan">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/protasa-properties.png') }}" alt="Protasa Properties">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/protasa-properties-hover.png') }}" alt="Protasa Properties">
+                        <img src="{{ asset('/assets/images/clients/madad.jpg') }}" alt="Madad Dakwah Centre">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/mergong-tiling.png') }}" alt="Mergong Tiling Sdn Bhd">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/mergong-tiling-hover.png') }}" alt="Mergong Tiling Sdn Bhd">
+                        <img src="{{ asset('/assets/images/clients/Logo-Protasa-Website.png') }}" alt="Protasa Properties">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/esthetic-medical-solution.png') }}" alt="Esthetic Medical Solution">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/esthetic-medical-solution-hover.png') }}" alt="Esthetic Medical Solution">
+                        <img src="{{ asset('/assets/images/clients/mergong-tiling.jpg') }}" alt="Mergong Tiling Sdn Bhd">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/dr-meow.png') }}" alt="Dr Meow">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/dr-meow-hover.png') }}" alt="Dr Meow">
+                        <img src="{{ asset('/assets/images/clients/EMS-Logo-06.png') }}" alt="EMS - Esthetic Medical Solution">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="{{ asset('/assets/images/clients/perkim.png') }}" alt="PERKIM">
-                        <img class="client-carousel__one__item__hover" src="{{ asset('/assets/images/clients/perkim-hover.png') }}" alt="PERKIM"> --}}
+                        <img src="{{ asset('/assets/images/clients/logo.png') }}" alt="Client Logo">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="{{ asset('/assets/images/clients/wsc_20220927113056220960.jpeg') }}" alt="WSC">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="{{ asset('/assets/images/clients/PERKIM-LOGO-BARU.jpeg') }}" alt="PERKIM">
                     </div><!-- /.owl-slide-item-->
                 </div><!-- /.thm-owl__slider -->
             </div><!-- /.container -->

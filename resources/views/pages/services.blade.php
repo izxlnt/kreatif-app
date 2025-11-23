@@ -33,7 +33,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay="100ms">
                         <div class="service-one__item text-center">
                             <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/new-images/image-ws4.jpeg") }}" alt="{{ __('common.service_1_alt') }}" class="service-one__item__image-fixed">
+                                <img src="{{ asset("/assets/images/new-images/IMG_0091-comp.jpg") }}" alt="{{ __('common.service_1_alt') }}" class="service-one__item__image-fixed">
                             </div>
                             <div class="service-one__item__content">
                                 <div class="service-one__item__icon">
@@ -57,7 +57,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay="150ms">
                         <div class="service-one__item text-center">
                             <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/new-images/image-ws1.jpeg") }}" alt="{{ __('common.service_2_alt') }}" class="service-one__item__image-fixed">
+                                <img src="{{ asset("/assets/images/gallery/untitled-4-2.jpg") }}" alt="{{ __('common.service_2_alt') }}" class="service-one__item__image-fixed">
                             </div>
                             <div class="service-one__item__content">
                                 <div class="service-one__item__icon">

@@ -162,6 +162,10 @@ return [
     'social_media_description' => 'Pengurusan akaun media sosial dengan kandungan menarik untuk tingkatkan interaksi.',
     'digital_marketing_description' => 'Strategi iklan berbayar (Facebook Ads, Google Ads, TikTok Ads) yang disasarkan untuk ROI maksimum.',
     
+    // Client Section
+    'trusted_by' => 'Dipercayai Oleh',
+    'our_clients' => 'Klien Kami',
+    
     // About Section
     'about_us' => 'Tentang Kami',
     'company_title' => 'Kreatif Digital Dinamik (KDD)',

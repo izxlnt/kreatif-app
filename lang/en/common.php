@@ -167,6 +167,10 @@ return [
     'social_media_description' => 'Social media account management with engaging content to increase interaction.',
     'digital_marketing_description' => 'Targeted paid advertising strategies (Facebook Ads, Google Ads, TikTok Ads) for maximum ROI.',
     
+    // Client Section
+    'trusted_by' => 'Trusted By',
+    'our_clients' => 'Our Clients',
+    
     // About Section
     'about_us' => 'About Us',
     'company_title' => 'Kreatif Digital Dinamik (KDD)',
