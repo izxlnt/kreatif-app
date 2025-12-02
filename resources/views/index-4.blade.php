@@ -1377,7 +1377,7 @@
                         <img src="{{ asset('/assets/images/clients/wsc_20220927113056220960.jpeg') }}" alt="WSC">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img src="{{ asset('/assets/images/clients/PERKIM-LOGO-BARU.jpeg') }}" alt="PERKIM">
+                        <img src="{{ asset('/assets/images/clients/PERKIM-LOGO-BARU.jpg') }}" alt="PERKIM">
                     </div><!-- /.owl-slide-item-->
                 </div><!-- /.thm-owl__slider -->
             </div><!-- /.container -->
