@@ -273,7 +273,7 @@
             <li class="{{ Request::is('about') ? 'current' : '' }}">
                 <a href="{{ url('about') }}">{{ __('common.about') }}</a>
             </li>
-            <li class="{{ Request::is('project') ? 'current' : '' }}">
+            <li class="dropdown {{ Request::is('project*') || Request::is('photo-gallery') || Request::is('video-gallery') ? 'current' : '' }}">
                
                 {{-- <a href="{{ url('project') }}">{{ __('common.menu_our_project') }}</a> --}}
                 <a href="#">{{ __('common.menu_our_project') }}</a>
