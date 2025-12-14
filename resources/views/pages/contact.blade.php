@@ -42,9 +42,17 @@
                             <div class="contact-two__info__social">
                                 <h5 class="contact-two__info__social__title">{{ __('common.follow_social') }}:</h5>
                                 <div class="contact-two__info__social__wrap">
-                                    <a href="https://facebook.com/kreatifdigitaldinamik" target="_blank">
+                                    <a href="https://www.facebook.com/KreatifDigitalDinamik" target="_blank">
                                         <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                         <span class="sr-only">Facebook</span>
+                                    </a>
+                                    <a href="http://linkedin.com/company/kreatif-digital-dinamik" target="_blank">
+                                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                        <span class="sr-only">LinkedIn</span>
+                                    </a>
+                                    <a href="https://www.youtube.com/@KreatifDigitalDinamik" target="_blank">
+                                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                                        <span class="sr-only">YouTube</span>
                                     </a>
                                     <a href="https://www.instagram.com/kreatifdigitaldinamik/" target="_blank">
                                         <i class="fab fa-instagram" aria-hidden="true"></i>

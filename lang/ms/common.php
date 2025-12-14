@@ -152,13 +152,17 @@ return [
     
     // Service Items
     'photography_videography' => 'Fotografi & Videografi',
-    'graphic_design' => 'Rekaan Grafik', 
+    'graphic_design' => 'Rekaan Grafik',
+    'video_content_creation' => 'Penghasilan Kandungan Video',
+    'branding_campaign' => 'Kempen Penjenamaan',
     'social_media_management' => 'Pengurusan Media Sosial',
     'digital_marketing_strategy' => 'Strategi Pemasaran Digital',
     
     // Service Descriptions
     'photography_description' => 'Gambar dan video profesional untuk promosi, korporat, dan produk yang meningkatkan keyakinan pelanggan.',
     'graphic_design_description' => 'Rekaan kreatif untuk poster, brosur, banner, dan grafik media sosial yang konsisten.',
+    'video_content_creation_description' => 'Penghasilan kandungan video yang menarik untuk pemasaran, media sosial, dan persembahan korporat.',
+    'branding_campaign_description' => 'Strategi penjenamaan menyeluruh untuk membina identiti jenama yang kuat dan kehadiran pasaran.',
     'social_media_description' => 'Pengurusan akaun media sosial dengan kandungan menarik untuk tingkatkan interaksi.',
     'digital_marketing_description' => 'Strategi iklan berbayar (Facebook Ads, Google Ads, TikTok Ads) yang disasarkan untuk ROI maksimum.',
     

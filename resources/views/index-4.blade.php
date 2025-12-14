@@ -920,14 +920,14 @@
 
     <!-- Service Start -->
     <section class="service-one service-one--home-four"
-        style="background-image: url(assets/images/backgrounds/service-bg-2.jpg);">
+        style="background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%); position: relative;">
         <div class="container">
             <div class="sec-title-two text-center">
-                <h6 class="sec-title-two__tagline"><span
+                <h6 class="sec-title-two__tagline" style="color: white;"><span
                         class="sec-title-two__tagline__left icofont-rounded-double-left"></span>{{ __('common.our_services') }}<span
                         class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
                 <!-- /.sec-title-two__tagline -->
-                <h3 class="sec-title-two__title">{{ __('common.services_description_full') }}</h3>
+                <h3 class="sec-title-two__title" style="color: white;">{{ __('common.services_description_full') }}</h3>
                 <!-- /.sec-title-two__title -->
             </div><!-- /.sec-title-two -->
             <div class="service-one__carousel tolak-owl__carousel tolak-owl__carousel--basic-nav owl-carousel owl-theme"
@@ -1304,16 +1304,16 @@
     </style>
     <!-- Service End -->
 
-    
-
-     <div class="client-carousel client-carousel--no-border">
-        
+    <!-- Client Carousel Section -->
+    <section class="client-carousel-section" style="padding: 80px 0; background-color: #f8fafc;">
+        <div class="client-carousel client-carousel--no-border">
             <div class="container">
                 <!-- Section Header -->
                 <div class="text-center mb-5">
                     <div class="sec-title">
-                        <h6 class="sec-title__tagline"><span class="sec-title__tagline__left"></span>{{ __('common.trusted_by') }}<span class="sec-title__tagline__right"></span></h6>
+                       
                         <h3 class="sec-title__title">{{ __('common.our_clients') }}</h3>
+                         <h6 class="sec-title__tagline"><span class="sec-title__tagline__left"></span>{{ __('common.trusted_by') }}<span class="sec-title__tagline__right"></span></h6>
                     </div>
                 </div>
                 <div class="client-carousel__one tolak-owl__carousel owl-theme owl-carousel" data-owl-options='{
@@ -1382,8 +1382,9 @@
                 </div><!-- /.thm-owl__slider -->
             </div><!-- /.container -->
         </div><!-- /.client-carousel -->
+    </section><!-- /.client-carousel-section -->
 
-    <section class="our-solution" style="background-image: url(assets/images/backgrounds/solution-bg-1.jpg);">
+    <section class="our-solution" style="background: linear-gradient(135deg, #051d1f, #1e3a8a, #1e3a8a 100%); position: relative;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">

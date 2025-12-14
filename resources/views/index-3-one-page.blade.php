@@ -1448,19 +1448,19 @@
                         <div class="contact-two__info__social">
                             <h5 class="contact-two__info__social__title">Follow Social:</h5>
                             <div class="contact-two__info__social__wrap">
-                                <a href="https://facebook.com">
+                                <a href="https://www.facebook.com/KreatifDigitalDinamik">
                                     <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                     <span class="sr-only">Facebook</span>
                                 </a>
-                                <a href="https://pinterest.com">
-                                    <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                                    <span class="sr-only">Pinterest</span>
+                                <a href="http://linkedin.com/company/kreatif-digital-dinamik">
+                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                    <span class="sr-only">LinkedIn</span>
                                 </a>
-                                <a href="https://twitter.com">
-                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                                    <span class="sr-only">Twitter</span>
+                                <a href="https://www.youtube.com/@KreatifDigitalDinamik">
+                                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                                    <span class="sr-only">YouTube</span>
                                 </a>
-                                <a href="https://instagram.com">
+                                <a href="https://www.instagram.com/kreatifdigitaldinamik/">
                                     <i class="fab fa-instagram" aria-hidden="true"></i>
                                     <span class="sr-only">Instagram</span>
                                 </a>
