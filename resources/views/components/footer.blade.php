@@ -15,19 +15,19 @@
                         <li><span class="icofont-phone"></span><a href="tel:0135338190">013 533 8190</a></li>
                     </ul>
                     <div class="footer-widget__social">
-                        <a href="https://www.facebook.com/KreatifDigitalDinamik">
+                        <a href="{{ url('https://www.facebook.com/KreatifDigitalDinamik') }}">
                             <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                        <a href="http://linkedin.com/company/kreatif-digital-dinamik">
+                        <a href="{{ url('http://linkedin.com/company/kreatif-digital-dinamik') }}">
                             <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
-                        <a href="https://www.youtube.com/@KreatifDigitalDinamik">
+                        <a href="{{ url('https://www.youtube.com/@KreatifDigitalDinamik') }}">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-                        <a href="https://www.instagram.com/kreatifdigitaldinamik/">
+                        <a href="{{ url('https://www.instagram.com/kreatifdigitaldinamik/') }}">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
