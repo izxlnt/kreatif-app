@@ -9,34 +9,10 @@ use App\Http\Controllers\CareerController;
 // Language switching route
 Route::get('/language/{locale}', [LanguageController::class, 'switch'])->name('language.switch');
 
-Route::get('/', [HomeController::class, 'index4'])->name('index');
-Route::get('index-one-page', [HomeController::class, 'index_one_page'])->name('index-one-page');
-Route::get('index-dark', [HomeController::class, 'index_dark'])->name('index-dark');
-Route::get('index-2', [HomeController::class, 'index2'])->name('index-2');
-Route::get('index-2-one-page', [HomeController::class, 'index_2_one_page'])->name('index-2-one-page');
-Route::get('index-2-dark', [HomeController::class, 'index_2_dark'])->name('index-2-dark');
-Route::get('index-3', [HomeController::class, 'index3'])->name('index-3');
-Route::get('index-3-one-page', [HomeController::class, 'index_3_one_page'])->name('index-3-one-page');
-Route::get('index-3-dark', [HomeController::class, 'index_3_dark'])->name('index-3-dark');
-Route::get('index-4', [HomeController::class, 'index4'])->name('index-4');
-Route::get('index-4-one-page', [HomeController::class, 'index_4_one_page'])->name('index-4-one-page');
-Route::get('index-4-dark', [HomeController::class, 'index_4_dark'])->name('index-4-dark');
-Route::get('index-5', [HomeController::class, 'index5'])->name('index-5');
-Route::get('index-5-one-page', [HomeController::class, 'index_5_one_page'])->name('index-5-one-page');
-Route::get('index-6', [HomeController::class, 'index6'])->name('index-6');
-Route::get('index-6-one-page', [HomeController::class, 'index_6_one_page'])->name('index-6-one-page');
-Route::get('index-7', [HomeController::class, 'index7'])->name('index-7');
-Route::get('index-7-one-page', [HomeController::class, 'index_7_one_page'])->name('index-7-one-page');
-Route::get('index-boxed', [HomeController::class, 'index_boxed'])->name('index-boxed');
-Route::get('index-rtl', [HomeController::class, 'index_rtl'])->name('index-rtl');
-Route::get('demo-landing', [HomeController::class, 'demo_landing'])->name('demo-landing');
-
-
-
-
+Route::get('/', [HomeController::class, 'index'])->name('index');
 
 // Pages
-Route::get('home', [HomeController::class, 'index4'])->name('home');
+Route::get('home', [HomeController::class, 'index'])->name('home');
 Route::get('about', [PagesController::class, 'about'])->name('about');
 Route::get('project', [PagesController::class, 'project'])->name('project');
 Route::get('project-carousel', [PagesController::class, 'project_carousel'])->name('project-carousel');

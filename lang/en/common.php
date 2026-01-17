@@ -158,6 +158,7 @@ return [
     'branding_campaign' => 'Branding Campaign',
     'social_media_management' => 'Social Media Management',
     'digital_marketing_strategy' => 'Digital Marketing Strategy',
+    'web_design_development' => 'Web Design & Development',
     
     // Service Descriptions
     'photography_description' => 'Professional photos and videos for promotion, corporate, and products that increase customer confidence.',
@@ -166,6 +167,7 @@ return [
     'branding_campaign_description' => 'Comprehensive branding strategies to build strong brand identity and market presence.',
     'social_media_description' => 'Social media account management with engaging content to increase interaction.',
     'digital_marketing_description' => 'Targeted paid advertising strategies (Facebook Ads, Google Ads, TikTok Ads) for maximum ROI.',
+    'web_design_description' => 'Professional website design and development with responsive layout, SEO optimization, and user-friendly interface.',
     
     // Client Section
     'trusted_by' => 'Trusted By',
@@ -272,6 +274,12 @@ return [
     'service_4_description' => 'Consultation with KDD experts to analyze current performance, map action plans, and ensure continuous brand growth.',
     'service_4_alt' => 'Strategy Consultation',
     'service_4_url' => 'strategy-consultation',
+    
+    // Service 5 - Web Design and Development
+    'service_5_title' => 'Web Design and Development',
+    'service_5_description' => 'Creating modern, responsive, and user-friendly websites that enhance your digital presence and drive business growth.',
+    'service_5_alt' => 'Web Design and Development',
+    'service_5_url' => 'web-design-development',
     
     // Common Service Elements
     'read_more' => 'Read More',

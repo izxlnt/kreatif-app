@@ -157,6 +157,7 @@ return [
     'branding_campaign' => 'Kempen Penjenamaan',
     'social_media_management' => 'Pengurusan Media Sosial',
     'digital_marketing_strategy' => 'Strategi Pemasaran Digital',
+    'web_design_development' => 'Reka Bentuk & Pembangunan Laman Web',
     
     // Service Descriptions
     'photography_description' => 'Gambar dan video profesional untuk promosi, korporat, dan produk yang meningkatkan keyakinan pelanggan.',
@@ -165,6 +166,7 @@ return [
     'branding_campaign_description' => 'Strategi penjenamaan menyeluruh untuk membina identiti jenama yang kuat dan kehadiran pasaran.',
     'social_media_description' => 'Pengurusan akaun media sosial dengan kandungan menarik untuk tingkatkan interaksi.',
     'digital_marketing_description' => 'Strategi iklan berbayar (Facebook Ads, Google Ads, TikTok Ads) yang disasarkan untuk ROI maksimum.',
+    'web_design_description' => 'Reka bentuk dan pembangunan laman web profesional dengan susun atur responsif, pengoptimuman SEO, dan antara muka mesra pengguna.',
     
     // Client Section
     'trusted_by' => 'Dipercayai Oleh',
@@ -270,6 +272,12 @@ return [
     'service_4_description' => 'Konsultasi bersama pakar KDD untuk menganalisis prestasi semasa, memeta pelan tindakan, dan memastikan pertumbuhan jenama yang berterusan.',
     'service_4_alt' => 'Perundingan Strategi',
     'service_4_url' => 'perundingan-strategi',
+    
+    // Service 5 - Web Design and Development
+    'service_5_title' => 'Reka Bentuk dan Pembangunan Web',
+    'service_5_description' => 'Mencipta laman web moden, responsif, dan mesra pengguna yang meningkatkan kehadiran digital anda serta memacu pertumbuhan perniagaan.',
+    'service_5_alt' => 'Reka Bentuk dan Pembangunan Web',
+    'service_5_url' => 'reka-bentuk-pembangunan-web',
     
     // Common Service Elements
     'read_more' => 'Baca Lanjut',

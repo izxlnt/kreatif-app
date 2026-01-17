@@ -11,7 +11,9 @@
 <style>
     .service-one__item__image-fixed {
         height: 250px; /* You can adjust this value as needed */
+        width: 100%;
         object-fit: cover;
+        object-position: center;
     }
 </style>
 
@@ -26,7 +28,7 @@
                     <h3 class="sec-title-two__title">{{ __('common.services_main_title') }}</h3>
                 </div>
                 
-                {{-- Hanya 4 Servis, Susunan 2x2 --}}
+                {{-- 5 Services --}}
                 <div class="row gutter-y-30 justify-content-center"> 
                     
                     {{-- BARIS 1, ITEM 1: Strategi Pemasaran Digital Berfokus ROI --}}
@@ -122,6 +124,30 @@
                             <div class="service-one__item__bottom">
                                 <div class="service-one__item__bottom__number">04</div>
                                 {{-- <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_4_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a> --}}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {{-- BARIS 3, ITEM 5: Web Design and Development --}}
+                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay="300ms">
+                        <div class="service-one__item text-center">
+                            <div class="service-one__item__image">
+                                <img src="{{ asset("/assets/images/new-images/image-web-2.png") }}" alt="{{ __('common.service_5_alt') }}" class="service-one__item__image-fixed">
+                            </div>
+                            <div class="service-one__item__content">
+                                <div class="service-one__item__icon">
+                                    <span class="icon-solutions"></span>
+                                </div>
+                                <h3 class="service-one__item__title">
+                                    <a href="{{ url(__('common.service_5_url')) }}">{{ __('common.service_5_title') }}</a>
+                                </h3>
+                                <p class="service-one__item__text">
+                                    {{ __('common.service_5_description') }}
+                                </p>
+                            </div>
+                            <div class="service-one__item__bottom">
+                                <div class="service-one__item__bottom__number">05</div>
+                                {{-- <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_5_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a> --}}
                             </div>
                         </div>
                     </div>

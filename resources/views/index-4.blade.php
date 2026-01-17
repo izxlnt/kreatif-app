@@ -776,103 +776,6 @@
         }
     </script>
 
-    {{-- <div class="client-carousel client-carousel--three">
-        <div class="container">
-            <div class="client-carousel__one tolak-owl__carousel owl-theme owl-carousel"
-                data-owl-options='{
-    "items": 5,
-    "margin": 30,
-    "smartSpeed": 700,
-    "loop":true,
-    "autoplay": 6000,
-    "nav":false,
-    "dots":false,
-    "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-    "responsive":{
-        "0":{
-            "items":1
-        },
-        "360":{
-            "items":2
-        },
-        "575":{
-            "items":3
-        },
-        "768":{
-            "items":3
-        },
-        "992":{
-            "items": 4
-        },
-        "1200":{
-            "items": 5
-        }
-    }
-    }'>
-                <div class="client-carousel__one__item">
-                    <img class="client-carousel__one__item__normal"
-                        src="{{ asset('/assets/images/resources/brand-1-1.png') }}" alt="tolak">
-                    <img class="client-carousel__one__item__hover"
-                        src="{{ asset('/assets/images/resources/brand-1-1-hover.png') }}" alt="tolak">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img class="client-carousel__one__item__normal"
-                        src="{{ asset('/assets/images/resources/brand-1-1.png') }}" alt="tolak">
-                    <img class="client-carousel__one__item__hover"
-                        src="{{ asset('/assets/images/resources/brand-1-1-hover.png') }}" alt="tolak">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img class="client-carousel__one__item__normal"
-                        src="{{ asset('/assets/images/resources/brand-1-1.png') }}" alt="tolak">
-                    <img class="client-carousel__one__item__hover"
-                        src="{{ asset('/assets/images/resources/brand-1-1-hover.png') }}" alt="tolak">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img class="client-carousel__one__item__normal"
-                        src="{{ asset('/assets/images/resources/brand-1-1.png') }}" alt="tolak">
-                    <img class="client-carousel__one__item__hover"
-                        src="{{ asset('/assets/images/resources/brand-1-1-hover.png') }}" alt="tolak">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img class="client-carousel__one__item__normal"
-                        src="{{ asset('/assets/images/resources/brand-1-1.png') }}" alt="tolak">
-                    <img class="client-carousel__one__item__hover"
-                        src="{{ asset('/assets/images/resources/brand-1-1-hover.png') }}" alt="tolak">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img class="client-carousel__one__item__normal"
-                        src="{{ asset('/assets/images/resources/brand-1-1.png') }}" alt="tolak">
-                    <img class="client-carousel__one__item__hover"
-                        src="{{ asset('/assets/images/resources/brand-1-1-hover.png') }}" alt="tolak">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img class="client-carousel__one__item__normal"
-                        src="{{ asset('/assets/images/resources/brand-1-1.png') }}" alt="tolak">
-                    <img class="client-carousel__one__item__hover"
-                        src="{{ asset('/assets/images/resources/brand-1-1-hover.png') }}" alt="tolak">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img class="client-carousel__one__item__normal"
-                        src="{{ asset('/assets/images/resources/brand-1-1.png') }}" alt="tolak">
-                    <img class="client-carousel__one__item__hover"
-                        src="{{ asset('/assets/images/resources/brand-1-1-hover.png') }}" alt="tolak">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img class="client-carousel__one__item__normal"
-                        src="{{ asset('/assets/images/resources/brand-1-1.png') }}" alt="tolak">
-                    <img class="client-carousel__one__item__hover"
-                        src="{{ asset('/assets/images/resources/brand-1-1-hover.png') }}" alt="tolak">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img class="client-carousel__one__item__normal"
-                        src="{{ asset('/assets/images/resources/brand-1-1.png') }}" alt="tolak">
-                    <img class="client-carousel__one__item__hover"
-                        src="{{ asset('/assets/images/resources/brand-1-1-hover.png') }}" alt="tolak">
-                </div><!-- /.owl-slide-item-->
-            </div><!-- /.thm-owl__slider -->
-        </div><!-- /.container -->
-    </div><!-- /.client-carousel --> --}}
-
     <section class="about-four">
         <div class="container tabs-box">
             <div class="row">
@@ -920,7 +823,7 @@
 
     <!-- Service Start -->
     <section class="service-one service-one--home-four"
-        style="background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%); position: relative;">
+        style="background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%); position: relative; padding: 80px 0;">
         <div class="container">
             <div class="sec-title-two text-center">
                 <h6 class="sec-title-two__tagline" style="color: white;"><span
@@ -930,110 +833,94 @@
                 <h3 class="sec-title-two__title" style="color: white;">{{ __('common.services_description_full') }}</h3>
                 <!-- /.sec-title-two__title -->
             </div><!-- /.sec-title-two -->
-            <div class="service-one__carousel tolak-owl__carousel tolak-owl__carousel--basic-nav owl-carousel owl-theme"
-                data-owl-options='{
-    "items": 1,
-    "margin": 30,
-    "loop": false,
-    "smartSpeed": 700,
-    "nav": false,
-    "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-    "dots": false,
-    "autoplay": false,
-    "responsive": {
-        "0": {
-            "items": 1
-        },
-        "768": {
-            "items": 2
-        },
-        "992": {
-            "items": 3
-        },
-        "1200": {
-            "items": 4
-        }    
-    }
-    }'>
-                <div class="item">
+            
+            <!-- Services Grid Layout -->
+            <div class="row services-grid justify-content-center" style="margin-top: 50px;">
+                <!-- First Row: 3 Services -->
+                <!-- Service 1: Photography & Videography -->
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
                             <img src="{{ asset('/assets/images/new-images/image1.jpeg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
-                   
                             <h3 class="service-one__item__title">
                                 <a href="{{ url('fotografi-videografi') }}">{{ __('common.photography_videography') }}</a>
-                            </h3><!-- /.service-title -->
+                            </h3>
                             <p class="service-one__item__text">
                                 {{ __('common.photography_description') }}
-                            </p><!-- /.service-text -->
+                            </p>
                         </div>
-                        {{-- <div class="service-one__item__bottom">
-                            <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('fotografi-videografi') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
-                        </div> --}}
-                    </div><!-- /.service-card-one -->
+                    </div>
                 </div>
-                <div class="item">
+
+                <!-- Service 2: Video Content Creation -->
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
                             <img src="{{ asset('/assets/images/new-images/DSC09581-2.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
-                 
                             <h3 class="service-one__item__title">
                                 <a href="{{ url('rekaan-grafik') }}">{{ __('common.video_content_creation') }}</a>
-                            </h3><!-- /.service-title -->
+                            </h3>
                             <p class="service-one__item__text">
                                 {{ __('common.video_content_creation_description') }}
-                            </p><!-- /.service-text -->
+                            </p>
                         </div>
-                        {{-- <div class="service-one__item__bottom">
-                            <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('rekaan-grafik') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
-                        </div> --}}
-                    </div><!-- /.service-card-one -->
+                    </div>
                 </div>
-                <div class="item">
+
+                <!-- Service 3: Social Media Management -->
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
                             <img src="{{ asset('/assets/images/new-images/image3.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
-                         
                             <h3 class="service-one__item__title">
                                 <a href="{{ url('pengurusan-media-sosial') }}">{{ __('common.social_media_management') }}</a>
-                            </h3><!-- /.service-title -->
+                            </h3>
                             <p class="service-one__item__text">
                                 {{ __('common.social_media_description') }}
-                            </p><!-- /.service-text -->
+                            </p>
                         </div>
-                        {{-- <div class="service-one__item__bottom">
-                            <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('pengurusan-media-sosial') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
-                        </div> --}}
-                    </div><!-- /.service-card-one -->
+                    </div>
                 </div>
-                <div class="item">
+
+                <!-- Second Row: 2 Services (Centered) -->
+                <!-- Service 4: Digital Marketing Strategy -->
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
                             <img src="{{ asset('/assets/images/new-images/IMG_9832-2.jpg') }}" alt="kreatif">
                         </div>
                         <div class="service-one__item__content">
-                          
                             <h3 class="service-one__item__title">
                                 <a href="{{ url('strategi-pemasaran-digital') }}">{{ __('common.digital_marketing_strategy') }}</a>
-                            </h3><!-- /.service-title -->
+                            </h3>
                             <p class="service-one__item__text">
                                 {{ __('common.digital_marketing_description') }}
-                            </p><!-- /.service-text -->
+                            </p>
                         </div>
-                        {{-- <div class="service-one__item__bottom">
-                            <div class="service-one__item__bottom__number"></div>
-                            <a class="service-one__item__bottom__rm" href="{{ url('strategi-pemasaran-digital') }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a>
-                        </div> --}}
-                    </div><!-- /.service-card-one -->
+                    </div>
+                </div>
+
+                <!-- Service 5: Web Design & Development -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-one__item text-center">
+                        <div class="service-one__item__image">
+                            <img src="{{ asset('/assets/images/new-images/image-web.png') }}" alt="kreatif">
+                        </div>
+                        <div class="service-one__item__content">
+                            <h3 class="service-one__item__title">
+                                <a href="{{ url('web-design-development') }}">{{ __('common.web_design_development') }}</a>
+                            </h3>
+                            <p class="service-one__item__text">
+                                {{ __('common.web_design_description') }}
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1043,60 +930,137 @@
     
     <!-- Custom CSS for Equal Height Service Boxes -->
     <style>
+        /* Services Grid Layout */
+        .services-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .services-grid > [class*='col-'] {
+            display: flex;
+            flex: 0 0 auto;
+        }
+
+        /* First row items - 3 equal columns */
+        .services-grid > .col-lg-4:nth-child(-n+3) {
+            width: calc(33.333% - 17px);
+        }
+
+        /* Second row items - 2 equal columns */
+        .services-grid > .col-lg-4:nth-child(n+4) {
+            width: calc(33.333% - 17px);
+        }
+
         /* Make all service boxes the same height */
-        .service-one__carousel .service-one__item {
+        .service-one__item {
             display: flex;
             flex-direction: column;
             height: 100%;
-            min-height: 420px; /* Set minimum height for consistency */
+            min-height: 450px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        .service-one__item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
         }
         
         .service-one__item__image {
-            height: 200px;
+            height: 220px;
             overflow: hidden;
-            border-radius: 10px 10px 0 0;
+            border-radius: 15px 15px 0 0;
+            position: relative;
         }
         
         .service-one__item__image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .service-one__item:hover .service-one__item__image img {
+            transform: scale(1.1);
         }
         
         .service-one__item__content {
             flex: 1;
             display: flex;
             flex-direction: column;
-            padding: 20px;
+            padding: 30px 25px;
+            text-align: center;
+        }
+        
+        .service-one__item__title {
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .service-one__item__title a {
+            color: #1e293b;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .service-one__item__title a:hover {
+            color: #0047ab;
         }
         
         .service-one__item__text {
             flex: 1;
             display: flex;
             align-items: center;
-            text-align: center;
-            min-height: 60px; /* Ensure consistent text area height */
-            font-size: 14px;
-            line-height: 1.4;
-        }
-        
-        .service-one__item__title {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
             justify-content: center;
-            margin-bottom: 15px;
-        }
-        
-        .service-one__item__bottom {
-            margin-top: auto; /* Push to bottom */
-            padding: 15px 20px;
+            text-align: center;
+            min-height: 80px;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #555;
+            margin: 0;
         }
         
         /* Responsive adjustments */
-        @media (max-width: 768px) {
+        @media (max-width: 991px) {
+            .services-grid > .col-lg-4:nth-child(-n+3),
+            .services-grid > .col-lg-4:nth-child(n+4) {
+                width: calc(50% - 13px);
+            }
+
             .service-one__item {
-                min-height: 380px;
+                min-height: 420px;
+            }
+            
+            .service-one__item__image {
+                height: 200px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .services-grid {
+                gap: 20px;
+            }
+
+            .services-grid > .col-lg-4:nth-child(-n+3),
+            .services-grid > .col-lg-4:nth-child(n+4) {
+                width: 100%;
+            }
+
+            .service-one__item {
+                min-height: 400px;
             }
             
             .service-one__item__image {
@@ -1104,14 +1068,19 @@
             }
             
             .service-one__item__text {
-                font-size: 13px;
+                font-size: 14px;
+                min-height: 70px;
+            }
+
+            .service-one__item__title {
+                font-size: 18px;
                 min-height: 50px;
             }
         }
         
         @media (max-width: 480px) {
             .service-one__item {
-                min-height: 350px;
+                min-height: 380px;
             }
             
             .service-one__item__image {
@@ -1119,8 +1088,16 @@
             }
             
             .service-one__item__text {
-                font-size: 12px;
-                min-height: 45px;
+                font-size: 13px;
+                min-height: 60px;
+            }
+
+            .service-one__item__title {
+                font-size: 16px;
+            }
+
+            .service-one__item__content {
+                padding: 20px 15px;
             }
         }
     </style>
@@ -1379,6 +1356,9 @@
                     <div class="client-carousel__one__item">
                         <img src="{{ asset('/assets/images/clients/PERKIM-LOGO-BARU.jpg') }}" alt="PERKIM">
                     </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="{{ asset('/assets/images/clients/beta.png') }}" alt="PERKIM">
+                    </div><!-- /.owl-slide-item-->
                 </div><!-- /.thm-owl__slider -->
             </div><!-- /.container -->
         </div><!-- /.client-carousel -->
@@ -1514,7 +1494,7 @@
                         <h6 class="sec-title-two__tagline"><span
                                 class="sec-title-two__tagline__left icofont-rounded-double-left"></span>{{ __('common.faq_tagline') }}<span 
                                 class="sec-title-two__tagline__right icofont-rounded-double-right"></span></h6>
-                        <h3 class="sec-title-two__title">{{ __('common.faq_titlYour Trusted Brand Strategy Partner.e') }}</h3>
+                        <h3 class="sec-title-two__title">{{ __('common.company_title') }}<br><span></span>{{ __('common.company_subtitle') }} </h3>
                     </div><div class="row">
                         <div class="col-md-5">
                             <div class="faq-one__image tolak-tilt"
