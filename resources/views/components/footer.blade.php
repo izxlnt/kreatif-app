@@ -100,8 +100,8 @@
                     <ul class="list-unstyled main-footer__bottom__list">
                         <li><a href="{{ url('/about') }}">About Us</a></li>
                         <li><a href="{{ url('/services') }}">Services</a></li>
-                        <li><a href="{{ url('/blog-list-right') }}">News</a></li>
-                        <li><a href="{{ url('/portfolio') }}">Portfolio</a></li>
+                        <li><a href="{{ url('/photo-gallery') }}">Photo Gallery</a></li>
+                        <li><a href="{{ url('/video-gallery') }}">Video Gallery</a></li>
                     </ul><!-- /.list-unstyled -->
                 </div>
             </div><!-- /.main-footer__inner -->
